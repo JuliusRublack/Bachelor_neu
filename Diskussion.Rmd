@@ -1,0 +1,68 @@
+---
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    toc: TRUE
+    toc_depth: 3
+    fontsize: 12pt
+    latex_engine: xelatex
+bibliography: "Bachelor_quellen.bib"
+biblio-style: apalike
+citation_package: biblatex
+link-citations: yes
+urlcolor: RoyalBlue
+linkcolor: RoyalBlue
+header-includes:
+  \usepackage{float}
+  \usepackage[ngerman]{babel}
+  \usepackage[onehalfspacing]{setspace}
+  \usepackage[utf8]{inputenc}
+  \usepackage{xcolor}
+  
+---
+
+# Diskussion
+
+* R-Programm
+  + unterschiede zwischen RPA und PCR  
+    -> Mischen (evtl. Lücke in den Daten)  
+    -> Negativkontrolle (leicher linearer Anstieg)  
+    -> Überexponentielle Amplifikation oder linearer Anstieg (nicht immer Sigmoidale Kurve, hängt mich dem Mechanismus zusammen)  
+    -> ditching
+  + Wie wirken sich die Unterschiede auf die Tests aus  
+    -> Normalverteilung (sehr wichtig, kann aber auch bei PCR sein, wurde nicht getestet)  
+    -> linear Regression test (wird rausgelassen)  
+    -> resids growth test
+  + mögliche Lösungen   
+    -> algorhytmus für ditching  
+    -> normalverteilung anpassen  
+    -> threshold diskutieren    
+* Primer design  
+  + Influenza B (gibt nicht viel zu diskutieren, hat super geklappt)  
+    -> warum gewähltes target
+  + Influenza A (warum hat es nicht geklappt)  
+    -> genomstruktur (macht sone schleife, mal in eigenhybridisierungs ding hauen  ) 
+    -> missmatches durch H1N1 und H3N2 (evtl. anderes Target diskutieren, polymerase oder so)  
+    -> alternativen diskutieren (gleiche sonde aber 2 Primer paare, wie die PCR das gemacht hat)  
+
+* Optimierungen (warum wurden die Parameter so gewählt)
+  + Influenza A
+  + Influenza B
+  + wie wichtig ist Mischen am Beispiel in InfB
+
+* Sensitivitätsanalysen
+  + Vergleich mit PCR
+  + Vergleich 50µl und 8tel-Ansatz
+    -> welche Vorteile hat 8tel-Ansatz
+  + Sensitivität im Klinischen Background reicht das für klinische Proben
+  
+* Spezifität 
+
+ \pagebreak
+
+* Assymetrie 
+  + Warum hat die Assymetrie so einen Erfolg
+  + Warum macht die Assymetrie so großes Ditching
+
+* Sondendesign
+  + warum ist dt-besser
