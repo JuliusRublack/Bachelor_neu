@@ -54,7 +54,7 @@ für die synthetisierte RNA eine Konzentration von $476.0 \pm 7, 8$ ng/ml und so
 
 ```{r infBverdau, fig.align='center',message = FALSE, fig.cap= "\\textbf{Kontrollgel und Ribogreen Kalibrationsgerade der Influenza B Standardherstellung:} \\textbf{A:} DNA-Banden des Kontrollgels für den Restriktionsverdau des Influenza B Plasmids mit verdautem Plasmid (2), unverdautem Kontrollplasmid (3) und mitgeführter DNA-Leiter (1). Das linearisierte Plasmid läuft bei ca. 3400 bp und somit unter dem mitgeführten ungeschnittenem Kontrollplasmid. Bild ist digital bearbeitet. \\textbf{B:} Kalibrationsgerade des Ribogreen-Assays mit angefügter Geradengleichung, Korrelationskoeffizienten und p-Wert. Das graue Band zeigt das 95 \\%-ige Konfidenzintervall der linearen Funktion. Alle Messungen wurden mit n=4 durchgeführt. ", out.width= "49%", fig.show='hold', fig.scap="Kontrollgel und Ribogreen Kalibrationsgerade der Influenza B Standardherstellung"}
 
-knitr::include_graphics("Bilder/infB_verdau_t.png")
+knitr::include_graphics("Bilder/infB_verdau_t_t.png")
 
 
 data <- read.csv2("Daten/V_0027.csv")
@@ -72,6 +72,8 @@ ggplot(data, aes(konz, fluo)) +
 
 
 ```
+
+\pagebreak
 
 ### Entwicklung der InfB-RPA Primer {#infbprimer}
 
@@ -169,7 +171,7 @@ Die entwickelten Primer-Sonden-Kombinationen wurden in einem Screening Verfahren
 
 Für die Verringerung des Reaktionsvolmens, wurden das in \@ref(infbprimer) entwickelte Primer-Sonden-Set auf den 8-tel Ansatz überführt (siehe \@ref(methode)). Die Fluoreszenzdaten der Messung zusammen mit einer Referenz (50 µl Ansatz) sind in Abbildung \@ref(fig:infBetabl) gezeigt. Es ist zu erkennen, dass die 8tel RPA (schwarz) im Vergleich zu der 50 µl RPA (grau) im Verlauf der Reaktion wie erwartet, an maximaler Intensität verliert. Es konnte jedoch kein signifikanter Unterschied der Anstiegszeit zwischen den beiden Reaktionvolumen festgestellt werden. Die Mittelwerte der TT-Werte liegen bei $3,36 \pm 0.01$ (50 µl RPA) und $3,47 \pm 0,14$ (8-tel RPA). Die rechnerischen Daten des TT-Wert Vergleichs sind in Tabelle \@ref(tab:tabeins) im Anhang gezeigt.
 
-(ref:infBebasl) **Optimierung des Reaktionsvolumens der Influenza B RT-RPA:** Normalisierte Fluoreszenzdaten der Influenza B RT-RPA im 8tel-Ansatz **(schwarz)** in n=6 mit dem in \@ref(infbprimer) entwickeltem Primer-Sonden-Set. Als Referenz wurde der 50 µl Ansatz (\textcolor{gray}{\textbf{grau}}) mit dem gleichem Primer-Sonden-Set in n=3 mitgeführt. Alle Negativkontrollen sind mit **(- - -)** gekennzeichnet.
+(ref:infBebasl) **Optimierung des Reaktionsvolumens der Influenza B RT-RPA:** Normalisierte Fluoreszenzdaten der Influenza B RT-RPA im 8tel-Ansatz **(schwarz)** bei 40 °C in n=6 (siehe \ref(8telRPA)) mit dem in \@ref(infbprimer) entwickeltem Primer-Sonden-Set. Als Virus_RNA wurden 10^7^ RNA-Kopien des Standards eingesetzt. Als Referenz wurde der 50 µl Ansatz (\textcolor{gray}{\textbf{grau}}) mit den gleichen Reaktionsparametern in n=3 mitgeführt. Alle Negativkontrollen sind mit **(- - -)** gekennzeichnet.
 
 ```{r infBetabl, fig.show='hold',  out.width= "70%", message = FALSE, fig.cap="(ref:infBebasl)", fig.align='center', fig.scap="Optimierung des Reaktionsvolumens der Influenza B RT-RPA"}
 
@@ -195,6 +197,8 @@ ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
   theme(legend.position="none")
   
 ```
+
+\pagebreak
 
 **Optimierung der Reaktionstemperatur**
 
@@ -261,7 +265,15 @@ ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
 
 **Optminierung der Mischzeit**
 
-```{r infboptimisch, fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="", out.width= "49%", fig.align='center', fig.scap="Optimierung der Reaktionstemperatur und der Primerassymetrie."}
+Wie in \@ref(rpa) beschrieben kann ein zusätzlicher Mischschritt während der Reaktion zu einer erhöhten Amplifikation und somit zu einer besseren Detektion führen. Um den zusätzlichen Mischschritt für die Influenza B RT-RPA zu Optimieren wurden jeweils Mischzeitpunkte nach 3 min, 4 min und 5 min untersucht (siehe \@refoptimischen). Die Fluoreszenzdaten sind in Abbildung \@ref(fig:infboptimisch)A gezeigt. Es ist zu erkennen, dass der Mischschritt nach drei Minuten (grau, durchgezogen)im Vergleich zu der Referenz ohne Mischen zu signifikant höheren TT-Werten führt. Die TT-Werte liegen hier bei $5,90 \pm 0,19$ (Referenz) und $7,21 \pm 0,70$ (Mischen nach 3 min). Weiterhin weist der Ansteig der Reaktion im Verlgeich zu Referenz mehr Linearität auf und verliert größtenteils die typische sigmoidale Kurvenform. Die Mischzeiten nach vier Minuten (grau, gestrichelt) und fünf Minuten (schwarz, gestrichelt) besitzen untereinander keine signifikant unterschiedlichen TT-werte, weisen jedoch mit zusammengefasst $5,04 \pm 0,19$ eine signifikante Differenz zur Referenz auf. Die rechnerischen Daten des TT-Wert vergleichs (siehe \@ref(tt-wert)) sowie die Mittelwerte der TT-Werte sind in Tabelle \@ref(tab:) im Anhang gezeigt. Wird der Mischzeitpunkt nach fünf Minuten betrachtet, besitzt dieser zusammen mit der Referenz die höchste Fluoreszenzintesität am Ende der Messung und im vergleich zu dem Mischzeitpunk nach vier Minuten den steilsten Ansteig der Fluoreszenz während der Messung. Aus diesem Gründen wurde der Mischzeitpunkt nach 5 Minuten als Optimal festgelegt.  
+Damit der Effekt des Mischens bei niedriger Konzentration untersucht werden kann, wurden RT-RPA's mit einem Mischschritt nach fünf Minuten bei eingestzten RNA-Konzentration von 10^2^ Kopien/µl (siehe Abbildung \@ref(fig:infboptimisch)B) und 10^1^ Kopien/µl (siehe Abbildung \@ref(fig:infboptimisch)B) durchgeführt (siehe \@refoptimischen). Bei 10^2^ Kopien/µl besitzten die Reaktionen mit einem Mischschritt (schwarz) signifikant niedrigere TT-werte ($6,53 \pm 0,25$) als die Referenz (grau) ohne zusätzlichen Mischschritt ($7,35 \pm 0,58$). Des Weiteren ist bei der Messung mit Mischschritt ein Ditching nach ~16 Minuten bei 6/7 Reaktionen zu beobachten.  
+Bei dem Versuch mit 10^1^ Kopien/µl ist bei der Messung mit Mischschritt (schwarz) eine deutlich erhöhte Fluoreszenzintensität im vergleich zu der Referenz (grau) ohne Mischen zu erkennen. In diesem Versuch ist der positive Effekt des Mischen auf die RT-RPA am deutlichsten zu sehen. Der eingeführte Mischschritt erhöhte die Sensitivität der Reaktion von 3/7 positiv (Referenz) auf 7/7 Positiv.
+
+Zusammengefasst lassen sich für die Influenza B RT-RPA eine Reaktionstemperatur von 40 °C, eine 1,5X assymetrisch erhöhte reverse Primer-Konzentration und ein zusätzlicher Mischschritt nach fünf Minuten als optimal festlegen.
+
+(ref:infbmischenas) **Optimierung der Mischzeit für die Influenza B RT-RPA:** Normalisierte Fluoreszenzdaten der Optimierung des zusätzlichen Mischschrittes während der Messung. **A**: RT-RPA mit einem zusätzlchen Mischschritt nach 3 min (grau, durchgezogen), 4 min (grau, gestrichelt), 5 min (schwarz gestrichelt) sowie der Referenz ohne Mischen (schwarz, durchgezogen) bei einer eingesetzten RNA-Konzentration von 10^3^ Kopien/µl. Ausreißer sind mit einem roten Pfeil markiert. Alle Messungen wurden in n=6 durchgeführt. Negativkontrollen sind mit **(**$\cdot - \cdot$**)** dargestellt. **B** Vergleich zwischen der Influenza B RT-RPA mit einem zusätzlichen Mischschrittes nach 5 min (schwarz) und einer RT-RPA ohne zusäztliches Mischen (grau) bei eingesetzten 10^2^ RNA-Kopien/µl. Messung in n=7 durchgeführt. Negativkontrollen sind mit **(- - -)** gekennzeichnet. **C**: Vergleich zwischen der Influenza B RT-RPA mit einem zusätzlichen Mischschrittes nach 5 min (schwarz) und einer RT-RPA ohne zusäztliches Mischen (grau) bei eingesetzten 10^1^ RNA-Kopien/µl. Messung in n=6 durchgeführt. Negativkontrollen sind mit **(- - -)** gekennzeichnet. 
+ 
+```{r infboptimisch, fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infbmischenas)", out.width= "49%", fig.align='center', fig.scap="Optimierung der Mischzeit für die Influenza B RT-RPA."}
 data <- read.csv2("Daten/infB_mischung.csv")
 
 
@@ -360,8 +372,10 @@ Wie in \@ref(infboptimierung) gezeigt wurde, führt eine assymetrische Erhöhung
 Eine Vermutung war, dass die Hybridisation der Sonde an den Sense oder Anti-Sense Strang den DNA in Verbindung mit der Primer-Assymetrie und der daraus resultierenden erhöhten Fluoreszenzintensität steht. Um dies zu Überprüfen wurde eine erneute Messreihe mit einer am entgegengesetzten Strang hybridisierenden Sonde durchgeführt (siehe \@ref(assymetrie)). Die Fluoreszenzdaten der Messungen sind in Abbildung \@ref(fig:assymetriy)B gezeigt. Es ist zu erkennen, dass hier die erhöhte Reverse Primer-Konzentration (hellgrau) die niedrigste Fluoreszenz im Vergleich zur Referenz (grau) und der erhöhten Forward Primer-Konzentration (schwarz) zeigt. Die assymerisch erhöhte Forward Primer-Konentration zeigt hingegen die höchsten Fluoreszenzwerte und dementsprechend die beste Signalgenerierung. Des Weiteren besitzt die erhöhte Forward Primer-Konentration signifikant niedrigere TT-Werte mit $3,25 \pm 0,05$ als die Referenz ($3,63 \pm 0,19$) und die erhöhte reverse Primer-Konzentration ($3,76 \pm 0,34$).
 
 
+(ref:assymetry) **Einfluss der Primerassymetrie auf der RT-RPA:** Normalisierte Fluoreszenzdaten der Influenza B RT-RPA. **A**: Einfluss einer generellen Primererhöhung auf die Influenza B Rt-RPA. Die doppelte Primerkonzentration (jeweils 42 µM im PSM, siehe \@ref(8telRPA)) ist in Grau dargestellt, während die assymetrische Ehöhung des Reverse Primer als Vergleich in schwarz mitgeführt ist. Alle Messungen wurden in mindestens n=6 durchgeführt. Über den TT-Wert konnte die markierte Amplifikation (roter Pfeil) als Ausreißer identifiziert werden. Negativkontrollen sind mit **(- - -)** gekennzeichnet. **B**: Messung der Influenza B RT-RPA bei assymetrisch erhöhter Reverse (hellgrau) und forward (schwarz) Primer-Konzentration mit der in \@ref(assymetrie) angegebenen Sonde. Als Referenz (grau) wurde eine RT-RPA mit normaler Primer-Konzentation mitgeführt. Alle Messungen wurden in n=7 durchegführt. Negativkontrollen sind mit **(- - -)** gekennzeichnet.
 
-```{r assymetriy,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:etablB)", out.width= "49%", fig.align='center', fig.scap="Etablierung der Influenza B RPA im Original- und 8tel-Ansatz."}
+
+```{r assymetriy,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:assymetry)", out.width= "49%", fig.align='center', fig.scap="Einfluss der Primerassymetrie auf der RT-RPA"}
 data1 <- read.csv2("Daten/V_0065.vergleich.csv")
 
 
@@ -417,9 +431,14 @@ ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
 
 ### Ermittlung der Sensitivät der Influenza B RT-RPA
 
-Die Ermittlung der Sensitiviät für die Influenza B RT-RPA erfolgte mit den im Kapitel \@ref(infboptimierung) ermittelten optimalen Reaktionsparametern nach beschriebener Methode (siehe \@ref(sensitivität)). Die Fluoreszenzdaten der Sensitivitätsmessung sowie das mithilfe der Probit-Analyse (siehe \@ref(probit)) ermittelte Detektionslimit sind in Abbildung \@ref(fig:infbsensi) gezeigt. Für die Influenza B RT-RPA konnte berechnet werden, dass das System mit einer 95 %igen Wahrscheinlichkeit 14,6 Virus RNA-Kopien detektieren kann. Des Weiteren konnte eine Kalibriergerade für die TT-Werte im Zusammenhang mit der Reaktionszeit mit einem R^2 = 0,92 und einer Geradengleichung von $y=9,4 - 0,95x$ ermittelt werden. Die über den Boxplot-Test (siehe \@ref(tt-wert)) ermittelten Ausreißer der TT-Werte (siehe rote Pfeile in \@ref(fig:infbsensi)A) wurden innerhalb der Kalibriergerade nicht berücksichtigt. Der angebene p-Wert ist >>0,05 was einen signifikanten linearen Zusammenhang aussagt.
-Zusätzlich wurde die Sensitivät für den 50 µl Ansatz der Influenza B RT-RPA mit den gleichen Reaktionsparametern ermittelt und ein Vergleich zu dem 8tel-Ansatz gezogen. Die Messung erfolgte nach der beschriebenen Methode (siehe \@ref(sensitivität)). Es konnte eine Detektionslimit von 31,6 Kopien ermittelt werden. Dementsprechend konnte für die RT-RPA im 8tel-Ansatz eine Verbesserung des Detektionslimits um 46 % nachgewiesen werden. Die Fluoreszenzdaten sowie die Probit-Analyse des 50 µl Ansatzes sind im Anhang unter Abbildung \@ref(fig:...) gezeigt.
+Die Ermittlung der Sensitiviät für die Influenza B RT-RPA erfolgte mit den im Kapitel \@ref(infboptimierung) ermittelten optimalen Reaktionsparametern nach beschriebener Methode (siehe \@ref(sensitivitat)). Die Fluoreszenzdaten der Sensitivitätsmessung sowie das mithilfe der Probit-Analyse (siehe \@ref(probit)) ermittelte Detektionslimit sind in Abbildung \@ref(fig:infbsensi) gezeigt. Für die Influenza B RT-RPA konnte berechnet werden, dass das System mit einer 95 %igen Wahrscheinlichkeit 14,6 Virus RNA-Kopien detektieren kann. Des Weiteren konnte eine Kalibriergerade für die TT-Werte im Zusammenhang mit der Reaktionszeit mit einem R^2 = 0,92 und einer Geradengleichung von $y=9,4 - 0,95x$ ermittelt werden. Die über den Boxplot-Test (siehe \@ref(tt-wert)) ermittelten Ausreißer der TT-Werte (siehe rote Pfeile in \@ref(fig:infbsensi)A) wurden innerhalb der Kalibriergerade nicht berücksichtigt. Der angebene p-Wert ist >>0,05 was einen signifikanten linearen Zusammenhang aussagt.
+Zusätzlich wurde die Sensitivät für den 50 µl Ansatz der Influenza B RT-RPA mit den gleichen Reaktionsparametern ermittelt und ein Vergleich zu dem 8tel-Ansatz gezogen. Die Messung erfolgte nach der beschriebenen Methode (siehe \@ref(sensitivitat)). Es konnte eine Detektionslimit von 31,6 Kopien ermittelt werden. Dementsprechend konnte für die RT-RPA im 8tel-Ansatz eine Verbesserung des Detektionslimits um 46 % nachgewiesen werden. Die Fluoreszenzdaten sowie die Probit-Analyse des 50 µl Ansatzes sind im Anhang unter Abbildung \@ref(fig:...) gezeigt.  
+Damit ein Vergleich zur PCR als Standardmethode in der Diagnostik herangezogen werden kann wurde die in \@ref(rtpcr) beschriebene RT-PCR für das Influenza B Virus auf die Sensitivität getestet (Kapitel \@ref(sensitivitat)). Die Fluoreszenzdaten sowie der Probit-Analyse sind in Abbildung \@ref(fig:...) im Anhang gezeigt. Das Detektionslimit der RT-PCR liegt bei 11,4 Kopien. Somit liegt die Detektionsgrenz des PCR-Systems 22 %  bzw. 3,2 Kopien unter der optimierten RPA.  Da sowohl die RPA als auch die PCR mit dem artifizellen RNA-Standard, jedoch nicht mit realen Patientenproben getestet wurden, kann das ermittelte Detektionslimit nicht auf Patientenproben angewendet werden. Um eine eventuelle veränderung des Detektionslimits mit klinischen Proben zu untersuchen wurden simulierte Kontrollproben (extrahierte humane RNA mit zugesetztem RNA-Standard) erstellt (Kapitel \@ref(klinischeproben)) und mit diesen eine erneute Sensitivitätsanallyse durchgeführt (Kapitel \@ref(sensitivitat)). Zusätzlich zu der Negativkontrolle wurde eine Kontrollprobe ohne zugesetzte virale RNA mitgeführt um auf unspezifische Reaktionen zu kontrollieren. Innerhalb der Kontrollproben konnten 10^2^ RNA-Kopien nicht mehr detektiert werden. Dementsprechend liegt das Detektionslimit bei 1397 Kopien.
 
+
+
+
+Zur besseren Übersichtlichkeit ist der Vergleich der verschiedenen ermittelten Sensitivitäten in Tabelle \@ref(tab:) dargestellt.
 \definecolor{d73027}{HTML}{d73027}
 \definecolor{f46d43}{HTML}{f46d43}
 \definecolor{fdae61}{HTML}{fdae61}
@@ -629,7 +648,7 @@ knitr::include_graphics("Bilder/InfA_transkription_kalibrier.PNG")
 
 Zur Weiteren Vorbereitung der linearisierten Plasmid-DNA für die _in vitro_ Transkription und als Nachbehandlung von den Restriktionsverdau wurden aus der DNA  Enzym- und Pufferrückständen entfernt (siehe \@ref(cleaning)). Die gereinigte DNA wurde im nächsten Schritt zu RNA _in vitro_ Transkribiert und die Ausgangs-DNA durch eine DNAse-Behandlung beseitigt (siehe \@ref(transkription)). In der nachfolgenden Aufreinigung wurde die Nukleinsäure abermals von störenden Puffer und Enzymrückständen befreit. Die reine, artifiziell erstellte virale RNA wurde im letzten Schritt nach mithilfe des Ribogreen-Assays quanitifiziert (siehe \@ref(ribogreen)). \textcolor{red}{Dabei wurden jeweils die RNA-Standards H3N2 (2005) und H1N1 (2020) innerhalb einer Messung und die Standards H1N1 (2004) und H3N2 (2020) in einem seperaten Assay quantifiziert. Die Kalibriergeraden der Assays sind in Abbildung \@ref(fig:infAverdau) gezeigt. Beide Kalibriergeraden besitzen einen Korrelationskoeffizienten (R) von 1 und einen p-Wert von >> 0,05. Daraus lässt sich ein starker linearer Zusammenhang zwischen Konzentration und Fluoreszenz erkennen. Mithilfe der angegeben Geradengleichungen von $y=-190 + 3,8 x$ und $y=-190 + 3,8 x$ für die jeweiligen Messungen konnten die Konzentrationen der gemessenen viralen RNA-Standards berechnet werden.} Die Mittelwerte von jeweils 5 Messungen pro Standard sind zusammen mit den daraus resultierenden Kopie-Zahlen der einzelnen RNA-Moleküle/µl in Tabelle \@ref(tab:infAtranskription) angegeben.
 
-### Entwicklung der InfA-RPA Primer
+### Entwicklung der InfA-RPA Primer {#infaprimerdes}
 
 (ref:design) Modifiziert wie in Kapitel \@ref(modifikation) beschrieben.
 
@@ -726,14 +745,52 @@ ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
 
 **Verringerung des Reaktionsvolumen (8tel Ansatz)**
 
+(ref:infAvolumen) **Optimierung des Reaktionsvolumens der Influenza A RT-RPA:** Normalisierte Fluoreszenzdaten der Influenza A RT-RPA im 8tel-Ansatz **(schwarz)** bei 42 °C in n=6 (siehe \ref(8telRPA)) mit dem in \@ref(infaprimerdes) angegebenen Primer-Sonden-Set. Als Virus_RNA wurden 10^8^ RNA-Kopien des Standards eingesetzt. Als Referenz wurde der 50 µl Ansatz (\textcolor{gray}{\textbf{grau}}) mit den gleichen Reaktionsparametern in n=3 mitgeführt. Alle Negativkontrollen sind mit **(- - -)** gekennzeichnet.
 
+```{r infAvolumen,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infAvolumen)", out.width= "70%", fig.align='center', fig.scap="Optimierung des Reaktionsvolumens der Influenza A RT-RPA"}
+data1 <- read.csv2("daten/infA_8tel.csv")
+
+
+transformed <- data1 %>% 
+  select(Zeit , ProbeB, ProbeC, ProbeD, ProbeF, ProbeG, ProbeH) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data1 %>%
+  select(Zeit,ProbeJ, ProbeK,	ProbeL) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed2 <- data1 %>%
+  select(Zeit,ProbeA, ProbeE,	ProbeI) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#000000", "#000000", "#000000", "#000000", 
+                                 "#000000", "#000000", "#000000", "#000000", 
+                                 "#cccccc", "#cccccc", "#cccccc", "#cccccc"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dotdash")+
+  geom_line(data=transformed2,aes(color = Proben), linetype="dashed")
+
+
+
+
+
+
+
+```
 
 
 
 
 **Optimierung der Reaktionstemperatur**
 
-```{r infaopti,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="", out.width= "49%", fig.align='center', fig.scap="Optimierung der Reaktionstemperatur und der Primerassymetrie."}
+(ref:infaoptimierung) **Optimierung der Reaktionstemperatur und der Primerassymetrie der Influenza A RT-RPA**: Normalisierte Fluoreszenzdaten der Influenza A RT-RPA im 50 µl Ansatz. **A:** Optimierung der Reaktionstemperatur bei 38 °C (hellgrau), 40 °C (grau) und 42 °C (schwarz). Messung in n=3 pro Temperatur. Negativkontrollen sind mit **(- - -)** gekennzeichnet. **B:** Optimierung der Primerassymetrie mit 1,5x erhöhter Reverse Primer-Konzentration (schwarz) und 2X erhöhter Reverse Primer-Konzentration (grau) sowie mitgeführter Referenz (hellgrau, 1X Primer-Konzentration). Messung in n=2 pro Konzentration. 
+
+```{r infaopti,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infaoptimierung)", out.width= "49%", fig.align='center', fig.scap="Optimierung der Reaktionstemperatur und der Primerassymetrie der Influenza A RT-RPA."}
 data1 <- read.csv2("daten/infA_temp.csv")
 
 
@@ -777,6 +834,298 @@ ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
 
 
 
+
+
+```
+
+
+### InfA Sensitivität
+
+```{r infasensi,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="", out.width= "49%", fig.align='center', fig.scap="Etablierung der Influenza B RPA im Original- und 8tel-Ansatz."}
+
+data <- read.csv2("daten/V_0137.probit.csv")
+
+zehn7 <- data %>% 
+  select(Zeit, X1071,	X1072,	X1073,	X1074,	X1075,	X1076,	X1077) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn6 <- data %>% 
+  select(Zeit, X1061,	X1062,	X1063,	X1064,	X1065,	X1066,	X1067) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn5 <- data %>% 
+  select(Zeit,  X1051,	X1052,	X1053,	X1054,	X1055,	X1056,	X1057) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn4 <- data %>% 
+  select(Zeit, X1041,	X1042,	X1043,	X1044,	X1045,	X1046,	X1047) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn3 <- data %>% 
+  select(Zeit, X1031,	X1032,	X1033,	X1034,	X1035,	X1036,	X1037) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn2 <- data %>% 
+  select(Zeit, X1021,	X1022,	X1023,	X1024,	X1025,	X1026,	X1027) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn1 <- data %>% 
+  select(Zeit,	X1011,	X1012,	X1013,	X1014,	X1015,	X1016,	X1017) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn0 <- data %>% 
+  select(Zeit, X1001,	X1002,	X1003,	X1004,	X1005,	X1006,	X1007) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehnnk <- data %>%
+  select(Zeit, nk1,	nk2,	nk3,	nk4,	nk5,	nk6,	nk7,	nk8) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+  
+transformed <- rbind(zehn7, zehn6, zehn5, zehn4, zehn3, zehn2, zehn1, zehn0, zehnnk)
+
+
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben), size = 0.3) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in min")+
+  scale_color_manual(values = c("#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", 
+                                "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43",  
+                                "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61",  
+                                "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090",
+                                "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9",  
+                                "#74add1", "#74add1", "#74add1", "#74add1", "#74add1", "#74add1", "#74add1",  
+                                "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4",
+                                "#333388", "#333388", "#333388", "#333388", "#333388", "#333388", "#333388",
+                                "#313695", "#313695", "#313695", "#313695", "#313695", "#313695", "#313695"))+
+  theme(legend.position="none")+
+  geom_segment(aes(x = 7.5, y = 280, xend = 8.5, yend = 300), linejoin = "round", size = 1.2, colour = "red",
+                  arrow = arrow(length = unit(0.3, "cm")))+
+  geom_segment(aes(x = 16.5, y = 105, xend = 16, yend = 45), linejoin = "round", size = 1.2, colour = "red",
+                  arrow = arrow(length = unit(0.3, "cm")))+
+  annotate("text", x=2, y=790, label= "A",col="black", size=12)
+
+
+
+data <- read.csv2("daten/V_0138.probit.csv")
+
+zehn7 <- data %>% 
+  select(Zeit, X1071,	X1072,	X1073,	X1074,	X1075,	X1076,	X1077) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn6 <- data %>% 
+  select(Zeit, X1061,	X1062,	X1063,	X1064,	X1065,	X1066,	X1067) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn5 <- data %>% 
+  select(Zeit,  X1051,	X1052,	X1053,	X1054,	X1055,	X1056,	X1057) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn4 <- data %>% 
+  select(Zeit, X1041,	X1042,	X1043,	X1044,	X1045,	X1046,	X1047) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn3 <- data %>% 
+  select(Zeit, X1031,	X1032,	X1033,	X1034,	X1035,	X1036,	X1037) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn2 <- data %>% 
+  select(Zeit, X1021,	X1022,	X1023,	X1024,	X1025,	X1026,	X1027) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn1 <- data %>% 
+  select(Zeit,	X1011,	X1012,	X1013,	X1014,	X1015,	X1016,	X1017) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn0 <- data %>% 
+  select(Zeit, X1001,	X1002,	X1003,	X1004,	X1005,	X1006,	X1007) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehnnk <- data %>%
+  select(Zeit, nk1,	nk2,	nk3,	nk4,	nk5,	nk6,	nk7,	nk8) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+  
+transformed <- rbind(zehn7, zehn6, zehn5, zehn4, zehn3, zehn2, zehn1, zehn0, zehnnk)
+
+
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben), size = 0.3) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in min")+
+  scale_color_manual(values = c("#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", 
+                                "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43",  
+                                "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61",  
+                                "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090",
+                                "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9",  
+                                "#74add1", "#74add1", "#74add1", "#74add1", "#74add1", "#74add1", "#74add1",  
+                                "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4",
+                                "#333388", "#333388", "#333388", "#333388", "#333388", "#333388", "#333388",
+                                "#313695", "#313695", "#313695", "#313695", "#313695", "#313695", "#313695"))+
+  theme(legend.position="none")+
+  geom_segment(aes(x = 7.5, y = 280, xend = 8.5, yend = 300), linejoin = "round", size = 1.2, colour = "red",
+                  arrow = arrow(length = unit(0.3, "cm")))+
+  geom_segment(aes(x = 16.5, y = 105, xend = 16, yend = 45), linejoin = "round", size = 1.2, colour = "red",
+                  arrow = arrow(length = unit(0.3, "cm")))+
+  annotate("text", x=2, y=790, label= "A",col="black", size=12)
+
+
+
+
+get_estimate <- function (mod, p_level= c(0.1, 0.5, 0.9, 0.95, 0.99)) {
+  ### Calculate heterogeneity correction to confidence intervals according to Finney, 1971, (p.72, eq. 4.27; also called "h")
+  het = deviance(mod)/df.residual(mod) ; if(het < 1){het = 1}
+  # Heterogeneity cannot be less than 1
+  # R sets dispersion paramerter 1 by default #so I use 1, change if needed
+  ## Extract slope and intercept
+  summary <- summary(mod, dispersion= 1, cor = F) # summary(mod, dispersion= het, cor = F)  # summary might change if het is lot > 1
+  intercept <- summary$coefficients[1] ; interceptSE <- summary$coefficients[3]
+  slope     <- summary$coefficients[2] ;     slopeSE <- summary$coefficients[4]
+  z.value <- summary$coefficients[6]
+  #N <- sum(mdf$total) # or for m3 #  N <- nrow(md_binary) #this needs to be fixed: getting data from outside the supplied variables
+
+  ## Intercept (alpha)  ## Slope (beta)
+  b0 <- intercept   ;   b1 <- slope
+  ## Slope variance  # Intercept variance  # Slope intercept covariance
+  vcov = summary(mod)$cov.unscaled
+  var.b0<-vcov[1,1] ;  var.b1<-vcov[2,2] ; cov.b0.b1<-vcov[1,2]
+
+  ## Adjust alpha depending on heterogeneity (Finney, 1971, p. 76)
+  alpha= 0.05  # fixed, otherwise # 1-conf.level  # e.g. if conf.level = 0.95
+  if(het > 1) {talpha = -qt(alpha/2, df=df.residual(mod))} else {talpha = -qnorm(alpha/2)}
+
+  ## Calculate g (Finney, 1971, p 78, eq. 4.36) ## "With almost all good sets of data, g will be substantially smaller than 1.0 and  seldom greater than 0.4."
+  g <- het * ((talpha^2 * var.b1)/b1^2)
+
+  ## Estimate   for all LD levels based on probits in eta ~~~~~~~~~~~|
+  ## (Robertson et al., 2007, pg.27; or "m" in Finney, 1971, p. 78)  |
+  eta = family(mod)$linkfun(p_level)   #  probit distribution curve  |   p_levels = c(0.5, 0.9, 0.95, 0.99)
+  eta_conc = (eta - b0)/b1  #  returns the conc or dose at p level   |   b0 = intercept ; b1 = slope
+  ##----- this section was critical to my calculation _______________|  No way could I have got this estimate without this(@Mihail Pyatinskyi) post.
+  # term theta.hat replaced by eta_conc here, for my convenience
+
+  ## Calculate correction of fiducial limits according to Fieller method (Finney, 1971, p. 78-79. eq. 4.35)
+  const1 <- (g/(1-g))*(eta_conc + cov.b0.b1/var.b1) # const1 <- (g/(1-g))*(eta_conc -   cov.b0.b1/var.b1)
+  const2a <- var.b0 + 2*cov.b0.b1*eta_conc + var.b1*eta_conc^2 - g*(var.b0 - (cov.b0.b1^2/var.b1))
+  const2 <- talpha/((1-g)*b1) * sqrt(het * (const2a))
+
+  ## Calculate the confidence intervals LCL=lower, UCL=upper (Finney, 1971, p. 78-79. eq. 4.35)
+  LCL <- (eta_conc + const1 - const2)
+  UCL <- (eta_conc + const1 + const2)
+  ##
+  # Calculate variance (Robertson et al., 2007, pg. 27)
+  var.eta_conc <- (1/(eta_conc^2)) * ( var.b0 + 2*cov.b0.b1*eta_conc + var.b1*eta_conc^2 )
+  xtxt = cbind(p_level,conc_est=eta_conc, LCL=LCL, UCL=UCL, variance=var.eta_conc, sd.eta_conc=sqrt(var.eta_conc))
+  return (xtxt)}
+
+
+
+RPA_probit_data <- read.csv2("daten/probit H1N1.csv")
+
+# Regression der Probitfunktion an die binären Messergebnisse
+
+ProbitMod <- glm(Positive ~ Copy, data=RPA_probit_data, family=binomial(link="probit"))
+
+probit_wert <- get_estimate(ProbitMod,0.95)
+probit_wert = as.data.frame(probit_wert)
+
+# Berechnung des 95% Wertes
+
+# Berechnung der Datenpunkte der Probitfunktion
+
+Probit_data <- get_estimate(ProbitMod,seq(from=0.0001, to=0.9999, by=0.0001))
+
+Probit_data_f <- data.frame(Probit_data)
+
+f <- fitted(ProbitMod)
+write.table(f, "clipboard", sep="\t")
+
+ggplot() +
+    geom_line(data=Probit_data_f,aes(x=conc_est, y=p_level)) +
+    #geom_line(data=Probit_data_f,aes(x=LCL, y=p_level), linetype = 2) +
+    #geom_line(data=Probit_data_f,aes(x=UCL, y=p_level), linetype = 2) +
+    theme_minimal() +
+    xlab("RNA kopien") + ylab("Prozentual Positiv")+
+    geom_segment(aes(x= probit_wert$conc_est[1], y=0, xend=probit_wert$conc_est[1], yend=0.95), col="#BC3C29FF", linetype=4) +
+    geom_segment(aes(x=1, y=0.95, xend=probit_wert$conc_est[1], yend=0.95), col="#BC3C29FF", linetype=4)+
+    geom_point(data=RPA_probit_data, aes(x=RNA, y=prob), size=3)+
+  scale_x_continuous(limits=c(0,1000), expand=c(0,0)) +
+  annotate("text", x=335, y=0.1 , label= "251,1 Kopien",colour = "#BC3C29FF")
+#Zitation: Sktript entwickelt von Ole Bährmann, beschrieben durch (quelle vom Coronapaper), modifiziert und an meine Daten angespasst durch mich
+
+
+
+
+RPA_probit_data <- read.csv2("daten/probit H3N2.csv")
+
+# Regression der Probitfunktion an die binären Messergebnisse
+
+ProbitMod <- glm(Positive ~ Copy, data=RPA_probit_data, family=binomial(link="probit"))
+
+probit_wert <- get_estimate(ProbitMod,0.95)
+probit_wert = as.data.frame(probit_wert)
+
+# Berechnung des 95% Wertes
+
+# Berechnung der Datenpunkte der Probitfunktion
+
+Probit_data <- get_estimate(ProbitMod,seq(from=0.0001, to=0.9999, by=0.0001))
+
+Probit_data_f <- data.frame(Probit_data)
+
+f <- fitted(ProbitMod)
+write.table(f, "clipboard", sep="\t")
+
+
+ggplot() +
+    geom_line(data=Probit_data_f,aes(x=conc_est, y=p_level)) +
+    #geom_line(data=Probit_data_f,aes(x=LCL, y=p_level), linetype = 2) +
+    #geom_line(data=Probit_data_f,aes(x=UCL, y=p_level), linetype = 2) +
+    theme_minimal() +
+    xlab("RNA kopien") + ylab("Prozentual Positiv")+
+    geom_segment(aes(x= probit_wert$conc_est[1], y=0, xend=probit_wert$conc_est[1], yend=0.95), col="#BC3C29FF", linetype=4) +
+    geom_segment(aes(x=1, y=0.95, xend=probit_wert$conc_est[1], yend=0.95), col="#BC3C29FF", linetype=4)+
+    geom_point(data=RPA_probit_data, aes(x=RNA, y=prob), size=3)+
+  scale_x_continuous(limits=c(0,1000), expand=c(0,0)) +
+  annotate("text", x=335, y=0.1 , label= "251,1 Kopien",colour = "#BC3C29FF")
+#Zitation: Sktript entwickelt von Ole Bährmann, beschrieben durch (quelle vom Coronapaper), modifiziert und an meine Daten angespasst durch mich
+
+
+
+data <- read.csv2("daten/regression H1N1.csv")
+
+
+ggplot(data, aes(konz, ct)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  theme_minimal()+
+   ylab("TT-Wert")+
+   xlab("Konzentration") +
+  scale_x_log10(breaks = trans_breaks('log10', function(x) 10^x),
+                  labels = trans_format('log10', math_format(10^.x)))+
+  stat_cor(label.y = 5.5, 
+           aes(label = paste(..rr.label.., ..p.label.., sep = "~`,`~"))) +
+  stat_regline_equation(label.y = 5)+
+  annotate("text", x=5000000, y=10, label= "C",col="black", size=12)
+
+
+data <- read.csv2("daten/regression H3N2.csv")
+
+
+ggplot(data, aes(konz, ct)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  theme_minimal()+
+   ylab("TT-Wert")+
+   xlab("Konzentration") +
+  scale_x_log10(breaks = trans_breaks('log10', function(x) 10^x),
+                  labels = trans_format('log10', math_format(10^.x)))+
+  stat_cor(label.y = 5.5, 
+           aes(label = paste(..rr.label.., ..p.label.., sep = "~`,`~"))) +
+  stat_regline_equation(label.y = 5)+
+  annotate("text", x=5000000, y=10, label= "C",col="black", size=12)
 
 
 ```
