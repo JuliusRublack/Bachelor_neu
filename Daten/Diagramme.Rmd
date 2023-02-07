@@ -74,7 +74,7 @@ ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
 ```
 
 ```{r}
-test <- read.csv2("test7.csv")
+test <- read.csv2("test9.csv")
 
 #test auf Normalverteilung
 test %>%
@@ -99,7 +99,7 @@ stat.test2
 ```
 
 ```{r}
-test <- read.csv2("test8.csv")
+test <- read.csv2("test4.csv")
 
 #test auf Normalverteilung
 test %>%

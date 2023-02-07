@@ -1,0 +1,12 @@
+Test = 50 µl und 8tel-Ansatz vergleich
+Test2 = temperatur infB
+test3 = reverse Primer Konzentration
+test4 = InfB mischen
+test6 = InfB Primer Screening
+test5 = InfA vergleich H1N1 und H3N2 bei 10^7 RNA-Kopien
+test7 = InfB Vergleich 2X Reverse und 2x Gesamt
+test8 = InfB Vergleiche mit neuer Sonde
+test9 = InfB mischen bei 10^2
+test10 = InfA Primer-Screening
+Test11 = InfA Temp. opti
+test12 = InfA 8tel Vergleich
