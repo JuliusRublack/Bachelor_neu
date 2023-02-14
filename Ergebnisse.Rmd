@@ -284,7 +284,62 @@ Mit H1N1 und H3N2 erwähnen als Subtypen
 
 ### Rekombinase Polymerase Amplifikation-Primerdesing für das Influenza B Virus{#eprimera}
 
+### Entwicklung der InfB-RPA Primer
 
+* Tabelle mit allen getesteten Primern und Sonden + auf die Primer und sonden in Methoden verweisen? 
+  + oder die Sonden aus dem Methoden teil mir rein zu nehmen und da raus nehmen
+* Graphen der Tests (grau und die guten farbig)
+* Sensitivität ohne optimierungsparameter? müsste ich noch machen
+  + wenn sensitivität dann auch Spezifität
+
+### Optimierung der Infb-RPA
+
+* 8tel Ansatz
+* Temperatur
+* Mischzeitpunkt
+
+### Primerassymetrie
+
+* soll ich hier dann noch das Experiment zum bestätigen der Assymetrie mit rein nehmen? oder extra Punkt
+
+### Sensitisanalysen und Verlgeich
+
+* Sensitivität mit allen Optimirungsparametern 8tel Ansatz gegenüberstellen
+  + weil literatur sagt, dass dadurch eine Erhöhung der Sensitivität erhalten werden kann
+  
+* Sensitivität PCR und RPA gegenüberstellen
+
+### Spezifität
+
+* Spezifität
+
+## Influenza A
+
+### Entwicklung der InfA-RPA Primer
+
+* Tabelle mit allen getesteten Primern und Sonden + auf die Primer und sonden in Methoden verweisen? 
+  + oder die Sonden aus dem Methoden teil mir rein zu nehmen und da raus nehmen
+* Graphen der Tests (grau und die guten farbig)
+* Sensitivität ohne optimierungsparameter? müsste ich noch machen
+  + wenn sensitivität dann auch Spezifität
+
+### Optimierung der InfbARPA
+
+* 8tel Ansatz
+* Temperatur
+* Mischzeitpunkt
+* Primerassymetrie
+
+### Sensitivitätsanalysen und Vergleich
+
+* Sensitivitätstest und vergleich mit PCR
+
+### Einfluss von Sondendesign auf die InfA-RPA
+
+* Test mit neuer Sonde
+* Sensitivitätsvergleich
+
+### Spezifitätstest
 
 
 

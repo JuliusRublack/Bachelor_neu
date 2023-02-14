@@ -1,0 +1,19 @@
+1;PB2;759;PB2;770;Untereinheit der RNA-Polymerase
+2;PB1;757;PB1;752;Katalytische Untereinheit der RNA-Polymerase
+2;PB1-F2;87;;/;Proapoptotische Aktivität, Regulierung der Immunreaktionen, Interaktion mit PB1 zur Regulierung der Polymeraseaktivität
+2;PB1-N40;718;;/;"N-terminal verkürzte Version von PB1; interagiert mit Polymerasekomplex Untereinheiten, Gleichgewicht der PB1- und PB1-F2-Expression, genaue Funktion unbekannt"
+3;PA;716;PA;726;Untereinheit der RNA-Polymerase
+3;PA-X;61;;/;Moduliert die Wirtsgenexpression, negativer Virulenzregulator
+3;PA-N155;568;;/;"N-terminal verkürzte Version von PA; Funktion unbekannt"
+3;PA-N182;535;;/;"N-terminal verkürzte Version von PA; Funktion unbekannt"
+4;HA;550;HA;584;"Oberflächenglykoprotein; Rezeptorbindung und Membranfusion; antigene Determinante"
+5;NP;498;NP;560;Verkapselung der viralen genomischen RNA
+6;NA;454;NA;486;"Oberflächenglykoprotein; Neuraminidase-Aktivität, Freisetzung neuer Viruspartikel 
+nach Budding; antigene Determinante"
+6;;/;NB;100;"Ionenkanalaktivität; Funktion unbekannt"
+7;M1;252;M1;248;viraler Zusammenbau, Budding
+7;M2;97;BM2;109;"Ionenkanalaktivität; wesentlich für die Entschichtung, Rolle bei der Virusknospung"
+7;M42;99;;/;"M2-Isoform mit alternativer Domäne, Ionenkanalaktivität; kann M2 ergänzen/ersetzen"
+8;NS1;230;NS1;281;Regulierung des viralen RNA-Polymerase-Komplexes, Beeinflussung des antiviralen Zustands der Zelle
+8;NS2;121;NS2;122;Kern-Export-RNP, Regulierung von Transkription und Replikation
+8;NS3;174;;/;"NS1-Isoform mit einer internen Deletion; Funktion unbekannt, mögliche Rolle: Wirtsanpassung und Überwindung der Speziesbarriere"

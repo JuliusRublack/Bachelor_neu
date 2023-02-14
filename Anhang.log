@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  30 JAN 2023 08:33
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  13 FEB 2023 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -925,41 +925,39 @@ Package hyperref Info: Link coloring ON on input line 97.
 [1
 
 ]
-File: Anhang_files/figure-latex/infBobtiam-1.pdf Graphic file (type pdf)
-<use Anhang_files/figure-latex/infBobtiam-1.pdf>
-File: Anhang_files/figure-latex/infBobtiam-2.pdf Graphic file (type pdf)
-<use Anhang_files/figure-latex/infBobtiam-2.pdf>
-File: Anhang_files/figure-latex/infBobtiam-3.pdf Graphic file (type pdf)
-<use Anhang_files/figure-latex/infBobtiam-3.pdf>
+
+LaTeX Warning: Reference `fig:infBetabl' on page 2 undefined on input line 113.
+
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 117.
+(Font)              scaled to size 7.0pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 117.
+(Font)              scaled to size 5.0pt on input line 125.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-17.
+25.
 (D:\Julius\Programme\MikTex\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 117.
+(Font)              scaled to size 10.00092pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 117.
+(Font)              scaled to size 7.00064pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 117.
+(Font)              scaled to size 5.00046pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 117.
+(Font)              scaled to size 9.99893pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 117.
+(Font)              scaled to size 6.99925pt on input line 125.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 117.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 117
+(Font)              scaled to size 4.99947pt on input line 125.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 125
 .
 (D:\Julius\Programme\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (D:\Julius\Programme\MikTex\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 117
+LaTeX Font Info:    Trying to load font information for U+msb on input line 125
 .
 (D:\Julius\Programme\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -967,34 +965,39 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 
-LaTeX Warning: Reference `fig:infBetabl' on page 2 undefined on input line 124.
+LaTeX Warning: Reference `fig:infBetabl' on page 2 undefined on input line 132.
 
 
 
-LaTeX Warning: Reference `fig:infBoptil' on page 2 undefined on input line 143.
+LaTeX Warning: Reference `fig:infBetabl' on page 2 undefined on input line 152.
 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 171.
+(Font)              scaled to size 9.0pt on input line 180.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 171.
+(Font)              scaled to size 6.0pt on input line 180.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 171.
+(Font)              scaled to size 9.00082pt on input line 180.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 171.
+(Font)              scaled to size 6.00055pt on input line 180.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 171.
+(Font)              scaled to size 8.99904pt on input line 180.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 171.
+(Font)              scaled to size 5.99936pt on input line 180.
+
+LaTeX Warning: Reference `fig:infBoptil' on page 2 undefined on input line 187.
+
+
+
+LaTeX Warning: Reference `fig:infBoptil' on page 2 undefined on input line 207.
+
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `fig:infBoptil' on page 2 undefined on input line 178.
+LaTeX Warning: Reference `fig:infBetabl' on page 2 undefined on input line 242.
 
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1003,29 +1006,23 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Bilder/InfB Plasmidkarte.png Graphic file (type bmp)
 <Bilder/InfB Plasmidkarte.png>
 [3] [4]
-File: Bilder/InfA Plasmidkarte 258.png Graphic file (type bmp)
-<Bilder/InfA Plasmidkarte 258.png>
-[5]
-File: Bilder/InfA Plasmidkarte 197.png Graphic file (type bmp)
-<Bilder/InfA Plasmidkarte 197.png>
-[6]
 File: Bilder/InfA Plasmidkarte 937.png Graphic file (type bmp)
 <Bilder/InfA Plasmidkarte 937.png>
-[7]
+[5]
 File: Bilder/InfA Plasmidkarte 214.png Graphic file (type bmp)
 <Bilder/InfA Plasmidkarte 214.png>
-[8] (Anhang.aux)
+[6] (Anhang.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22083 strings out of 410527
- 398601 string characters out of 2816817
- 964578 words of memory out of 3000000
- 42936 multiletter control sequences out of 15000+600000
+ 22015 strings out of 410527
+ 395901 string characters out of 2816817
+ 975476 words of memory out of 3000000
+ 42874 multiletter control sequences out of 15000+600000
  474824 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  86i,16n,121p,1005b,402s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Anhang.pdf (8 pages).
+Output written on Anhang.pdf (6 pages).
