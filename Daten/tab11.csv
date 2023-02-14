@@ -1,0 +1,7 @@
+42 °C;n=3;3,69 $\pm$ 0,11;p = 0,65;;
+40 °C;n=3;4,28 $\pm$ 0,12;p = 0,43;p = 0,98;p = 8*10\textsuperscript{-5}
+38 °C;n=3;4,76 $\pm$ 0,11;p = 0,80;;
+Gruppe 1;Gruppe 2;untr. Konfid.;obrs. Konfid.;p-wert;Aussage
+38 °C;40 °C;$-0,80$;$-0,19$;p = 5*10\textsuperscript{-3};s**
+38 °C;42 °C;$-1,37$;$-0,79$;p = 6*10\textsuperscript{-5};s***
+40 °C;42 °C;$-0,89$;$-0.31$;p = 1*10\textsuperscript{-3};S**

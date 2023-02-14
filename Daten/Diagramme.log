@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  27 JAN 2023 13:32
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  8 FEB 2023 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -953,10 +953,10 @@ File: Diagramme_files/figure-latex/unnamed-chunk-7-1.pdf Graphic file (type pdf
 Here is how much of TeX's memory you used:
  21844 strings out of 410527
  392996 string characters out of 2816817
- 953751 words of memory out of 3000000
+ 954751 words of memory out of 3000000
  42758 multiletter control sequences out of 15000+600000
  470025 words of font info for 39 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,6n,121p,1008b,490s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,6n,121p,1008b,499s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on Diagramme.pdf (8 pages).

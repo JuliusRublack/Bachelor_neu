@@ -1,0 +1,16 @@
+Referenz;n=3;9,05 $\pm$ 0,57;p = 0,32;;
+5 min;n=3;15,04 $\pm$ 1,53;p = 0,70;;
+3 min;n=3;8,00 $\pm$ 0,73;p = 0,80;p = 0,55;p = 1,8*10\textsuperscript{-5}
+2 min;n=3;7,77 $\pm$ 0,34;p = 0,49;;
+90 sek;n=3;10,16 $\pm$ 1,14;p = 0,78;;
+Gruppe 1;Gruppe 2;untr. Konfid.;obrs. Konfid.;p-wert;Aussage
+2 min;3 min;-2,34;2,81;p = 0,99;ns
+2 min;5 min;4,7;9,85;p = 2,4*10\textsuperscript{-5};s***
+2 min;90 sek;-0,18;4,97;p = 0,07;ns
+2 min;Referenz;-1,29;3,86;p = 0,51;ns
+3 min;5 min;4,46;9,62;p = 3,2*10\textsuperscript{-5};s***
+3 min;90 sek;-0,41;4,74;p = 0,11;ns
+3 min;Referenz;-1,53;3,63;p = 0,68;ns
+5 min;90 sek;-7,45;-2,3;p = 7,2*10\textsuperscript{-4};s***
+5 min;Referenz;-8,57;-3,42;p = 1,3*10\textsuperscript{-4};s***
+90 sek;Referenz;-3,69;1,46;p = 0,63;ns

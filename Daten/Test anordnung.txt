@@ -10,3 +10,5 @@ test9 = InfB mischen bei 10^2
 test10 = InfA Primer-Screening
 Test11 = InfA Temp. opti
 test12 = InfA 8tel Vergleich
+test13 = InfA Mischen
+test14 = vergleich sonde infA

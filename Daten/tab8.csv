@@ -1,0 +1,7 @@
+Forward E;n=3;3,56 $\pm$ 0,07;p = 0,91;;
+Forward E.2;n=3;3,65 $\pm$ 0,14;p = 0,79;p = 0,04;p = 5 *10\textsuperscript{-5}
+Forward E.3;n=3;3,25 $\pm$ 0,05;p = 0,55;;
+Gruppe 1;Gruppe 2;untr. Konfid.;obrs. Konfid.;p-wert;Aussage
+2X forw.;2X rev.;$0.21$;$0,59$;p = 0,002;s**
+2X forw.;Referez;$0,20$;$0,42$;p = 3 *10\textsuperscript{-4};s***
+2X rev.;Referez;$-0,29$;$0.10$;p = 0,41;ns

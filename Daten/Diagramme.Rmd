@@ -74,7 +74,7 @@ ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
 ```
 
 ```{r}
-test <- read.csv2("test9.csv")
+test <- read.csv2("test14.csv")
 
 #test auf Normalverteilung
 test %>%
@@ -90,7 +90,7 @@ test %>%
   levene_test(weight ~ group)
 
 stat.test2 <- test %>%
-  t_test(weight ~ group, var.equal = FALSE) %>%
+  t_test(weight ~ group, var.equal = TRUE) %>%
   add_significance()
 stat.test2
 
@@ -99,7 +99,7 @@ stat.test2
 ```
 
 ```{r}
-test <- read.csv2("test4.csv")
+test <- read.csv2("test13.csv")
 
 #test auf Normalverteilung
 test %>%
