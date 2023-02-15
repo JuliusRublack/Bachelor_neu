@@ -177,7 +177,7 @@ Die Isolierung der Plasmid-DNA erfolgte mit dem Qiagen Plasmid Midi Kit (Qiagen)
 
 Zur Prüfung der DNA-Sequenz, wurde die extrahierte Plasmid-DNA mittels Sequenzierung untersucht. Dabei wird der Plasmidabschnitt mit der Virussequenz über eine PCR amplifiziert und mittels der von @Sanger1977 beschriebenen Kettenabbruchmethode mit fluoreszenzmarkierten Didesoxynucleotiden amplifiziert. [@Muelhardt2009]. Als Primer für die aus Kapitel \@ref(isolation) extrahierte Plasmid-DNA wurde der Vorwärtsprimer M13 (5'-GTAAAACGACGGCCAG-3') und der Rückwärtsprimer M13r (5'-CAGGAAACAGCTATGAC-3') verwendet. Die Sequenzierung erfolgte bei der Firma Microsynth Seqlab GmbH.
 
-### Restriktionsverdau zur Plamidlinearisierung {#verdau}
+### Restriktionsverdau zur Plasmidlinearisierung {#verdau}
 
 In Vorbereitung für eine _in vitro_ Transkription zum Erstellen viraler RNA wurde die aus Kapitel \@ref(isolation) extrahierte Plasmid-DNA linearisiert. Dafür wurden Restriktions-Endonukleasen benutzt, welche innerhalb der spezifischen Erkennungssequenzen den DNA-Doppelstrang schneiden [@Smitha].
 Für das Influenza B Plasmid (siehe Abbildung \@ref(fig:plasmidB) im Anhang) wurde das Enzym SacI (Fast Digest, Thermo Fisher Scientific) verwendet. Der Restriktionsverdau erfolgte in 30 µl einfach konzentriertem Fast Digest Puffer (Thermo Fisher Scientific), welcher mit 6 µl Enzym und 3 µg Plasmid-DNA versetzt wurde. Der Restriktionsansatz wurde für 30 min bei 37 °C im Wasserbad inkubiert und anschließend bei 65 °C für 5 min inaktiviert.
@@ -282,11 +282,9 @@ kable(RPAMM, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE
   footnote(symbol = "Bei Negativkontrollen die Virus RNA mit PCR-reinem Wasser substituiert",threeparttable = T, escape= FALSE, footnote_as_chunk =TRUE)
 
 ```
-
-\pagebreak
  
 
-### Reverse Transkription Rekombinase Polymerase Amplifikation im low volume Ansatz {#8telRPA}
+### Reverse Transkription Rekombinase Polymerase Amplifikation im low-volume Ansatz {#8telRPA}
 Wie bereits durch @Behrmann2020 und @Lillis2016 gezeigt werden konnte, kann das Reaktionsvolumen der RPA verringert werden, welches Vorteile wie eine Unabhänigkeit eines zusätzlichen Mischschrittes mit sich bringt und die RPA zugänglich für mikrofluidische Anwendungen macht [@Lillis2016;@Behrmann2020]. Um die Vorteile der "low volume" Applikation für die Influenza A und B Systeme zu übertragen, wurde eine verringerung des Reaktionsvolumens untersucht.   
 Dazu wurde eine RPA Reaktion mit 50 µl Gesamtvolumen auf 8 Reaktionen aufgeteilt und so ein neues Reaktionsvolumen von 6,5 µl erhalten. Für 8 Reaktionen wurde dabei insgesamt 40,8 µl Rehydrationsmix (Zusammensetzung siehe Tab. \@ref(tab:achtRPA)) hergestellt und auf das lyophilisierte RPA-Enzympellet zur Resuspendierung übertragen. Die Zusammensetzung des in Tabelle \@ref(tab:achtRPA) aufgeführten 50X PSM´s ist in Tabelle \@ref(tab:psmRPA) gezeigt. Die Lösung wurde für ca. 2 min bei Raumtemperatur inkubiert und anschließend gut gemischt. Die resuspendierte RPA-Reaktion wurden auf einen 8-ter Messstreifens aufgeteilt (4,8 µl pro Kavität) und dieser kurz zentrifugiert. Nachfolgend wurden jeweils pro Kavität 1 µl zu amplifizierende Virus RNA bzw. 1 µl PCR reines H~2~O (Negativkontrolle) zum Reaktionsmix gegeben. Darauffolgend wurden 15 µl Mineralöl (Carl Roth), welches  die Evaporation des Reaktionsmixes während der Messung verhindert, in den Deckel jeder Kavität pipettiert. Als Letztes wurden 0,64 µl Magnesium Acetat (140mM) an die Innenseite der Kavität pipettiert. Zum Start der Messung wurde der Messstreifen kurz zentrifugiert und homogenisiert um das Magnesium und das Mineralöl in den Reaktionsmix einzubringen. Es folgte eine erneute Zentrifugation, um die Öl-Phase von der wässrigen Phase zu trennen. Die Messung erfolgte nach einer einminütigen Equilibrationszeit im ESEQuant TS2.4 (Qiagen) bei 38-42 °C. Je nach Fluorophor wurde die Fluoreszenz in dern Wellenlängen .... bis .... (FAM) und ..... bis .... (ATTO565) detektiert. Dabei wurden die Parameter des Geräts mit dem vom Hersteller vorgegbenem Programm TS2 Studio v1.17.1.1 eingestellt. Je nach Versuch wurde die Messung für ein zusätzliches Mischen unterbrochen. Die Auswertung der Daten erfolgte, wie bereits Kapitel \@ref(chipPCR) beschrieben.
 
@@ -323,7 +321,7 @@ Die Optimierung der Temperatur erfolgte im Temperaturinvervall zwischen 38 - 42 
 ### Optimierung des Mischzeitpunktes der Rekombinase Polymerase Amplifikation {#optimischen}
 
 Die Einführung und Optimierung eines zusätzlichen Mischzeitpunktes während der Reaktion erfolgte bei Influezna B im 8-tel Ansatz (siehe Kapitel \@ref(8telRPA)) bei 40 °C. Als Mischzeitpunkte wurde 5 min, 4 min und 3 min nach Messbeginn bei einer RNA-Konzentration von 10^3^  Kopien/µl gewählt. Zusätzlich wurde der Mischzeitpunkt von 5 Minuten bei RNA-Konzentrationen von 10^2^ und 10^1^ und einer 1.5X erhöhten Reverse Primer untersucht. Als Referenz wurde bei jeder Messung eine Reaktion ohne zusäzliches Mischen mitgeführt.   
-Für Influenza A erfolgte die Optimierung des Mischzeitpunktes im 50 µl Ansatz (siehe Kapitel \@ref(RPAnormal)) bei 42 °C und einer  1,5X erhöhten reverse Primer-Konzentration. Es wurden die Mischzeipunkte \textcolor{red}{7,5 min, 5 min}, 3min, 2 min, und 1,5 min nach Messbeginn bei einer RNA-Konzentration von 10^3^  Kopien/µl (H1N1 Subtyp) untersucht. Als Referenz wurde bei jeder Messung eine Reaktion ohne zusäzliches Mischen mitgeführt
+Für Influenza A erfolgte die Optimierung des Mischzeitpunktes im 50 µl Ansatz (siehe Kapitel \@ref(RPAnormal)) bei 42 °C und einer  1,5X erhöhten reverse Primer-Konzentration. Es wurden die Mischzeipunkte 7 min, 5 min, 3min, 2 min, und 1,5 min nach Messbeginn bei einer RNA-Konzentration von 10^3^  Kopien/µl (H1N1 Subtyp) untersucht. Als Referenz wurde bei jeder Messung eine Reaktion ohne zusäzliches Mischen mitgeführt
 
 
 ### Optimierung der Primerassymetrie der Rekombinase Polymerase Amplifikation {#optimierungP}

@@ -1964,6 +1964,33 @@
   publisher = {Springer Science and Business Media {LLC}},
 }
 
+@Article{Kim2013,
+  author    = {Dae-Ki Kim and Barun Poudel},
+  journal   = {Yonsei Medical Journal},
+  title     = {Tools to Detect Influenza Virus},
+  year      = {2013},
+  number    = {3},
+  pages     = {560},
+  volume    = {54},
+  doi       = {10.3349/ymj.2013.54.3.560},
+  groups    = {Nachweismethoden für Inlfuenza},
+  publisher = {Yonsei University College of Medicine},
+}
+
+@Article{Uyeki2018,
+  author    = {Timothy M Uyeki and Henry H Bernstein and John S Bradley and Janet A Englund and Thomas M File and Alicia M Fry and Stefan Gravenstein and Frederick G Hayden and Scott A Harper and Jon Mark Hirshon and Michael G Ison and B Lynn Johnston and Shandra L Knight and Allison McGeer and Laura E Riley and Cameron R Wolfe and Paul E Alexander and Andrew T Pavia},
+  journal   = {Clinical Infectious Diseases},
+  title     = {Clinical Practice Guidelines by the Infectious Diseases Society of America: 2018 Update on Diagnosis, Treatment, Chemoprophylaxis, and Institutional Outbreak Management of Seasonal Influenzaa},
+  year      = {2018},
+  month     = {dec},
+  number    = {6},
+  pages     = {e1--e47},
+  volume    = {68},
+  doi       = {10.1093/cid/ciy866},
+  groups    = {Nachweismethoden für Inlfuenza},
+  publisher = {Oxford University Press ({OUP})},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:

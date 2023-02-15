@@ -15,6 +15,7 @@ linkcolor: RoyalBlue
 always_allow_html: TRUE
 header-includes:
   \usepackage{float}
+  \usepackage{longtable}
   \usepackage[ngerman]{babel}
   \usepackage[onehalfspacing]{setspace}
   \usepackage{colortbl}
@@ -55,11 +56,13 @@ library(mdthemes)
 
 # Abkürzungsverzeichnis
 
-```{r}
-#Abkz <- read.csv2("D:/Studium/Uni/Praxsisemester/Praxissemester-Arbeit/Publikation/Gesamt mit rchild/Abkürzungsverzeichnis.csv", header = FALSE)
-#kable(Abkz, booktabs = TRUE, format = "latex", escape = FALSE, col.names = NULL) %>%
-  #kable_styling(full_width = T) %>%
- #column_spec(1, width = "2.2in") 
+```{r abkürzungsverzeichnis, message = FALSE, warning=FALSE}
+Abkz <- read.csv2("Abkürzungsverzeichnis.csv", header = FALSE, fileEncoding="latin1")
+kable(Abkz, booktabs = TRUE, col.names = NULL, longtable = T) %>%
+  column_spec(1, width = "2.2in") %>%
+  column_spec(2, width = "3.5in") %>%
+  kable_styling(latex_options = c("repeat_header"), repeat_header_continued = "\\textit{(fortgesetzt auf der nächsten Seite...)}", repeat_header_text = "\\textit{(fortgesetzt)}")
+
   
 ```
 

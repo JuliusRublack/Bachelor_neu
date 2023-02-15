@@ -1,8 +1,57 @@
-h;Stunde
-DNA;Desoxyribonukleinsäure
+3SR;self-sustained sequence replication
+AS;Aminosäuren
+ATP;Adenosintriphosphat
+bp;Basenpaare
+cDNA;complimentary Desoxyribonukleinsäure
+ct ;cycle threshold
+Cy5;Cyanine 5
+DdRp;"T7 DNA ab-
+hängigen RNA-Polymerase"
+DEAE;Diethylaminoethyl
 DEAE;Diethylaminoethyl
 DEPC-H2O;Diethylpyrocarbonat-H2O
-RPA;
-bp;Basenpaare
+DNA;Desoxyribonukleinsäure
+EDTA;Ethylendiamintetraessigsäure
+FAM;Carboxyfluorescein
+FRET;Förster-Resonanzenergietransfer
+GmbH;Gesellschaft mit beschränkter Haftung
+h;Stunde
+h;Stunde
+HA; Hämagglutinin
+HCl;Salzsäure
+HEX;Hexachlorofluorescein
+IHRES;internal ribosomal entry site
+kb;Kilobasen
+LAMP;Schleifenvermittelte isotherme Amplifikation
+LB-Medium;Lysogenic broth-Medium
+MAD;mean-absolut deviation
+ml;milliliter
+mM;millimolar
+NA;Neuraminidase
+NAAT;Nukleinsäure amplifizierende Methoden
+NASBA;Nucleinsäure sequenz-basierte Amplifikation
+NCIRD;Nationale Center für Immunisierung und Respiratorische Krankheiten
+ng;nanogramm
+nm;Nanometer
+NP;Nukleoprotein
+ORF;offenen Leserahmen
 PCR;Polymerase Ketten Reaktion
-PSM;Primer/Sonden Mix
+PEG;Polyethylen Glucol
+POCT;Point-of-care testing
+PSM;Primer-Sonden Mix
+qPCR;quantitative Polymerase Ketten Reaktion
+RNA;Ribonukleinsäure
+RPA;Rekombinase Polymerase Amplifikation
+RPM;Rounds per minute
+RT;reverse Transkriptase
+RT-PCR;reverse Transkriptase Polymerase Ketten Reaktion
+RT-qPCR;reverse Transkriptase quantitative Polymerase Ketten Reaktion
+SARS-CoV-2;severe acute respiratory syndrome coronavirus type 2
+SNR;Signal-Rausch-Verhältnis
+TRIS;Tris(hydroxymethyl)aminomethan
+TT-Wert;threshold time-Wert
+U;unit
+vRNP;viral ribonucleoprotein
+µg;Mikrogramm
+µl;Mikroliter
+µM;mirkromolar
