@@ -1,0 +1,8 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Diskussion}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Design der Primer und deren Einfluss auf die RT-RPA}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Vorteile der low-Volume RPA hinsichtlich Mischzeitpunkt und Sensitivität}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Diskussion Sensitivitäten}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Diskussion Asymmetrie}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Diskussion Sondeneinfluss}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Diskussion ditch}{5}{subsection.1.6}%

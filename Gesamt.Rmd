@@ -7,7 +7,7 @@ output:
     fontsize: 12pt
     latex_engine: xelatex
 bibliography: "Bachelor_quellen.bib"
-biblio-style: apa
+csl: european-journal-of-taxonomy.csl
 citation_package: biblatex
 link-citations: yes
 urlcolor: RoyalBlue
@@ -32,14 +32,14 @@ library(ggplot2)
 library(mdthemes)
 ```
 
-\pagenumbering{gobble}
+\pagenumbering{arabic}
 
 ```{r, child='Deckblatt.Rmd'}
 ```
 
 \pagebreak
 
-\pagenumbering{Roman}
+
 
 \hypersetup{linkcolor=black}
 \tableofcontents
@@ -71,18 +71,19 @@ kable(Abkz, booktabs = TRUE, col.names = NULL, longtable = T) %>%
 
 \hypersetup{linkcolor=RoyalBlue}
 
-\pagenumbering{arabic}
+
 
 ```{r, child=c('Einleitung.Rmd', 'Methoden.Rmd', "Ergebnisse(neu).Rmd", "Diskussion.Rmd")}
 ```
 
 \pagebreak
 
-\pagenumbering{Roman}
+
 
 ```{r, child=c("Anhang.Rmd") }
 
 ```
+
 
 
 # Literaturverzeichniss

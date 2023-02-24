@@ -1,4 +1,6 @@
-3SR;self-sustained sequence replication
+µg;Mikrogramm
+µl;Mikroliter
+µM;mirkromolar
 AS;Aminosäuren
 ATP;Adenosintriphosphat
 bp;Basenpaare
@@ -8,14 +10,13 @@ Cy5;Cyanine 5
 DdRp;"T7 DNA ab-
 hängigen RNA-Polymerase"
 DEAE;Diethylaminoethyl
-DEAE;Diethylaminoethyl
-DEPC-H2O;Diethylpyrocarbonat-H2O
+DEPC-H2O;Diethylpyrocarbonat-Wasser
+DFA;Direkter fluoreszenz Antikörper Assay
 DNA;Desoxyribonukleinsäure
 EDTA;Ethylendiamintetraessigsäure
 FAM;Carboxyfluorescein
 FRET;Förster-Resonanzenergietransfer
 GmbH;Gesellschaft mit beschränkter Haftung
-h;Stunde
 h;Stunde
 HA; Hämagglutinin
 HCl;Salzsäure
@@ -48,10 +49,8 @@ RT-PCR;reverse Transkriptase Polymerase Ketten Reaktion
 RT-qPCR;reverse Transkriptase quantitative Polymerase Ketten Reaktion
 SARS-CoV-2;severe acute respiratory syndrome coronavirus type 2
 SNR;Signal-Rausch-Verhältnis
+SSB;single stranded binding Protein
 TRIS;Tris(hydroxymethyl)aminomethan
 TT-Wert;threshold time-Wert
 U;unit
 vRNP;viral ribonucleoprotein
-µg;Mikrogramm
-µl;Mikroliter
-µM;mirkromolar

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  15 FEB 2023 15:28
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  24 FEB 2023 08:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,35 +960,35 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \tf@toc=\write3
 \openout3 = `Ergebnisse-neu-.toc'.
 
+
+LaTeX Warning: Reference `fig:plasmidB' on page 1 undefined on input line 140.
+
+
+LaTeX Warning: Reference `isolation' on page 1 undefined on input line 140.
+
+
+LaTeX Warning: Reference `sequenzierung' on page 1 undefined on input line 140.
+
+
+
+LaTeX Warning: Reference `verdau' on page 1 undefined on input line 140.
+
+
+LaTeX Warning: Reference `fig:plasmidB' on page 1 undefined on input line 140.
+
+
+LaTeX Warning: Reference `cleaning' on page 1 undefined on input line 140.
+
+
+LaTeX Warning: Reference `transkription' on page 1 undefined on input line 140.
+
+
+
+LaTeX Warning: Reference `ribogreen' on page 1 undefined on input line 140.
+
 [1
 
 ]
-
-LaTeX Warning: Reference `plasmidB' on page 2 undefined on input line 142.
-
-
-LaTeX Warning: Reference `isolation' on page 2 undefined on input line 142.
-
-
-LaTeX Warning: Reference `sequenzierung' on page 2 undefined on input line 142.
-
-
-
-LaTeX Warning: Reference `verdau' on page 2 undefined on input line 142.
-
-
-LaTeX Warning: Reference `fig:plasmidB' on page 2 undefined on input line 142.
-
-
-LaTeX Warning: Reference `cleaning' on page 2 undefined on input line 142.
-
-
-LaTeX Warning: Reference `transkription' on page 2 undefined on input line 142.
-
-
-
-LaTeX Warning: Reference `ribogreen' on page 2 undefined on input line 142.
-
 File: Bilder/infB_verdau_t_t.png Graphic file (type bmp)
 <Bilder/infB_verdau_t_t.png>
 File: Ergebnisse-neu-_files/figure-latex/infBverdau-2.pdf Graphic file (type pd
@@ -996,50 +996,52 @@ f)
 <use Ergebnisse-neu-_files/figure-latex/infBverdau-2.pdf>
 [2]
 
-LaTeX Warning: Reference `modifikation' on page 3 undefined on input line 186.
+LaTeX Warning: Reference `modifikation' on page 3 undefined on input line 184.
 
 File: Ergebnisse-neu-_files/figure-latex/infbscreening-1.pdf Graphic file (type
  pdf)
 <use Ergebnisse-neu-_files/figure-latex/infbscreening-1.pdf>
 
-Underfull \hbox (badness 3579) in paragraph at lines 197--197
+Underfull \hbox (badness 3579) in paragraph at lines 195--195
 []\TU/lmr/m/n/10 Abbildung 2: []\TU/lmr/bx/n/10 Primerscreening der entwickelte
 n Influenza B RT-RPA Primer-Sonden-
  []
 
 
-LaTeX Warning: Reference `RPAnormal' on page 3 undefined on input line 200.
+LaTeX Warning: Reference `RPAnormal' on page 3 undefined on input line 198.
+
+
+LaTeX Warning: Reference `tab:tabeins' on page 3 undefined on input line 198.
 
 [3]
 
-LaTeX Warning: Reference `methode' on page 4 undefined on input line 207.
+LaTeX Warning: Reference `8telRPA' on page 4 undefined on input line 205.
 
 
-LaTeX Warning: Reference `tab:tabeins' on page 4 undefined on input line 207.
+LaTeX Warning: Reference `tab:tabzwei' on page 4 undefined on input line 205.
 
 File: Ergebnisse-neu-_files/figure-latex/infBetabl-1.pdf Graphic file (type pdf
 )
 <use Ergebnisse-neu-_files/figure-latex/infBetabl-1.pdf>
 
-LaTeX Warning: Reference `(' on page 4 undefined on input line 217.
+LaTeX Warning: Reference `8telRPA' on page 4 undefined on input line 215.
 
 
-LaTeX Warning: Reference `(' on page 4 undefined on input line 217.
+LaTeX Warning: Reference `8telRPA' on page 4 undefined on input line 215.
 
 [4]
 
-LaTeX Warning: Reference `optimierungT' on page 5 undefined on input line 224.
+LaTeX Warning: Reference `optimierungT' on page 5 undefined on input line 222.
 
 
-LaTeX Warning: Reference `tab:tabzwei' on page 5 undefined on input line 224.
+LaTeX Warning: Reference `tab:tabdrei' on page 5 undefined on input line 222.
 
 
-LaTeX Warning: Reference `optimierungP' on page 5 undefined on input line 228.
+LaTeX Warning: Reference `optimierungP' on page 5 undefined on input line 226.
 
 
-LaTeX Warning: Reference `tab:tabdrei' on page 5 undefined on input line 228.
+LaTeX Warning: Reference `tab:tabvier' on page 5 undefined on input line 226.
 
-[5]
 File: Ergebnisse-neu-_files/figure-latex/infbopti-1.pdf Graphic file (type pdf)
 
 <use Ergebnisse-neu-_files/figure-latex/infbopti-1.pdf>
@@ -1047,21 +1049,21 @@ File: Ergebnisse-neu-_files/figure-latex/infbopti-2.pdf Graphic file (type pdf)
 
 <use Ergebnisse-neu-_files/figure-latex/infbopti-2.pdf>
 
-LaTeX Warning: Reference `rpa' on page 6 undefined on input line 243.
+LaTeX Warning: Reference `rpa' on page 5 undefined on input line 241.
 
 
-LaTeX Warning: Reference `optimischen' on page 6 undefined on input line 243.
+LaTeX Warning: Reference `optimischen' on page 5 undefined on input line 241.
 
 
-LaTeX Warning: Reference `tab:' on page 6 undefined on input line 243.
+LaTeX Warning: Reference `tab:tabfunf' on page 5 undefined on input line 241.
 
 
-LaTeX Warning: Reference `optimischen' on page 6 undefined on input line 244.
+LaTeX Warning: Reference `optimischen' on page 5 undefined on input line 242.
 
 
-LaTeX Warning: Reference `tab:tab' on page 6 undefined on input line 244.
+LaTeX Warning: Reference `tab:tabsechs' on page 5 undefined on input line 242.
 
-[6]
+[5]
 File: Ergebnisse-neu-_files/figure-latex/infboptimisch-1.pdf Graphic file (type
  pdf)
 <use Ergebnisse-neu-_files/figure-latex/infboptimisch-1.pdf>
@@ -1072,18 +1074,19 @@ File: Ergebnisse-neu-_files/figure-latex/infboptimisch-3.pdf Graphic file (type
  pdf)
 <use Ergebnisse-neu-_files/figure-latex/infboptimisch-3.pdf>
 
-LaTeX Warning: Reference `assymetrie' on page 7 undefined on input line 263.
+LaTeX Warning: Reference `assymetrie' on page 6 undefined on input line 262.
 
 
-LaTeX Warning: Reference `tab:' on page 7 undefined on input line 263.
+LaTeX Warning: Reference `tab:tabzwelf' on page 6 undefined on input line 262.
 
 
-LaTeX Warning: Reference `assymetrie' on page 7 undefined on input line 264.
+LaTeX Warning: Reference `assymetrie' on page 6 undefined on input line 263.
 
 
-LaTeX Warning: Reference `tab:' on page 7 undefined on input line 264.
+LaTeX Warning: Reference `tab:tabdreizehn' on page 6 undefined on input line 26
+3.
 
-[7]
+[6] [7]
 File: Ergebnisse-neu-_files/figure-latex/assymetriy-1.pdf Graphic file (type pd
 f)
 <use Ergebnisse-neu-_files/figure-latex/assymetriy-1.pdf>
@@ -1091,41 +1094,41 @@ File: Ergebnisse-neu-_files/figure-latex/assymetriy-2.pdf Graphic file (type pd
 f)
 <use Ergebnisse-neu-_files/figure-latex/assymetriy-2.pdf>
 
-LaTeX Warning: Reference `8telRPA' on page 8 undefined on input line 274.
+LaTeX Warning: Reference `8telRPA' on page 8 undefined on input line 273.
 
 
-LaTeX Warning: Reference `assymetrie' on page 8 undefined on input line 274.
+LaTeX Warning: Reference `assymetrie' on page 8 undefined on input line 273.
 
 
-LaTeX Warning: Reference `8telRPA' on page 8 undefined on input line 274.
+LaTeX Warning: Reference `8telRPA' on page 8 undefined on input line 273.
 
 
-LaTeX Warning: Reference `assymetrie' on page 8 undefined on input line 274.
+LaTeX Warning: Reference `assymetrie' on page 8 undefined on input line 273.
+
+
+LaTeX Warning: Reference `sensitivitat' on page 8 undefined on input line 279.
+
+
+LaTeX Warning: Reference `probit' on page 8 undefined on input line 279.
 
 
 LaTeX Warning: Reference `sensitivitat' on page 8 undefined on input line 280.
 
 
-LaTeX Warning: Reference `probit' on page 8 undefined on input line 280.
+LaTeX Warning: Reference `tt-wert' on page 8 undefined on input line 280.
+
+
+LaTeX Warning: Reference `rtpcr' on page 8 undefined on input line 281.
 
 
 LaTeX Warning: Reference `sensitivitat' on page 8 undefined on input line 281.
 
 
-LaTeX Warning: Reference `tt-wert' on page 8 undefined on input line 281.
-
-
-LaTeX Warning: Reference `rtpcr' on page 8 undefined on input line 282.
-
-
-LaTeX Warning: Reference `sensitivitat' on page 8 undefined on input line 282.
-
-
 LaTeX Warning: Reference `klinischeproben' on page 8 undefined on input line 28
-2.
+1.
 
 
-LaTeX Warning: Reference `sensitivitat' on page 8 undefined on input line 282.
+LaTeX Warning: Reference `sensitivitat' on page 8 undefined on input line 281.
 
 [8]
 File: Ergebnisse-neu-_files/figure-latex/infbsensi-1.pdf Graphic file (type pdf
@@ -1149,35 +1152,35 @@ File: Ergebnisse-neu-_files/figure-latex/infbsensi-6.pdf Graphic file (type pdf
 [9] [10]
 
 LaTeX Warning: Reference `transformation' on page 11 undefined on input line 33
-2.
+1.
 
 
-LaTeX Warning: Reference `isolation' on page 11 undefined on input line 332.
+LaTeX Warning: Reference `isolation' on page 11 undefined on input line 331.
 
 
-LaTeX Warning: Reference `sequenzierung' on page 11 undefined on input line 332
+LaTeX Warning: Reference `sequenzierung' on page 11 undefined on input line 331
 .
 
 
-LaTeX Warning: Reference `verdau' on page 11 undefined on input line 332.
+LaTeX Warning: Reference `verdau' on page 11 undefined on input line 331.
 
 
 LaTeX Warning: Reference `fig:plasmidA937' on page 11 undefined on input line 3
-32.
+31.
 
 
 LaTeX Warning: Reference `fig:plasmidA214' on page 11 undefined on input line 3
-32.
+31.
 
 
-LaTeX Warning: Reference `cleaning' on page 11 undefined on input line 332.
+LaTeX Warning: Reference `cleaning' on page 11 undefined on input line 331.
 
 
-LaTeX Warning: Reference `transkription' on page 11 undefined on input line 332
+LaTeX Warning: Reference `transkription' on page 11 undefined on input line 331
 .
 
 
-LaTeX Warning: Reference `ribogreen' on page 11 undefined on input line 332.
+LaTeX Warning: Reference `ribogreen' on page 11 undefined on input line 331.
 
 File: Bilder/infA_verdau.png Graphic file (type bmp)
 <Bilder/infA_verdau.png>
@@ -1186,63 +1189,64 @@ f)
 <use Ergebnisse-neu-_files/figure-latex/infAverdau-2.pdf>
 [11]
 
-LaTeX Warning: Reference `desing' on page 12 undefined on input line 350.
+LaTeX Warning: Reference `desing' on page 12 undefined on input line 349.
 
 
-LaTeX Warning: Reference `desing' on page 12 undefined on input line 386.
+LaTeX Warning: Reference `desing' on page 12 undefined on input line 385.
 
 
-LaTeX Warning: Reference `modifikation' on page 12 undefined on input line 386.
+LaTeX Warning: Reference `modifikation' on page 12 undefined on input line 385.
 
 
 
-LaTeX Warning: Reference `screening' on page 12 undefined on input line 389.
+LaTeX Warning: Reference `screening' on page 12 undefined on input line 388.
 
 
-LaTeX Warning: Reference `chipPCR' on page 12 undefined on input line 389.
+LaTeX Warning: Reference `chipPCR' on page 12 undefined on input line 388.
 
 
-LaTeX Warning: Reference `tab:' on page 12 undefined on input line 389.
+LaTeX Warning: Reference `tab:tabsieben' on page 12 undefined on input line 388
+.
 
 [12]
 File: Ergebnisse-neu-_files/figure-latex/infAsadsensi-1.pdf Graphic file (type 
 pdf)
 <use Ergebnisse-neu-_files/figure-latex/infAsadsensi-1.pdf>
 
-Underfull \hbox (badness 3471) in paragraph at lines 400--400
+Underfull \hbox (badness 3471) in paragraph at lines 399--399
 []\TU/lmr/m/n/10 Abbildung 9: []\TU/lmr/bx/n/10 Primerscreening der entwickelte
 n Influenza A RT-RPA Primer-Sonden-
  []
 
 [13]
 
-LaTeX Warning: Reference `8telRPA' on page 14 undefined on input line 408.
+LaTeX Warning: Reference `8telRPA' on page 14 undefined on input line 407.
 
 
-LaTeX Warning: Reference `RPAnormal' on page 14 undefined on input line 408.
+LaTeX Warning: Reference `RPAnormal' on page 14 undefined on input line 407.
 
 
-LaTeX Warning: Reference `tab:' on page 14 undefined on input line 408.
+LaTeX Warning: Reference `tab:tabacht' on page 14 undefined on input line 407.
 
 File: Ergebnisse-neu-_files/figure-latex/infAvolumen-1.pdf Graphic file (type p
 df)
 <use Ergebnisse-neu-_files/figure-latex/infAvolumen-1.pdf>
 
-LaTeX Warning: Reference `(' on page 14 undefined on input line 418.
+LaTeX Warning: Reference `8telRPA' on page 14 undefined on input line 417.
 
 
-LaTeX Warning: Reference `(' on page 14 undefined on input line 418.
+LaTeX Warning: Reference `8telRPA' on page 14 undefined on input line 417.
 
 
-LaTeX Warning: Reference `optimierungT' on page 14 undefined on input line 423.
+LaTeX Warning: Reference `optimierungT' on page 14 undefined on input line 422.
 
 
 
-LaTeX Warning: Reference `tab:' on page 14 undefined on input line 423.
+LaTeX Warning: Reference `tab:tabneun' on page 14 undefined on input line 422.
 
 [14]
 
-LaTeX Warning: Reference `optimierungP' on page 15 undefined on input line 427.
+LaTeX Warning: Reference `optimierungP' on page 15 undefined on input line 426.
 
 
 File: Ergebnisse-neu-_files/figure-latex/infaopti-1.pdf Graphic file (type pdf)
@@ -1252,22 +1256,13 @@ File: Ergebnisse-neu-_files/figure-latex/infaopti-2.pdf Graphic file (type pdf)
 
 <use Ergebnisse-neu-_files/figure-latex/infaopti-2.pdf>
 
-LaTeX Warning: Reference `optimischen' on page 15 undefined on input line 442.
+LaTeX Warning: Reference `optimischen' on page 15 undefined on input line 441.
 
 
-LaTeX Warning: Reference `infaoptimisch' on page 15 undefined on input line 442
-.
+LaTeX Warning: Reference `chipPCR' on page 15 undefined on input line 441.
 
 
-LaTeX Warning: Reference `infaoptimisch' on page 15 undefined on input line 442
-.
-
-
-LaTeX Warning: Reference `chipPCR' on page 15 undefined on input line 442.
-
-
-LaTeX Warning: Reference `infaoptimisch' on page 15 undefined on input line 442
-.
+LaTeX Warning: Reference `tab:tabzehn' on page 15 undefined on input line 441.
 
 [15]
 File: Ergebnisse-neu-_files/figure-latex/infaoptimisch-1.pdf Graphic file (type
@@ -1277,19 +1272,22 @@ File: Ergebnisse-neu-_files/figure-latex/infaoptimisch-2.pdf Graphic file (type
  pdf)
 <use Ergebnisse-neu-_files/figure-latex/infaoptimisch-2.pdf>
 
+LaTeX Warning: Reference `sensitivitat' on page 16 undefined on input line 457.
+
+
+
+LaTeX Warning: Reference `chipPCR' on page 16 undefined on input line 457.
+
+
 LaTeX Warning: Reference `sensitivitat' on page 16 undefined on input line 458.
 
 
 
-LaTeX Warning: Reference `sensitivitat' on page 16 undefined on input line 459.
-
-
-
-LaTeX Warning: Reference `rtpcr' on page 16 undefined on input line 459.
+LaTeX Warning: Reference `rtpcr' on page 16 undefined on input line 458.
 
 
 LaTeX Warning: Reference `klinischeproben' on page 16 undefined on input line 4
-60.
+59.
 
 [16]
 File: Ergebnisse-neu-_files/figure-latex/infasensi-1.pdf Graphic file (type pdf
@@ -1309,33 +1307,32 @@ File: Ergebnisse-neu-_files/figure-latex/infasensi-5.pdf Graphic file (type pdf
 <use Ergebnisse-neu-_files/figure-latex/infasensi-5.pdf>
 [17] [18]
 
-LaTeX Warning: Reference `desing' on page 19 undefined on input line 478.
+LaTeX Warning: Reference `desing' on page 19 undefined on input line 477.
 
 
-LaTeX Warning: Reference `infasondenopti' on page 19 undefined on input line 47
-8.
+LaTeX Warning: Reference `tab:tabelf' on page 19 undefined on input line 477.
 
 File: Ergebnisse-neu-_files/figure-latex/infasondenopti-1.pdf Graphic file (typ
 e pdf)
 <use Ergebnisse-neu-_files/figure-latex/infasondenopti-1.pdf>
 
-LaTeX Warning: Reference `fig:probe' on page 19 undefined on input line 490.
+LaTeX Warning: Reference `fig:probe' on page 19 undefined on input line 489.
 
 
-LaTeX Warning: Reference `fig:probe' on page 19 undefined on input line 490.
+LaTeX Warning: Reference `fig:probe' on page 19 undefined on input line 489.
 
-[19] (Ergebnisse-neu-.aux)
+[19] [20] (Ergebnisse-neu-.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22331 strings out of 410527
- 410612 string characters out of 2816817
- 962238 words of memory out of 3000000
- 43173 multiletter control sequences out of 15000+600000
+ 22334 strings out of 410527
+ 410677 string characters out of 2816817
+ 964234 words of memory out of 3000000
+ 43176 multiletter control sequences out of 15000+600000
  472886 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,14n,121p,2789b,432s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,14n,121p,2925b,432s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Ergebnisse-neu-.pdf (19 pages).
+Output written on Ergebnisse-neu-.pdf (20 pages).

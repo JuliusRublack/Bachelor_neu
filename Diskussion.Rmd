@@ -21,7 +21,104 @@ header-includes:
   
 ---
 
+
+```{r setup657657, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+\pagebreak
+
 # Diskussion
+
+Influenza Viren sind eine der beudeutensten viralen Atemwegs-Infektionserkrankungen mit mehr als 300.000 jährlichen Todesfällen weltweit. Die Antivirale Therapie unterliegt einer starken Zeitanhängigkeit und muss spezifisch für die verschiedenen Subtypen angepasst werden, was eine frühzeitige Detektion für den Behandlungserfolg unerlässlich macht.   
+Ziel der Arbeit ist es jeweils ein RT-RPA Nachweissystem zur Detektion der Influenza A und B Viren für die Point-of-care Diagnostik zu Entwickeln und dieses zu Optimieren. Zusätzlich sollte der Einfluss einer Primerasymmetrie und verschiedener Sondenmodifikationen auf die RT-RPA untersucht werden.   
+Es konnten RT-RPA's für die Detektions der Influenza A und B Viren entwickelt werden, wobei die Influenza B RT-RPA als Pan-Influenza B Nachweis dient und die Influenza A RT-RPA die Subtypen H1N1 und H3N2 Detektieren kann. Des Weiteren konnte ein positiver Effekt einer Primerasymmetrie auf die RPA festgestellt werden, welcher jedoch im Zusammenhang mit der Hybridisierungsposition der Sonde steht. Ebenfalls konnte anhand der Influenza A RT-RPA ein Einfluss des Sondendesings hinsichtlich _dt-Quenched_ und _internally Quenched_ festgestellt werden, wobei die _dt-Quenched_ Sonde zu einer erhöhten Sensitivität im Vergleich zu der _internally Quenched_ Sonde führt.
+
+## Design der Primer und deren Einfluss auf die RT-RPA
+
+Bei der Wahl des Amplifikationbereiches für die Influenza B RT-RPA wurde sich für das Genomsegment 8 entschieden. Dabei wurde sich an der Literaur von RT-PCR Systemen orientiert [@Goffard2008; @NCIRD2021]. Da bei Influenza B im gegensatz zu Influenza A eine geringere Mutationsrate vorliegt und zusätzlich keine großen Antigenen veränderungen der Oberflächenproteine beobachtet wurden [@Chen2008; @Paterson2003] konnten wie in Kapitel \@ref(desing) angegeben keine Differenzen zwischen verschiedenen Stämmen in dem entsprechenden Genomsegemnt festegstellt werden. Dementsprechend kann davon ausgegangen werden, dass der gewählte Amplifikationsbereich geeignet ist alle Viruslinen zu Detektieren. \textcolor{red}{Dieses wird durch @Nakauchi2014 bestätigt, welcher für die Differenzierung von der Victoria- und Yamagata-Linie das HA-Protein auf dem Genomsegment 4 verwendet [@Nakauchi2014].}  
+Als Amplifikationsbereich für die Influenza A RT-RPA wurde das M1-Gen auf dem Genomsegment 7 gewählt, da es durch seine Funktion das am stärksten Konservierte Gen ist [@McCauley1983]. Zusätzlich wurde sich an der Literatur für RT-PCR Systeme orientiert welche ebenfalls das M1-Gen zur Detektion Amplifizieren [@Daum2007; @Suwannakarn2008; @NCIRD2021]. Trotz der konserviertheit des Gens besitzt das Alingment zwischen den Subtypen H1N1 und H3N2 etliche Basenfehlpaarungen, wobei die größte Homologie im Bereich zwischen 10 bp und 250 bp zu beobachten ist (siehe Abbildung \@ref(fig:infAalign)). Aus diesem Grund befinden sich alle vom PrimedRPA designten und von @Ehnts2013 entwickelten Primer (siehe Tabelle \@ref(tab:infaoligo)) in diesem Bereich.
+
+(ref:alingmentinfa) **Alignment zwischen den Influenza A H1N1- und H3N2-Subtyp:** Aligntment des Genomsegmentes 7 zwischen dem H1N1-Subtyp und dem H3N2-Subtyp. Der unterste Balken gibt die Sequenzlänge in bp an. Die roten Striche stehen für Basenfehlpaarungen zwischen den beiden Genomsegmenten. Der orange markierte Bereich gibt den Sequenzabschnitt mit der größten Homologie an. 
+
+```{r infAalign, fig.align='center', fig.cap= "(ref:alingmentinfa)", out.width= "100%", fig.scap= "Alignment zwischen den Influenza A H1N1- und H3N2-Subtyp:"}
+
+knitr::include_graphics("Bilder/Alingment infA.PNG")
+
+```
+
+Um die Basenfehlpaarungen Auszugleichen wurden wie in Kapitel \@ref(desing) degenertierte Basen in den Primern und Sonden eingeführt, welche die Hybridisierung erleichtern und somit die Amplifikation verbessern [@Linhart2005]. Einen anderen Ansatz verfolgte @Liang2022, welcher zur Detektion der beiden Subtypen innerhalb einer RT-RPA zwei verschiedene Genomsegmente wählte [@Liang2022]. Dies hat jedoch den Nachteil, dass @Liang2022 zwei getrennte Reaktionen zum Nachweis der Influenza Viren benötig, während während die in dieser Arbeit entwickelte Influenza A RT-RPA nur eine Reaktion für ein aussagekräftges Ergebniss erfordert.
+
+\pagebreak
+
+Wie in Abbidung \@ref(fig:infAsadsensi) zu erkennen ist, sind die vom PrimedRPA Programm designten Primer für das Influenza A Virus aufgrund ihrer niedrigen Fluoreszenz und ihres späten Ansteigs unfunktionell. Betrachtet man hingegen das Primerscreening für die Influenza B RT-RPA (siehe Abbildung \@ref(fig:infbscreening)) zeigen alle entwickelten Primer-Sonden-Kombination eine Amplifikation und sind theoretisch funktionell. Somit ist eine deutliche Differenz hinsichtlich der Funktionalität des PrimedRPA Programms für die Entwicklung von Primer-Sonden-Kombinationen zu beobachten. Dies könnte an den verwendeten Sequenzvorlagen liegen, da bei Influenza A im Gegensatz zu Influenza B zwei nicht vollständig Homologe Sequenzen als Vorlage verwendet wurden. Dies führte dazu, dass die entwickelten Primer und Sonden bis zu 3 Basenfehlpaarungen je nach Subtyp aufwiesen. Jedoch konnte in der Literatur gezeigt werden, dass bis zu 6 Fehlpaarungen in den Primer die RPA nicht unfunktionell werden lassen [@Boyle2013]. Des Weiteren wurde durch @Higgins2022 und @Daher2015 gezeigt, dass vorallem Missmatches am 3' und 5'-Ende des Primers die RPA inhibieren, welche nur bei dem Forward 1 Primer auftrat und durch eine degenerierte Base teilweise vermieden wurde [@Higgins2022; @Daher2015]. Interessanterweise besitzt das von @Ehnts2013 am 3'-Ende eine Basenfehlpaarung, welche ebenfalls durch eine degenerierte Base augeglichen wurde. Jedoch besitzt diese Primer-Sonden-Kombination von allen getestet Kombinationen die biste Amplifikation. Durch die alternativen forward Primer (E.2 und E.3) wurde probiert diese Fehlpaarung zu gänzlich zu vermeiden, jedoch liegt die Amplifikation nahezu gleich bzw. leicht hinter den von @Ehnts2013 entwickelten Primern und Sonde. Dies Spricht gegen die Beobachtungen @Higgins2022 und @Daher2015 jedoch wurden in den beiden Studien nur Fehlpaarungen in den Primer untersucht [@Higgins2022; @Daher2015]. @Liu2019 konnte zeigen, dass Missmatches in der Sonde zu einer vollständigen Inhibierung und sogar zu falsch positiven Amplifikationen der RPA führen können [@Liu2019]. Das könnte eine Erklärung zur großen Diskreptanz, zwischen dem von @Ehnts2013 entickelten RPA-System und dem mit PrimedRPA designten Primer-Sonden-Kombinationen sein. Eventuell führt die Verteilung der Basenfehlpaarungen in den PrimedRPA-Sonden zu einer unfunktionellen RT-RPA während die von @Ehnts2013 entworfene Sonde nur bedingt inhibierende Fehlpaarungen aufweist. Des Weiteren ist bei dem Primerscreening der Influenza B RT-RPA (siehe Abbildung \@ref(fig:infbscreening)) am Beispiel der beiden getesteten Sonden zu Erkennen, dass nicht nur Basenfehlpaarungen sondern auch andere Einflüsse zu unterschiedlicher RPA-Performance führen. So kann Einerseits die Hybridisierungsposition der Sonde im gleichen Amplifikationsbereich zu einer signifikanten veränderung der Amplifikation führen [@Liu2019]. Anderersiets kann die zu detektierende RNA, duch Bildung von Sekundärstrukturen die Amplifikation behindern [@Saisuk2019]. So konnte Beispielweise @Wei2003 innerhalb einer PCR zeigen, dass eine RNA-sekundärstruktur trotz der hohen Temperaturen in der PCR die Amplifikation inhibierte [@Wei2003].   
+Betrachtet man die Hybridisierungsposition der für die Influenza A RT-RPA entwickelten Primer und Sonden liegen diese am Anfang der der Genomsequenz bei ~50 bp bis ~ 200 bp (siehe Tabelle \@ref(tab:infaoligo)). Wie in Kapitel \@ref(InfAeinleitung) erwähnt sind die jeweiligen Enden eines Genomsegmentes komplimentär zueinander und bilden im Virion eine Loop-Struktur aus [@Modrow2010]. Somit kann diese Loop-Strukur _in vitro_ eventuell die Amplifikation der Influenza A RT-RPA inhibieren, da der Amplifikationsbereich am Anfang der Genomseqeunz liegt. Damit lässt sich der Unterschied zwischen der Influenza A RT-RPA und der Influenza B RT-RPA erklären, da bei der Influenza B RT-RPA der Amplifikationsbereich mittig in der Genomsequenz zwischen ~650 bp und ~730 bp liegt und ist somit von der Loop-Struktur nicht beeinflusst wird.
+
+Ausblick Primerdesign
+    -> missmatches durch H1N1 und H3N2 (evtl. anderes Target diskutieren, polymerase oder so)  
+    -> alternativen diskutieren (gleiche sonde aber 2 Primer paare, wie die PCR das gemacht hat)  
+    
+ 
+
+## Vorteile der low-Volume RPA hinsichtlich Mischzeitpunkt und Sensitivität
+
+Wie in \@ref(rpa) erwähnt kommt es während der RPA durch geringe Thermische Konfektion und durch den crowding Agent erschwerte Diffusion zu lokaler Reagenzien-Knappheit. Um dem entgegen zu wirken, wird eine zusätzlcihen Mischschritt während der Reaktion durchgeführt, welcher zu einet erneuten homogenisierung der Reaktion führt [@Lillis2016]. @Lillis2016 konnte jedoch zeigen, dass eine Reduktion des Reaktionsvolumens auf 5 µl die Notwendigkeit des zusätzlichen Mischschrittes minimiert [@Lillis2016]. Wie in \@ref(infboptimierung) gezeigt, konnte ein ähnliches Verhalten mit der low-Volume RPA anhand der Influenza B RT-RPA beobachtet werden. Hier wurde das Reaktionvolumen auf 6,5 µl angepasst was einem leicht höheren Volumen als dem von @Lillis2016 entspricht. Jedoch stellt sich im Vergleich zwischen den Mischzeiten des 50 µl Ansatzes und der low-volume RPA heraus, dass der Mischschritt bei der low-volume RPA erst einen deutlichen Einfluss bei 10^1^ RNA-Kopien auswirkt (siehe Abbildung \@ref(fig:infboptimisch)) und die maximale Fluoreszenz und die Anzahl der positiven Amplifikationen deutlich verbessert. Im 50 µl Ansatz hingegen kann schon eine deutliche Verbesserung der Fluoreszenz und eine große Verbesserung des TT-Wertes bei 10^4^ RNA-Kopien beobachtet werden. Diese Beobachtung stimmen mit den von @Lillis2016 überein. Eine mögliche Begründung liegt darin, dass einerseits durch das verringerte Volumen ein größeres Verhältnis zwischen hinzugefügter Probe und Reaktionsmix besteht und dadurch eine bessere Difussion stattfindet. Andererseits führt das geringere Volumen zu einem größeren Oberflächen-Volumen Verhältnis, welches zu einer besseren Wärmeübertragung und dementsprechend einer stärkeren Konvektion führt [@Boeckh2017].  
+Des Weiteren konnte anahnd der Influezna B RT-RPA beobachtet werden, dass eine Reduktion des Reaktionsvolumens zu einer deutlichen Sensitivitätserhöhung von über 50 % führt. Der gleiche Effekt konnte, wenn auch nicht so stark konnte ebenfalls durch @Lillis2016 nachgewiesen werden. Ob es sich hierbei um eine signifikante Änderung handelt muss in einer weiteren Versuchsreihe bestätigt werden, da das Detektionslimit in dieser Arbeit für den 50 µl Ansatz nur in Dreifachbestimmung durchgeführt wurde. Dieses Phänomen der Sensivitätsverbesserung lässt sich ebenfalls durch das erhöhte Verhältnis zwischen eingesetzter Probe und RPA-Reaktion und der erhöhten Konvekton erklären.    
+Zusätzlich bietet die low-volume RPA den Vorteil der Kostenreduzierung, da aus einer kommerziell erhätlichen Reaktion acht Tests durchgeführt werden können (siehe \@ref(8telRPA)). Dies macht die low-volume RPA gerade für ressourcen limitierte Umgebungen attraktiv, da sie geringe Kosten pro Test zusammen mit einfacher Handhanbung, durch die gesteigerte Unabhänigkeit des Mischschrittes, hoher Sensitivität sowie robusten Reagenzien [@Lillis2016] kombiniert [@Jiang2021].  
+Durch das verringerte Reaktionsvolumen von 6,5 µl eignet sich die low-Volume RPA für den Einsatz in der Mikrofluidik, wo sie mit 3D-gedruckten Detektionschips kombiniert werden kann [@Behrmann2020b]. Dadurch erweitern sich ihre Applikationmöglichkeiten in der POCT und Testsysteme können verinfacht um verbessert werden [@Behrmann2020].  
+Es konnte beobachtet werden, dass große Mengen an DNA die RPA inhibieren [@Li2019; @Rohrman2015], diese Inhibierung ist jedoch Konzentrationsabhänig [@Clancy2015]. Dies könnte die low-volume RPA einschränken, da durch das erhöhte Proben/RPA-Verhältnis auch die Konzentration von humaner hintergrund DNA steigt und somit die RPA inhibiert. Zusätzlich konnten die postivien Effekte der low-Volume RPA nur anhand der Influenza A RT-RPA beobachtet werden. Eine adaption an die low volume RPA für die Influenza A RT-RPA konnte durch die höheren TT-Werte und linearen Amplifikationsverlauf, welcher auf eine schlechte Kinetik deutet, da keine exponentielle Amplifikation mehr vorliegt, nicht erreicht werden. Dementsprechend lässt sich sagen, dass die low-volume RPA nicht für alle RPA-Assays adaptierbar ist und somit die Applikation eingeschränkt wird. Des Weiteren wurde eine Verringerung des Reaktionsvolumens nur bei RNA-Viren beschrieben [@Lillis2016], wodurch eine Adaption auf DNA basierte Amplifikationen noch unklar ist.
+
+ \textcolor{red}{noch mal nen Abschluss satz schreiben ob jetzt low-volume Toll oder nicht ist oder das lieber in der Zusammfassung/Ausblick}
+
+
+@Shen2011 slipChip --> digitale RPA = single nucleotide Detection
+ 
+## Diskussion Sensitivitäten
+
+Wie in Kapitel \@ref(infbsense) beschrieben liegt das Detektionslimit der optimierten low-Volume RT-RPA für den Influenza B Virus bei 14,6 RNA-Kopien. Im Vergleich zu der getesteten RT-PCR von @NCIRD2021 konnte eine Differenz von nur 3 Kopien festgestellt werden. Allerdings befinden sich hier die Sensitivitätsmessungen bei beiden Systemen im Bereich von 2*10^0^ RNA-Kopien. In diesen Sensitivitätsbereich spiel einerseits die zufällige Diffusion eine Rolle und bestimmt ob die einzlenen Reaktionskomponeten miteinander Interagieren. Andererseits minimale Ungenauigkeiten bei der Verdünnung der RNA-standards, welche dazuführen, dass keine Nachweisbaren RNA-Kopien . Dies lässt sich in Abbildung \@ref(fig:...) beobachten. Hier zeigt eine Amplifikation, bei welcher durch zufällige Diffusion die Reaktionskomponenten miteinander interagieren konnten, einen deutlichen Anstieg, während alle anderen Amplifikationen gar keine Signalveränderung aufweisen. Bei dem Vergleich der optimierten 
+
+
+ --> Methode diskutieren
+
+## Diskussion Asymmetrie
+
+
+## Diskussion Sondeneinfluss
+
+
+
+  
+## Diskussion ditch
+Temperatur und Ditching  
+  
+@Gloekler2021 --> RPA als vorherrschende und beste Methode, da sie viel kombiniert (großer Vergleich mit anderen isothermen Amplifikationen)
+@Lutz2010 ditch erstmals erwähnt
+@Faye2021 dt Probe design
+ 
+ 
+    
+* Primer design  
+  + Influenza B (gibt nicht viel zu diskutieren, hat super geklappt)  
+    -> warum gewähltes target
+  + Influenza A (warum hat es nicht geklappt)  
+    -> genomstruktur (macht sone schleife, mal in eigenhybridisierungs ding hauen  ) 
+
+* Optimierungen (warum wurden die Parameter so gewählt)
+  + Influenza A
+  + Influenza B
+    --> lab on Chip mit 8tel Ansatz
+  + wie wichtig ist Mischen am Beispiel in InfB
+
+* Sensitivitätsanalysen
+  + Vergleich mit PCR
+  + Vergleich 50µl und 8tel-Ansatz
+    -> welche Vorteile hat 8tel-Ansatz
+  + Sensitivität im Klinischen Background reicht das für klinische Proben
+  
+* Spezifität 
+
+
 
 * R-Programm
   + unterschiede zwischen RPA und PCR  
@@ -36,27 +133,7 @@ header-includes:
   + mögliche Lösungen   
     -> algorhytmus für ditching  
     -> normalverteilung anpassen  
-    -> threshold diskutieren    
-* Primer design  
-  + Influenza B (gibt nicht viel zu diskutieren, hat super geklappt)  
-    -> warum gewähltes target
-  + Influenza A (warum hat es nicht geklappt)  
-    -> genomstruktur (macht sone schleife, mal in eigenhybridisierungs ding hauen  ) 
-    -> missmatches durch H1N1 und H3N2 (evtl. anderes Target diskutieren, polymerase oder so)  
-    -> alternativen diskutieren (gleiche sonde aber 2 Primer paare, wie die PCR das gemacht hat)  
-
-* Optimierungen (warum wurden die Parameter so gewählt)
-  + Influenza A
-  + Influenza B
-  + wie wichtig ist Mischen am Beispiel in InfB
-
-* Sensitivitätsanalysen
-  + Vergleich mit PCR
-  + Vergleich 50µl und 8tel-Ansatz
-    -> welche Vorteile hat 8tel-Ansatz
-  + Sensitivität im Klinischen Background reicht das für klinische Proben
-  
-* Spezifität 
+    -> threshold diskutieren 
 
  \pagebreak
 

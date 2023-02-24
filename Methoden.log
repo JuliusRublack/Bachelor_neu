@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  9 FEB 2023 11:35
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  20 FEB 2023 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,11 +1014,14 @@ LaTeX Warning: Reference `fig:plasmidA214' on page 8 undefined on input line 31
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `tab:infboligo' on page 10 undefined on input line 427
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:infboligo' on page 10 undefined on input line 431
 .
 
 [10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 2205) in paragraph at lines 628--630
+Underfull \hbox (badness 2205) in paragraph at lines 630--632
 []\TU/lmr/m/n/10 QIAGEN. 2021. “QIAGEN® PlasmidPurification Handbook.” \TU/lmr/
 m/it/10 QIAGEN Plasmid Mini, Midi, Ma-
  []
@@ -1031,7 +1034,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  22060 strings out of 410527
  395462 string characters out of 2816817
- 978092 words of memory out of 3000000
+ 978095 words of memory out of 3000000
  42917 multiletter control sequences out of 15000+600000
  474847 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
