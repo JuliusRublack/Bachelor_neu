@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  24 FEB 2023 08:28
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  6 MAR 2023 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1063,6 +1063,13 @@ LaTeX Warning: Reference `optimischen' on page 5 undefined on input line 242.
 
 LaTeX Warning: Reference `tab:tabsechs' on page 5 undefined on input line 242.
 
+
+LaTeX Warning: Reference `fig:infBmischi50' on page 5 undefined on input line 2
+44.
+
+
+LaTeX Warning: Reference `tab:' on page 5 undefined on input line 244.
+
 [5]
 File: Ergebnisse-neu-_files/figure-latex/infboptimisch-1.pdf Graphic file (type
  pdf)
@@ -1073,6 +1080,9 @@ File: Ergebnisse-neu-_files/figure-latex/infboptimisch-2.pdf Graphic file (type
 File: Ergebnisse-neu-_files/figure-latex/infboptimisch-3.pdf Graphic file (type
  pdf)
 <use Ergebnisse-neu-_files/figure-latex/infboptimisch-3.pdf>
+File: Ergebnisse-neu-_files/figure-latex/infboptimisch-4.pdf Graphic file (type
+ pdf)
+<use Ergebnisse-neu-_files/figure-latex/infboptimisch-4.pdf>
 
 LaTeX Warning: Reference `assymetrie' on page 6 undefined on input line 262.
 
@@ -1272,22 +1282,18 @@ File: Ergebnisse-neu-_files/figure-latex/infaoptimisch-2.pdf Graphic file (type
  pdf)
 <use Ergebnisse-neu-_files/figure-latex/infaoptimisch-2.pdf>
 
-LaTeX Warning: Reference `sensitivitat' on page 16 undefined on input line 457.
+LaTeX Warning: Reference `sensitivitat' on page 16 undefined on input line 459.
 
 
 
-LaTeX Warning: Reference `chipPCR' on page 16 undefined on input line 457.
+LaTeX Warning: Reference `chipPCR' on page 16 undefined on input line 459.
 
 
-LaTeX Warning: Reference `sensitivitat' on page 16 undefined on input line 458.
+LaTeX Warning: Reference `sensitivitat' on page 16 undefined on input line 460.
 
 
 
-LaTeX Warning: Reference `rtpcr' on page 16 undefined on input line 458.
-
-
-LaTeX Warning: Reference `klinischeproben' on page 16 undefined on input line 4
-59.
+LaTeX Warning: Reference `rtpcr' on page 16 undefined on input line 460.
 
 [16]
 File: Ergebnisse-neu-_files/figure-latex/infasensi-1.pdf Graphic file (type pdf
@@ -1307,32 +1313,41 @@ File: Ergebnisse-neu-_files/figure-latex/infasensi-5.pdf Graphic file (type pdf
 <use Ergebnisse-neu-_files/figure-latex/infasensi-5.pdf>
 [17] [18]
 
-LaTeX Warning: Reference `desing' on page 19 undefined on input line 477.
+LaTeX Warning: Reference `desing' on page 19 undefined on input line 478.
 
 
-LaTeX Warning: Reference `tab:tabelf' on page 19 undefined on input line 477.
+LaTeX Warning: Reference `tab:tabelf' on page 19 undefined on input line 478.
 
 File: Ergebnisse-neu-_files/figure-latex/infasondenopti-1.pdf Graphic file (typ
 e pdf)
 <use Ergebnisse-neu-_files/figure-latex/infasondenopti-1.pdf>
 
-LaTeX Warning: Reference `fig:probe' on page 19 undefined on input line 489.
+LaTeX Warning: Reference `fig:probe' on page 19 undefined on input line 490.
 
 
-LaTeX Warning: Reference `fig:probe' on page 19 undefined on input line 489.
+LaTeX Warning: Reference `fig:probe' on page 19 undefined on input line 490.
 
-[19] [20] (Ergebnisse-neu-.aux)
+
+LaTeX Warning: Reference `klinischeproben' on page 19 undefined on input line 4
+93.
+
+[19]
+Overfull \hbox (12.66498pt too wide) in paragraph at lines 501--511
+ [][] 
+ []
+
+[20] [21] (Ergebnisse-neu-.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22334 strings out of 410527
- 410677 string characters out of 2816817
- 964234 words of memory out of 3000000
- 43176 multiletter control sequences out of 15000+600000
+ 22347 strings out of 410527
+ 411278 string characters out of 2816817
+ 965323 words of memory out of 3000000
+ 43188 multiletter control sequences out of 15000+600000
  472886 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,14n,121p,2925b,432s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,14n,121p,2926b,428s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Ergebnisse-neu-.pdf (20 pages).
+Output written on Ergebnisse-neu-.pdf (21 pages).

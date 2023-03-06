@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  20 FEB 2023 13:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  6 MAR 2023 08:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -994,7 +994,7 @@ LaTeX Warning: Reference `fig:plasmidA214' on page 6 undefined on input line 26
 LaTeX Warning: Reference `fig:plasmidB' on page 8 undefined on input line 305.
 
 
-LaTeX Warning: Reference `fig:plasmidA258' on page 8 undefined on input line 30
+LaTeX Warning: Reference `fig:plasmidA937' on page 8 undefined on input line 30
 6.
 
 
@@ -1002,14 +1002,18 @@ LaTeX Warning: Reference `fig:plasmidA214' on page 8 undefined on input line 30
 6.
 
 
-LaTeX Warning: Reference `fig:plasmidA258' on page 8 undefined on input line 31
-6.
+LaTeX Warning: Reference `fig:plasmidB' on page 8 undefined on input line 316.
 
 
 LaTeX Warning: Reference `fig:plasmidA214' on page 8 undefined on input line 31
 6.
 
-[8] [9]
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+[]\TU/lmr/bx/n/12 Erstellung von RNA-Kontrollproben mit humanem Nukleinsäure-
+ []
+
+[9]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1021,7 +1025,7 @@ LaTeX Warning: Reference `tab:infboligo' on page 10 undefined on input line 431
 .
 
 [10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 2205) in paragraph at lines 630--632
+Underfull \hbox (badness 2205) in paragraph at lines 631--633
 []\TU/lmr/m/n/10 QIAGEN. 2021. “QIAGEN® PlasmidPurification Handbook.” \TU/lmr/
 m/it/10 QIAGEN Plasmid Mini, Midi, Ma-
  []
@@ -1034,7 +1038,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  22060 strings out of 410527
  395462 string characters out of 2816817
- 978095 words of memory out of 3000000
+ 978104 words of memory out of 3000000
  42917 multiletter control sequences out of 15000+600000
  474847 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

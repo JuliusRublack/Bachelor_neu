@@ -32,14 +32,34 @@ library(ggplot2)
 library(mdthemes)
 ```
 
-\pagenumbering{arabic}
+\pagenumbering{gobble}
 
 ```{r, child='Deckblatt.Rmd'}
 ```
 
 \pagebreak
 
+\pagenumbering{Roman}
 
+# Abstract {-}
+
+Influenza, caused by influenza viruses, is one of the most important viral diseases with more than 300,000 deaths annually. Rapid, robust and cost-effective detection is critical for successful treatment and infection control. Using a mobile case laboratory and RPA as a detection technique, the aim is to efficiently detect viral infections in a decentrialized manner. The aim of this work is the development of an RT-RPA for the detection of all influenza B viruses and the influenza A subtypes H1N1 and H3N2 and its optimisation for use in the mobile case laboratory.  
+Artificial viral RNA was used to test the suitability of primer-probe combinations developed for the RT-RPA. Suitable primer-probe combinations were optimised in terms of mixing time, reaction temperature and primer concentration. In addition, a reduction of the reaction volume was tested in order to optimise the RT-RPA for microfluidic applications in the mobile case laboratory. The optimised RT-RPAs were tested for sensitivity and specificity and compared with gold standard PCR systems. Furthermore, the influence of different probe modifications on the RT-RPA was investigated.  
+RT-RPAs were developed to detect Influenza B and Influenza A viruses. The Influenza B RT-RPA has been optimised as a low volume RPA (6.5 µl) with a 95% detection limit of 14.6 RNA copies. The Influenza A RT-RPA shows a detection limit of 147.5 RNA copies for both subtypes. However, the reaction volume could not be reduced. With the Influenza B RT-RPA, it was shown that low-volume RPA leads to independence of the mixing step, but significantly loses sensitivity in a human DNA and RNA background. It has also been shown that asymmetric primer distribution leads to a higher fluorescence signal, which is related to the hybridisation position of the probe. The influence of different probe modifications in terms of quencher coupling has also been demonstrated.    
+The Influenza A RT-RPA is able to detect positive patient samples, whereas the low-volume Influenza B RT-RPA is only able to detect patient samples with a higher concentration due to the loss of sensitivity. It can be concluded that the low-volume RT-RPA, in spite of its advantages, is of limited use and needs to be further optimised in terms of sensitivity.
+
+
+\pagebreak
+
+# Zusammenfassung {-}
+
+Die Grippe verursacht durch Influenza-Viren ist eine der bedeutendsten viralen Infektionserkrankungen mit mehr als 300.000 jährlichen Todesfällen. Dabei ist eine schnelle, robuste und kostengünstige Detektion entscheidend für Behandlungserfolg und Infektionsbekämpfung. Mithilfe eines mobilen Kofferlabors und der RPA als Nachweismethode sollen effizient virale Infektionserkrankungen dezentral detektiert werden. Ziel der Arbeit ist es eine RT-RPA zum Nachweis aller Influenza B Viren und der Influenza A Subtypen H1N1 und H3N2 zu Entwickeln und diese für den Einsatz im Kofferlabor zu Optimieren.  
+Mithilfe artifizieller Virus-RNA wurden entwickelte Primer-Sonden-Kombinationen auf Eignung hinsichtlich der RT-RPA geprüft und jeweils eine geeignete Primer-Sonden-Kombination in den Reaktionsparametern Mischzeitpunkt, Reaktionstemperatur und Primer-Konzentration optimiert. Zusätzlich wurde eine Verringerung des Reaktionsvolumens getestet, um die RT-RPA für mikrofluidische Anwendungen innerhalb des Kofferlabors zu optimieren. Die optimierten RT-RPA's wurde auf Sensitivität und Spezifität getestet und mit goldstandard PCR-Systemen verglichen. Des Weiteren wurde Einfluss verschiedener Sondenmodifikationen auf die RT-RPA untersucht.  
+Es konnten jeweils eine RT-RPA zur Detektion der Influenza B Viren und der Influenza A Viren entwickelt werden. Dabei weist die Influenza B RT-RPA ein 95 %-iges Detektionslimit von 14,6 RNA-Kopien auf und konnte für den niedrigvolumen Bereich (6,5 µl) als low-volume RPA optimiert werden. Die Influenza A RT-RPA besitzt für beide Subtypen ein Detektionslimit von 147,5 RNA-Kopien konnte aber nicht im Reaktionsvolumen verringert werden. Es konnte anhand der Influenza B RT-RPA gezeigt werden, dass die low-volume RPA zu einer Unabhängigkeit des Mischschrittes führt, jedoch innerhalb eines humanen DNA- und RNA-Hintergrunds deutlich an Sensitivität verliert. Des Weiteren konnte gezeigt werden, dass durch eine asymmetrische Primer-Verteilung zu einem höheren Fluoreszenzsignal führt und dies mit der Hybridisierungsposition der Sonde in Verbindung steht. Zusätzlich konnte ein Einfluss verschiedener Sondenmodifikation hinsichtlich Quencher-Kopplung nachgewiesen werden.  
+Die Influenza A RT-RPA ist in der Lage positive Patientenproben zu Detektieren, während die low-volume Influenza B RT-RPA durch den Sensitivitätsverlust nur höher konzentrierte Patientenproben detektieren kann. Daraus lässt sich schließen, dass low-volume RT-RPA trotz der Vorteile nur bedingt einsetzbar ist und diese Methode hinsichtlich Sensitivität weiter optimiert werden muss.
+
+
+\pagebreak
 
 \hypersetup{linkcolor=black}
 \tableofcontents
@@ -54,7 +74,7 @@ library(mdthemes)
 
 \pagebreak
 
-# Abkürzungsverzeichnis
+# Abkürzungsverzeichnis {-}
 
 ```{r abkürzungsverzeichnis, message = FALSE, warning=FALSE}
 Abkz <- read.csv2("Abkürzungsverzeichnis.csv", header = FALSE, fileEncoding="latin1")
@@ -71,9 +91,11 @@ kable(Abkz, booktabs = TRUE, col.names = NULL, longtable = T) %>%
 
 \hypersetup{linkcolor=RoyalBlue}
 
+\pagenumbering{arabic}
 
 
 ```{r, child=c('Einleitung.Rmd', 'Methoden.Rmd', "Ergebnisse(neu).Rmd", "Diskussion.Rmd")}
+
 ```
 
 \pagebreak
@@ -86,4 +108,4 @@ kable(Abkz, booktabs = TRUE, col.names = NULL, longtable = T) %>%
 
 
 
-# Literaturverzeichniss
+# Literaturverzeichniss 

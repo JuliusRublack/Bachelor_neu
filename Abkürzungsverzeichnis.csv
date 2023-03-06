@@ -54,3 +54,8 @@ TRIS;Tris(hydroxymethyl)aminomethan
 TT-Wert;threshold time-Wert
 U;unit
 vRNP;viral ribonucleoprotein
+A;Adenin
+T;Thymin
+C;Cytosin
+G;Guanin
+etc;und so weiter (lat. et cetera)

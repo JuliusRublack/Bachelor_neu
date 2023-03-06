@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  24 FEB 2023 13:46
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  6 MAR 2023 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -926,129 +926,143 @@ ern Roman (RS)
 Package hyperref Info: Link coloring ON on input line 120.
 [1
 
-] (Gesamt.toc
+] [1] [2] (Gesamt.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 4.
+(Font)              scaled to size 7.0pt on input line 6.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 4.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+(Font)              scaled to size 5.0pt on input line 6.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
 .
 (D:\Julius\Programme\MikTex\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 4.
+(Font)              scaled to size 10.00092pt on input line 6.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 4.
+(Font)              scaled to size 7.00064pt on input line 6.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 4.
+(Font)              scaled to size 5.00046pt on input line 6.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 4.
+(Font)              scaled to size 9.99893pt on input line 6.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 4.
+(Font)              scaled to size 6.99925pt on input line 6.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 4.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+(Font)              scaled to size 4.99947pt on input line 6.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
 (D:\Julius\Programme\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (D:\Julius\Programme\MikTex\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 (D:\Julius\Programme\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (D:\Julius\Programme\MikTex\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [2])
+) [3])
 \tf@toc=\write3
 \openout3 = `Gesamt.toc'.
 
-[3] (Gesamt.lof)
+[4] (Gesamt.lof)
 \tf@lof=\write4
 \openout4 = `Gesamt.lof'.
 
-[4] (Gesamt.lot)
+[5] (Gesamt.lot)
 \tf@lot=\write5
 \openout5 = `Gesamt.lot'.
 
-[5] [6] [7]
+[6] [7] [8]
 File: Bilder/Virus Beispielbild.png Graphic file (type bmp)
 <Bilder/Virus Beispielbild.png>
-[8] [9]
+[1] [2]
 File: Bilder/infA_Virus.png Graphic file (type bmp)
 <Bilder/infA_Virus.png>
-[10] [11] [12] [13]
+[3]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4] [5] [6]
 File: Bilder/PCR.png Graphic file (type bmp)
 <Bilder/PCR.png>
 Missing character: There is no ≈ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ≈ in font [lmroman10-regular]:mapping=tex-text;!
-[14] [15]
+[7] [8]
 File: Bilder/LAMP_struktur.png Graphic file (type bmp)
 <Bilder/LAMP_struktur.png>
-[16]
+[9]
 File: Bilder/N.png Graphic file (type bmp)
 <Bilder/N.png>
-[17]
+[10]
 File: Bilder/RPA-Reaktion.png Graphic file (type bmp)
 <Bilder/RPA-Reaktion.png>
-[18] [19] [20]
+[11] [12] [13]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 519.
+(Font)              scaled to size 8.0pt on input line 552.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 519.
+(Font)              scaled to size 6.0pt on input line 552.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 519.
+(Font)              scaled to size 8.00073pt on input line 552.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 519.
+(Font)              scaled to size 6.00055pt on input line 552.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 519.
+(Font)              scaled to size 7.99915pt on input line 552.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 519.
-[21]
+(Font)              scaled to size 5.99936pt on input line 552.
+[14]
 File: Bilder/probes.png Graphic file (type bmp)
 <Bilder/probes.png>
-[22] [23] [24] [25] [26] [27] [28]
+[15] [16] [17] [18] [19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 716--716
+[]\TU/lmr/bx/n/12 Erstellung von RNA-Kontrollproben mit humanem Nukleinsäure-
+ []
+
+[21]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29] [30] [31] [32] [33]
+[22] [23] [24] [25] [26]
 File: Bilder/infB_verdau_t_t.png Graphic file (type bmp)
 <Bilder/infB_verdau_t_t.png>
 File: Gesamt_files/figure-latex/infBverdau-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infBverdau-2.pdf>
-[34]
+[27]
 File: Gesamt_files/figure-latex/infbscreening-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbscreening-1.pdf>
 
-Underfull \hbox (badness 3579) in paragraph at lines 961--961
+Underfull \hbox (badness 3579) in paragraph at lines 994--994
 []\TU/lmr/m/n/10 Abbildung 9: []\TU/lmr/bx/n/10 Primerscreening der entwickelte
 n Influenza B RT-RPA Primer-Sonden-
  []
 
-[35]
+[28]
 File: Gesamt_files/figure-latex/infBetabl-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infBetabl-1.pdf>
-[36] [37]
+[29] [30]
 File: Gesamt_files/figure-latex/infbopti-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbopti-1.pdf>
 File: Gesamt_files/figure-latex/infbopti-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbopti-2.pdf>
-[38]
+
+LaTeX Warning: Reference `tab:' on page 31 undefined on input line 1043.
+
+[31]
 File: Gesamt_files/figure-latex/infboptimisch-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infboptimisch-1.pdf>
 File: Gesamt_files/figure-latex/infboptimisch-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infboptimisch-2.pdf>
 File: Gesamt_files/figure-latex/infboptimisch-3.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infboptimisch-3.pdf>
-[39] [40]
+File: Gesamt_files/figure-latex/infboptimisch-4.pdf Graphic file (type pdf)
+<use Gesamt_files/figure-latex/infboptimisch-4.pdf>
+[32] [33]
 File: Gesamt_files/figure-latex/assymetriy-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/assymetriy-1.pdf>
 File: Gesamt_files/figure-latex/assymetriy-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/assymetriy-2.pdf>
-[41]
+[34]
 File: Gesamt_files/figure-latex/infbsensi-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbsensi-1.pdf>
 File: Gesamt_files/figure-latex/infbsensi-2.pdf Graphic file (type pdf)
@@ -1061,34 +1075,34 @@ File: Gesamt_files/figure-latex/infbsensi-5.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbsensi-5.pdf>
 File: Gesamt_files/figure-latex/infbsensi-6.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbsensi-6.pdf>
-[42] [43]
+[35] [36]
 File: Bilder/infA_verdau.png Graphic file (type bmp)
 <Bilder/infA_verdau.png>
 File: Gesamt_files/figure-latex/infAverdau-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infAverdau-2.pdf>
-[44] [45]
+[37] [38]
 File: Gesamt_files/figure-latex/infAsadsensi-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infAsadsensi-1.pdf>
 
-Underfull \hbox (badness 2503) in paragraph at lines 1165--1165
+Underfull \hbox (badness 2503) in paragraph at lines 1198--1198
 []\TU/lmr/m/n/10 Abbildung 16: []\TU/lmr/bx/n/10 Primerscreening der entwickelt
 en Influenza A RT-RPA Primer-Sonden-
  []
 
-[46]
+[39]
 File: Gesamt_files/figure-latex/infAvolumen-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infAvolumen-1.pdf>
-[47]
+[40]
 File: Gesamt_files/figure-latex/infaopti-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infaopti-1.pdf>
 File: Gesamt_files/figure-latex/infaopti-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infaopti-2.pdf>
-[48]
+[41]
 File: Gesamt_files/figure-latex/infaoptimisch-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infaoptimisch-1.pdf>
 File: Gesamt_files/figure-latex/infaoptimisch-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infaoptimisch-2.pdf>
-[49]
+[42]
 File: Gesamt_files/figure-latex/infasensi-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infasensi-1.pdf>
 File: Gesamt_files/figure-latex/infasensi-2.pdf Graphic file (type pdf)
@@ -1099,21 +1113,30 @@ File: Gesamt_files/figure-latex/infasensi-4.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infasensi-4.pdf>
 File: Gesamt_files/figure-latex/infasensi-5.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infasensi-5.pdf>
-[50] [51]
+[43] [44]
 File: Gesamt_files/figure-latex/infasondenopti-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infasondenopti-1.pdf>
-[52]
+[45]
+Overfull \hbox (12.66498pt too wide) in paragraph at lines 1300--1310
+ [][] 
+ []
+
+[46]
 File: Bilder/Alingment infA.png Graphic file (type bmp)
 <Bilder/Alingment infA.png>
-[53] [54] [55] [56] [57] [58]
+[47] [48] [49] [50] [51] [52] [53]
+File: Bilder/Ditching_Probe.png Graphic file (type bmp)
+<Bilder/Ditching_Probe.png>
+[54] [55] [56]
 File: Gesamt_files/figure-latex/infBmischi50-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infBmischi50-1.pdf>
+[57]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1510.
+(Font)              scaled to size 9.0pt on input line 1503.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 1510.
+(Font)              scaled to size 9.00082pt on input line 1503.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 1510.
+(Font)              scaled to size 8.99904pt on input line 1503.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1141,45 +1164,49 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[59]
+[58]
 File: Bilder/InfB Plasmidkarte.png Graphic file (type bmp)
 <Bilder/InfB Plasmidkarte.png>
 File: Bilder/InfA Plasmidkarte 937.png Graphic file (type bmp)
 <Bilder/InfA Plasmidkarte 937.png>
 File: Bilder/InfA Plasmidkarte 214.png Graphic file (type bmp)
 <Bilder/InfA Plasmidkarte 214.png>
-[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72] [73]
-Underfull \hbox (badness 4779) in paragraph at lines 2181--2183
+[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72]
+Underfull \hbox (badness 4779) in paragraph at lines 2204--2206
 []\TU/lmr/m/n/10 QIAGEN 2021. QIAGEN® PlasmidPurification handbook. \TU/lmr/m/i
 t/10 QIAGEN Plasmid Mini, Midi, Ma-
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 2181--2183
+Underfull \hbox (badness 1173) in paragraph at lines 2204--2206
 \TU/lmr/m/it/10 xi, Mega, andGiga Kits. For purification of ultrapure, transfec
 tion-grade plasmid DNA Online
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2181--2183
+Underfull \hbox (badness 10000) in paragraph at lines 2204--2206
 \TU/lmr/m/it/10 verfügbar unter: https://www.qiagen.com/us/resources/download.a
 spx?id=0bd0c5fb-c271-43e7-af43-
  []
 
-[74] [75] [76] [77] [78] (Gesamt.aux) ) 
-Here is how much of TeX's memory you used:
- 22752 strings out of 410527
- 418196 string characters out of 2816817
- 1017383 words of memory out of 3000000
- 43547 multiletter control sequences out of 15000+600000
- 475856 words of font info for 87 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 86i,16n,121p,4117b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
+[73] [74] [75]
+Overfull \hbox (28.84181pt too wide) in paragraph at lines 2318--2320
+[]\TU/lmr/m/n/10 TwistDx 2018. TwistAmp assay desing manual. \TU/lmr/m/it/10 on
+line Verfügbar unter: https://www.twistdx.co.uk/support/manuals-
+ []
 
-Output written on Gesamt.pdf (78 pages).
+[76] [77] [78] (Gesamt.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 22796 strings out of 410527
+ 419406 string characters out of 2816817
+ 1019008 words of memory out of 3000000
+ 43588 multiletter control sequences out of 15000+600000
+ 475864 words of font info for 88 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 86i,16n,121p,5520b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+Output written on Gesamt.pdf (87 pages).

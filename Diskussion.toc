@@ -2,7 +2,9 @@
 \contentsline {section}{\numberline {1}Diskussion}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Design der Primer und deren Einfluss auf die RT-RPA}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Vorteile der low-Volume RPA hinsichtlich Mischzeitpunkt und Sensitivität}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Diskussion Sensitivitäten}{5}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Diskussion Asymmetrie}{5}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Diskussion Sondeneinfluss}{5}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Diskussion ditch}{5}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.3}Vergleich der ermittelten Sensitivitäten mit PCR-Assays}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Entwicklung der asymmetrischen \emph {real time} RT-RPA}{7}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Einfluss der Exo-Sondenmodifikation auf die RT-RPA}{8}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Das Ditiching innerhalb der RT-RPA}{9}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Automatische Auswertung der Amplifikationen mittels Statistik}{10}{subsection.1.7}%
+\contentsline {section}{Zusammenfassung und Ausblick}{11}{section*.2}%

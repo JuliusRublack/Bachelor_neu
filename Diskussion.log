@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  24 FEB 2023 13:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  6 MAR 2023 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,26 +931,153 @@ LaTeX Warning: Reference `8telRPA' on page 4 undefined on input line 155.
 
 [4]
 
+LaTeX Warning: Reference `infbsense' on page 5 undefined on input line 164.
+
+
+LaTeX Warning: Reference `fig:infboptimisch' on page 5 undefined on input line 
+164.
+
+
+LaTeX Warning: Reference `tab:infasensver' on page 5 undefined on input line 16
+5.
+
+
+LaTeX Warning: Reference `tab:infbsensver' on page 5 undefined on input line 16
+6.
+
+
+LaTeX Warning: Reference `tab:infasensver' on page 5 undefined on input line 16
+6.
+
+
+LaTeX Warning: Reference `klinischeproben' on page 5 undefined on input line 16
+6.
+
+
 LaTeX Warning: Reference `infbsense' on page 5 undefined on input line 166.
 
-[5] [6] [7]
-Underfull \hbox (badness 2521) in paragraph at lines 351--353
+
+LaTeX Warning: Reference `tab:infasensver' on page 5 undefined on input line 16
+8.
+
+
+LaTeX Warning: Reference `tab:infbsensver' on page 5 undefined on input line 16
+8.
+
+
+LaTeX Warning: Reference `tab:infbsensver' on page 5 undefined on input line 16
+8.
+
+[5] [6]
+
+LaTeX Warning: Reference `infboptimierung' on page 7 undefined on input line 17
+3.
+
+
+LaTeX Warning: Reference `infbassymet' on page 7 undefined on input line 173.
+
+
+LaTeX Warning: Reference `assymetrie' on page 7 undefined on input line 173.
+
+
+LaTeX Warning: Reference `infbassymet' on page 7 undefined on input line 173.
+
+
+LaTeX Warning: Reference `fig:assymetriy' on page 7 undefined on input line 173
+.
+
+
+LaTeX Warning: Reference `fig:assymetriy' on page 7 undefined on input line 173
+.
+
+[7]
+
+LaTeX Warning: Reference `modifikation' on page 8 undefined on input line 178.
+
+
+LaTeX Warning: Reference `fig:infasondenopti' on page 8 undefined on input line
+ 178.
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 178.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 178.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.00073pt on input line 178.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00055pt on input line 178.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.99915pt on input line 178.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 178.
+
+LaTeX Warning: Reference `fig:infasondenopti' on page 8 undefined on input line
+ 178.
+
+[8]
+
+LaTeX Warning: Reference `fig:infbopti' on page 9 undefined on input line 188.
+
+
+LaTeX Warning: Reference `fig:infboptimisch' on page 9 undefined on input line 
+188.
+
+
+LaTeX Warning: Reference `fig:assymetriy' on page 9 undefined on input line 188
+.
+
+
+LaTeX Warning: Reference `fig:infbsensi' on page 9 undefined on input line 188.
+
+
+
+LaTeX Warning: Reference `fig:infaopti' on page 9 undefined on input line 188.
+
+File: Bilder/Ditching_Probe.png Graphic file (type bmp)
+<Bilder/Ditching_Probe.png>
+
+LaTeX Warning: Reference `infboptimierung' on page 9 undefined on input line 20
+1.
+
+[9]
+
+LaTeX Warning: Reference `fig:infAsadsensi' on page 10 undefined on input line 
+206.
+
+
+LaTeX Warning: Reference `fig:infboptimisch' on page 10 undefined on input line
+ 206.
+
+[10] [11] [12] [13]
+Underfull \hbox (badness 2521) in paragraph at lines 334--336
 \TU/lmr/m/n/10 Displacement Isothermal Amplification of RNA Target with Seconda
 ry Structure Motifs and
  []
 
-[8] [9] (Diskussion.aux)
+
+Overfull \hbox (57.70845pt too wide) in paragraph at lines 352--354
+[]\TU/lmr/m/n/10 TwistDx. 2018. “TwistAmp Assay Desing Manual.” \TU/lmr/m/it/10
+ Online Verfügbar Unter: Https://Www.twistdx.co.uk/Support/Manuals-
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 361--363
+\TU/lmr/m/n/10 Proliferatum$[]$/i$[]$ Based on Asymmetric Recombinase Polymeras
+e Amplification and Hemin/g-
+ []
+
+[14] [15] (Diskussion.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 20544 strings out of 410527
- 371379 string characters out of 2816817
- 944622 words of memory out of 3000000
- 41457 multiletter control sequences out of 15000+600000
- 472780 words of font info for 58 fonts, out of 8000000 for 9000
+ 20623 strings out of 410527
+ 373460 string characters out of 2816817
+ 962069 words of memory out of 3000000
+ 41521 multiletter control sequences out of 15000+600000
+ 474733 words of font info for 73 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,5n,121p,4036b,476s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,8n,121p,5486b,513s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Diskussion.pdf (9 pages).
+Output written on Diskussion.pdf (15 pages).

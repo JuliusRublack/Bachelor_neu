@@ -342,4 +342,56 @@ Mit H1N1 und H3N2 erwähnen als Subtypen
 ### Spezifitätstest
 
 
+@Gloekler2021 --> RPA als vorherrschende und beste Methode, da sie viel kombiniert (großer Vergleich mit anderen isothermen Amplifikationen)
+ 
+@Shen2011 slipChip --> digitale RPA = single nucleotide Detection
+    
+* Primer design  
+  + Influenza B (gibt nicht viel zu diskutieren, hat super geklappt)  
+    -> warum gewähltes target
+  + Influenza A (warum hat es nicht geklappt)  
+    -> genomstruktur (macht sone schleife, mal in eigenhybridisierungs ding hauen  ) 
+
+* Optimierungen (warum wurden die Parameter so gewählt)
+  + Influenza A
+  + Influenza B
+    --> lab on Chip mit 8tel Ansatz
+  + wie wichtig ist Mischen am Beispiel in InfB
+
+* Sensitivitätsanalysen
+  + Vergleich mit PCR
+  + Vergleich 50µl und 8tel-Ansatz
+    -> welche Vorteile hat 8tel-Ansatz
+  + Sensitivität im Klinischen Background reicht das für klinische Proben
+  
+* Spezifität 
+
+
+
+* R-Programm
+  + unterschiede zwischen RPA und PCR  
+    -> Mischen (evtl. Lücke in den Daten)  
+    -> Negativkontrolle (leicher linearer Anstieg)  
+    -> Überexponentielle Amplifikation oder linearer Anstieg (nicht immer Sigmoidale Kurve, hängt mich dem Mechanismus zusammen)  
+    -> ditching
+  + Wie wirken sich die Unterschiede auf die Tests aus  
+    -> Normalverteilung (sehr wichtig, kann aber auch bei PCR sein, wurde nicht getestet)  
+    -> linear Regression test (wird rausgelassen)  
+    -> resids growth test
+  + mögliche Lösungen   
+    -> algorhytmus für ditching  
+    -> normalverteilung anpassen  
+    -> threshold diskutieren 
+
+ \pagebreak
+
+* Assymetrie 
+  + Warum hat die Assymetrie so einen Erfolg
+  + Warum macht die Assymetrie so großes Ditching
+
+* Sondendesign
+  + warum ist dt-besser
+
+
+
 

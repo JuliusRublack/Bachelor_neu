@@ -38,7 +38,7 @@ library(latex2exp)
 
 (ref:infBmischi) **Einfluss eines Mischschrittes nach 5 min auf die Influenza B 50 µl RT-RPA:** Normalisierte Fluoreszenzdaten der Influenza B RT-RPA im 50 µl Ansatz mit einem zusätzlichen Mischschritt nach 5 min (**grau**) und ohne zusätzliches Mischen (**schwarz**). Die Messung erfolgte bei 40 °C. Als Ausgangsmaterial wurden 10^4^ RNA-Kopien eingesetzt. Negativkontrollen sind mit **(- - -)** gekennzeichnet.
 
-```{r infBmischi50, fig.show='hold',  out.width= "70%", message = FALSE, fig.cap="(ref:infBmischi)", fig.align='center', fig.scap="Einfluss eines Mischschrittes nach 5 min auf die Influenza B 50 µl RT-RPA"}
+```{r infBmischi50, fig.show='hold',  out.width= "90%", message = FALSE, fig.cap="(ref:infBmischi)", fig.align='center', fig.scap="Einfluss eines Mischschrittes nach 5 min auf die Influenza B 50 µl RT-RPA"}
 
 data <- read.csv2("Daten/infB_mischen_50ansatz.csv")
 
@@ -63,7 +63,7 @@ ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
   
 ```
 
-
+\pagebreak
 
 (ref:tab1) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infbscreening)
 ```{r tabeins}
