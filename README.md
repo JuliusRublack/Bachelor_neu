@@ -22,3 +22,4 @@
   + Agar hersteller
   + H2O~DEPC~
   + orange loading dye?
+  + swabs nachschauen
