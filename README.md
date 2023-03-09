@@ -14,9 +14,11 @@
 
 * Ergebnisse
   + Spezifität in Tabelle darstellen (infA und InfB einzeln ohne die eigenen Viren)
+  + Referenzproben statt kontrollproben
 
 * Diskussion
   + InfA sterische hinderung Sonde und f primer
+  + Referenzproben statt kontrollproben
 
 * Methoden
   + Agar hersteller
