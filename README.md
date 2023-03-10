@@ -3,6 +3,7 @@
 * Ribogreen Kapitel in Methoden: Unterschiede zwischen Ribogreen und NanoDrop
 * Literaturverzeichnis auf komische Sachen überprüfen
 * Abkürzungsverzeichnis aktualisieren
+* low volume überall ersetzten
 * Abstract überarbeiten
 * Einleitung
   + Influenza A Infektionsmechanismus
@@ -26,3 +27,6 @@
   + orange loading dye?
   + swabs nachschauen
   + Referenzproben: RNA oder Nukleinsäure?
+  + Enzymkonzentrationen klären
+  + Adaption des Reaktionsvolumens
+  + Temperatur (1,5X Primer rausgelassen)
