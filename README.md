@@ -30,4 +30,4 @@
   + Enzymkonzentrationen klären
   + Adaption des Reaktionsvolumens
   + Temperatur (1,5X Primer rausgelassen)
-  + Assymetrie neue taktik mit Iris besprechen: Zuerst beweisen, dass die assymetrie funktioniert dann die Optimierung?
+  + Assymetrie neue taktik mit Iris besprechen: Zuerst beweisen, dass die assymetrie funktioniert dann die Optimierung? (funktioniert leider nicht da ich nicht 2x forward getestet habe)
