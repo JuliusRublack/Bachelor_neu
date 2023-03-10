@@ -5,6 +5,7 @@
 * Abkürzungsverzeichnis aktualisieren
 * low volume überall ersetzten
 * Abstract überarbeiten
+
 * Einleitung
   + Influenza A Infektionsmechanismus
   + Zielstellung mit Diskussion anpassen (noch nicht überarbeitet)
@@ -24,10 +25,10 @@
 * Methoden
   + Agar hersteller
   + H2O~DEPC~
-  + orange loading dye?
+  + orange loading dye (kursiv)
   + swabs nachschauen
-  + Referenzproben: RNA oder Nukleinsäure?
-  + Enzymkonzentrationen klären
+  + Referenzproben: RNA oder Nukleinsäure? umschreiben so dass gesamzhumane nukleinsäre in der probe inkludiert sind
+  + Enzymkonzentrationen klären als endkonzentration
   + Adaption des Reaktionsvolumens
   + Temperatur (1,5X Primer rausgelassen)
   + Assymetrie neue taktik mit Iris besprechen: Zuerst beweisen, dass die assymetrie funktioniert dann die Optimierung? (funktioniert leider nicht da ich nicht 2x forward getestet habe)
