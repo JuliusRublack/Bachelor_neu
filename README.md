@@ -23,13 +23,13 @@
   + Referenzproben statt kontrollproben
 
 * Methoden
-  + Agar hersteller
-  + H2O~DEPC~
-  + orange loading dye (kursiv)
-  + swabs nachschauen
-  + Referenzproben: RNA oder Nukleinsäure? umschreiben so dass gesamzhumane nukleinsäre in der probe inkludiert sind
+  + ~Agar hersteller~
+  + H2O_DEPC_
+  + ~orange loading dye (kursiv)~
+  + ~swabs nachschauen~
+  + ~Referenzproben: RNA oder Nukleinsäure? umschreiben so dass gesamzhumane nukleinsäre in der probe inkludiert sind~
   + Enzymkonzentrationen klären als endkonzentration
-  + Adaption des Reaktionsvolumens
+  + ~Adaption des Reaktionsvolumens~
   + Temperatur (1,5X Primer rausgelassen)
   + Assymetrie neue taktik mit Iris besprechen: Zuerst beweisen, dass die assymetrie funktioniert dann die Optimierung? (funktioniert leider nicht da ich nicht 2x forward getestet habe) 
   + Primer/Sonden Tabellen in MM
