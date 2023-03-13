@@ -24,7 +24,7 @@
 
 * Methoden
   + ~Agar hersteller~
-  + H2O_DEPC_
+  + ~H2O_DEPC~
   + ~orange loading dye (kursiv)~
   + ~swabs nachschauen~
   + ~Referenzproben: RNA oder Nukleinsäure? umschreiben so dass gesamzhumane nukleinsäre in der probe inkludiert sind~
