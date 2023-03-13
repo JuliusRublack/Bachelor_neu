@@ -12,7 +12,8 @@
   + isotherme Amplifikation von Iris überprüfen lassen ob das so ok ist
   + Bilder auf deutsch machen
   + Sondenbild RPA
-  + InfA Abbildung strukur bildunterschrift kürzen (evtl.)
+  + Quencher Fluorophor!!!
+  + ~InfA Abbildung strukur bildunterschrift kürzen (evtl.)~
 
 * Ergebnisse
   + Spezifität in Tabelle darstellen (infA und InfB einzeln ohne die eigenen Viren)
