@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  6 MAR 2023 08:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  13 MAR 2023 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -983,33 +983,34 @@ File: Bilder/probes.png Graphic file (type bmp)
 <Bilder/probes.png>
 [3] [4] [5]
 
-LaTeX Warning: Reference `fig:plasmidB' on page 6 undefined on input line 265.
+LaTeX Warning: Reference `fig:plasmidB' on page 6 undefined on input line 272.
 
 
-LaTeX Warning: Reference `fig:plasmidA214' on page 6 undefined on input line 26
-5.
+LaTeX Warning: Reference `fig:plasmidA214' on page 6 undefined on input line 27
+2.
 
 [6] [7]
 
-LaTeX Warning: Reference `fig:plasmidB' on page 8 undefined on input line 305.
+LaTeX Warning: Reference `fig:plasmidB' on page 8 undefined on input line 312.
 
 
-LaTeX Warning: Reference `fig:plasmidA937' on page 8 undefined on input line 30
-6.
-
-
-LaTeX Warning: Reference `fig:plasmidA214' on page 8 undefined on input line 30
-6.
-
-
-LaTeX Warning: Reference `fig:plasmidB' on page 8 undefined on input line 316.
+LaTeX Warning: Reference `fig:plasmidA937' on page 8 undefined on input line 31
+3.
 
 
 LaTeX Warning: Reference `fig:plasmidA214' on page 8 undefined on input line 31
-6.
+3.
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+
+LaTeX Warning: Reference `fig:plasmidB' on page 9 undefined on input line 323.
+
+
+LaTeX Warning: Reference `fig:plasmidA214' on page 9 undefined on input line 32
+3.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
 []\TU/lmr/bx/n/12 Erstellung von RNA-Kontrollproben mit humanem Nukleinsäure-
  []
 
@@ -1021,27 +1022,64 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `tab:infboligo' on page 10 undefined on input line 431
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10]
+
+LaTeX Warning: Reference `tab:infboligo' on page 11 undefined on input line 440
 .
 
-[10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 2205) in paragraph at lines 631--633
+
+LaTeX Warning: Reference `tab:infaoligo' on page 11 undefined on input line 440
+.
+
+
+LaTeX Warning: Reference `asasd' on page 11 undefined on input line 440.
+
+
+LaTeX Warning: Reference `asdasdaa' on page 11 undefined on input line 440.
+
+[11]
+
+LaTeX Warning: Reference `asasd' on page 12 undefined on input line 473.
+
+
+LaTeX Warning: Reference `asdasdaa' on page 12 undefined on input line 473.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12] [13]
+
+LaTeX Warning: Reference `rpa' on page 14 undefined on input line 534.
+
+[14] [15] [16] [17] [18]
+Underfull \hbox (badness 2205) in paragraph at lines 674--676
 []\TU/lmr/m/n/10 QIAGEN. 2021. “QIAGEN® PlasmidPurification Handbook.” \TU/lmr/
 m/it/10 QIAGEN Plasmid Mini, Midi, Ma-
  []
 
-[16] [17] (Methoden.aux)
+
+Overfull \hbox (57.70845pt too wide) in paragraph at lines 711--713
+[]\TU/lmr/m/n/10 TwistDx. 2018. “TwistAmp Assay Desing Manual.” \TU/lmr/m/it/10
+ Online Verfügbar Unter: Https://Www.twistdx.co.uk/Support/Manuals-
+ []
+
+[19] [20] (Methoden.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22060 strings out of 410527
- 395462 string characters out of 2816817
- 978104 words of memory out of 3000000
- 42917 multiletter control sequences out of 15000+600000
+ 22072 strings out of 410527
+ 395715 string characters out of 2816817
+ 978487 words of memory out of 3000000
+ 42929 multiletter control sequences out of 15000+600000
  474847 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,15n,121p,2334b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,15n,121p,2467b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Methoden.pdf (17 pages).
+Output written on Methoden.pdf (20 pages).

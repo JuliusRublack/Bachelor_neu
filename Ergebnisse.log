@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  18 JAN 2023 13:57
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  13 MAR 2023 11:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -340,7 +340,11 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen181
 \Gin@req@width=\dimen182
-) (D:\Julius\Programme\MikTex\tex/latex/float\float.sty
+)
+\cslhangindent=\skip61
+\csllabelwidth=\skip62
+\cslentryspacingunit=\skip63
+(D:\Julius\Programme\MikTex\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count303
 \float@exts=\toks27
@@ -383,9 +387,9 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 ) (D:\Julius\Programme\MikTex\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip61
+\multirow@colwidth=\skip64
 \multirow@cntb=\count306
-\multirow@dima=\skip62
+\multirow@dima=\skip65
 \bigstrutjot=\dimen184
 ) (D:\Julius\Programme\MikTex\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen185
@@ -397,7 +401,7 @@ Package: wrapfig 2003/01/31  v 3.6
 ) (D:\Julius\Programme\MikTex\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 \everycr=\toks32
-\minrowclearance=\skip63
+\minrowclearance=\skip66
 \rownum=\count308
 ) (D:\Julius\Programme\MikTex\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
@@ -439,7 +443,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@arstrutbox=\box68
 \tabu@hleads=\box69
 \tabu@vleads=\box70
-\tabu@cellskip=\skip64
+\tabu@cellskip=\skip67
 ) (D:\Julius\Programme\MikTex\tex/latex/threeparttable\threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box71
@@ -450,11 +454,11 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 (D:\Julius\Programme\MikTex\tex/latex/trimspaces\trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip65
+\TPTL@width=\skip68
 ) (D:\Julius\Programme\MikTex\tex/latex/ulem\ulem.sty
 \UL@box=\box72
 \UL@hyphenbox=\box73
-\UL@skip=\skip66
+\UL@skip=\skip69
 \UL@hook=\toks35
 \UL@height=\dimen198
 \UL@pe=\count316
@@ -572,51 +576,51 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip67
+\Hy@SectionHShift=\skip70
 ) (D:\Julius\Programme\MikTex\tex/latex/bookmark\bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2020-11-06 v1.29 bookmark driver for dvipdfm (HO)
 \BKM@id=\count331
 )) (D:\Julius\Programme\MikTex\tex/latex/xurl\xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 92.
+Package hyperref Info: Option `colorlinks' set `true' on input line 115.
 (Ergebnisse.aux)
 \openout1 = `Ergebnisse.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 97.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 97.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 97.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 97.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 97.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 97.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 120.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 97.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 120.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -645,7 +649,7 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 97.
+(Font)              scaled to size 10.0pt on input line 120.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -684,17 +688,18 @@ pt=math;language=dflt;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 97.
+(Font)              scaled to size 10.0pt on input line 120.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 97.
+(Font)              `operators' in the math version `normal' on input line 120.
+
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 97.
+ line 120.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 97.
+(Font)              `operators' in the math version `bold' on input line 120.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on inpu
-t line 97.
+t line 120.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -781,15 +786,15 @@ t=math;language=dflt;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 97.
+(Font)              `symbols' in the math version `normal' on input line 120.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 97.
+t line 120.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 97.
+(Font)              `symbols' in the math version `bold' on input line 120.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on inpu
-t line 97.
+t line 120.
 
 Package fontspec Info: latinmodern-math scale = 0.9999964596882403.
 
@@ -858,22 +863,22 @@ pt=math;language=dflt;"
 (fontspec)             =6.0pt\relax \fontdimen 13\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 9
-7.
+(Font)              `largesymbols' in the math version `normal' on input line 1
+20.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 97.
+t line 120.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 97.
-
+(Font)              `largesymbols' in the math version `bold' on input line 120
+.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
-t line 97.
-LaTeX Info: Redefining \microtypecontext on input line 97.
-Package microtype Info: Applying patch `item' on input line 97.
-Package microtype Info: Applying patch `toc' on input line 97.
-Package microtype Info: Applying patch `eqnum' on input line 97.
-Package microtype Info: Applying patch `footnote' on input line 97.
+t line 120.
+LaTeX Info: Redefining \microtypecontext on input line 120.
+Package microtype Info: Applying patch `item' on input line 120.
+Package microtype Info: Applying patch `toc' on input line 120.
+Package microtype Info: Applying patch `eqnum' on input line 120.
+Package microtype Info: Applying patch `footnote' on input line 120.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -917,7 +922,7 @@ ern Roman (RS)
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 97.
+Package hyperref Info: Link coloring ON on input line 120.
 (Ergebnisse.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 3.
@@ -956,195 +961,145 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout3 = `Ergebnisse.toc'.
 
 
-LaTeX Warning: Reference `transformation' on page 1 undefined on input line 116
+LaTeX Warning: Reference `transformation' on page 1 undefined on input line 155
 .
 
 
-LaTeX Warning: Reference `isolation' on page 1 undefined on input line 116.
+LaTeX Warning: Reference `ribogreen' on page 1 undefined on input line 155.
 
 
-LaTeX Warning: Reference `verdau' on page 1 undefined on input line 116.
+LaTeX Warning: Reference `sequenzierung' on page 1 undefined on input line 155.
+
+
+
+LaTeX Warning: Reference `verdau' on page 1 undefined on input line 155.
+
+
+LaTeX Warning: Reference `fig:infBverdauA' on page 1 undefined on input line 15
+5.
+
+
+LaTeX Warning: Reference `fig:plasmidB' on page 1 undefined on input line 155.
+
+
+LaTeX Warning: Reference `transkription' on page 1 undefined on input line 155.
+
+
+
+LaTeX Warning: Reference `ribogreen' on page 1 undefined on input line 155.
+
+
+LaTeX Warning: Reference `fig:infBverdauB' on page 1 undefined on input line 15
+5.
 
 [1
 
 ]
-File: Bilder/infA_verdau.png Graphic file (type bmp)
-<Bilder/infA_verdau.png>
-File: Bilder/InfA_transkription_kalibrier.png Graphic file (type bmp)
-<Bilder/InfA_transkription_kalibrier.png>
+File: Bilder/infB_verdau_t_t.png Graphic file (type bmp)
+<Bilder/infB_verdau_t_t.png>
+File: Ergebnisse_files/figure-latex/infBverdau-2.pdf Graphic file (type pdf)
+<use Ergebnisse_files/figure-latex/infBverdau-2.pdf>
 
-LaTeX Warning: Reference `cleaning' on page 2 undefined on input line 129.
-
-
-LaTeX Warning: Reference `transkription' on page 2 undefined on input line 129.
+LaTeX Warning: Reference `desing' on page 2 undefined on input line 175.
 
 
+LaTeX Warning: Reference `infboligo' on page 2 undefined on input line 175.
 
-LaTeX Warning: Reference `ribogreen' on page 2 undefined on input line 129.
+
+LaTeX Warning: Reference `modifikation' on page 2 undefined on input line 203.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `desing' on page 2 undefined on input line 150.
+LaTeX Warning: Reference `screening' on page 2 undefined on input line 206.
 
 
-LaTeX Warning: Reference `fig' on page 2 undefined on input line 151.
+LaTeX Warning: Reference `tab:tabeins' on page 2 undefined on input line 206.
 
 [2]
-File: Bilder/infA_PCR_H3N2.png Graphic file (type bmp)
-<Bilder/infA_PCR_H3N2.png>
-File: Bilder/infA_PCR_H1N1.png Graphic file (type bmp)
-<Bilder/infA_PCR_H1N1.png>
-File: Ergebnisse_files/figure-latex/InfAPCR-3.pdf Graphic file (type pdf)
-<use Ergebnisse_files/figure-latex/InfAPCR-3.pdf>
-File: Ergebnisse_files/figure-latex/InfAPCR-4.pdf Graphic file (type pdf)
-<use Ergebnisse_files/figure-latex/InfAPCR-4.pdf>
+File: Ergebnisse_files/figure-latex/infbscreening-1.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `desing' on page 3 undefined on input line 173.
+<use Ergebnisse_files/figure-latex/infbscreening-1.pdf>
+
+Underfull \hbox (badness 3579) in paragraph at lines 216--216
+[]\TU/lmr/m/n/10 Abbildung 2: []\TU/lmr/bx/n/10 Primerscreening der entwickelte
+n Influenza B RT-RPA Primer-Sonden-
+ []
 
 
-LaTeX Warning: Reference `RPAnormal' on page 3 undefined on input line 173.
+LaTeX Warning: Reference `reaktadapt' on page 3 undefined on input line 224.
 
 
-LaTeX Warning: Reference `tab:RPAoligo' on page 3 undefined on input line 173.
+LaTeX Warning: Reference `tab:tabzwei' on page 3 undefined on input line 224.
+
+File: Ergebnisse_files/figure-latex/infBetabl-1.pdf Graphic file (type pdf)
+<use Ergebnisse_files/figure-latex/infBetabl-1.pdf>
+[3]
+
+LaTeX Warning: Reference `optimierungT' on page 4 undefined on input line 239.
 
 
-LaTeX Warning: Reference `isolation' on page 3 undefined on input line 180.
+LaTeX Warning: Reference `tab:tabdrei' on page 4 undefined on input line 240.
+
+File: Ergebnisse_files/figure-latex/infboptit-1.pdf Graphic file (type pdf)
+<use Ergebnisse_files/figure-latex/infboptit-1.pdf>
+File: Ergebnisse_files/figure-latex/infbopti-1.pdf Graphic file (type pdf)
+<use Ergebnisse_files/figure-latex/infbopti-1.pdf>
+
+LaTeX Warning: Reference `rpa' on page 4 undefined on input line 266.
 
 
-LaTeX Warning: Reference `sequenzierung' on page 3 undefined on input line 180.
+LaTeX Warning: Reference `optimischen' on page 4 undefined on input line 266.
+
+[4] [5]
+
+LaTeX Warning: Reference `rpa' on page 6 undefined on input line 268.
 
 
-[3] [4]
-
-LaTeX Warning: Reference `verdau' on page 5 undefined on input line 182.
+LaTeX Warning: Reference `optimischen' on page 6 undefined on input line 268.
 
 
-LaTeX Warning: Reference `cleaning' on page 5 undefined on input line 182.
-
-File: Bilder/infB_verdau_t.png Graphic file (type bmp)
-<Bilder/infB_verdau_t.png>
-File: Ergebnisse_files/figure-latex/infBverdau-2.pdf Graphic file (type pdf)
-<use Ergebnisse_files/figure-latex/infBverdau-2.pdf>
-
-LaTeX Warning: Reference `transkription' on page 5 undefined on input line 198.
+LaTeX Warning: Reference `tab:tabfunf' on page 6 undefined on input line 268.
 
 
-
-LaTeX Warning: Reference `ribogreen' on page 5 undefined on input line 198.
-
-
-LaTeX Warning: Reference `rtpcr' on page 5 undefined on input line 203.
+LaTeX Warning: Reference `optimischen' on page 6 undefined on input line 269.
 
 
-LaTeX Warning: Reference `rtpcr' on page 5 undefined on input line 203.
+LaTeX Warning: Reference `tab:tabsechs' on page 6 undefined on input line 269.
 
 
-LaTeX Warning: Reference `chipPCR' on page 5 undefined on input line 203.
+LaTeX Warning: Reference `fig:infBmischi50' on page 6 undefined on input line 2
+71.
 
 
-LaTeX Warning: Reference `probit' on page 5 undefined on input line 203.
-
-[5]
-File: Bilder/infB_PCR_sensi.png Graphic file (type bmp)
-<Bilder/infB_PCR_sensi.png>
-File: Ergebnisse_files/figure-latex/infBPCR-2.pdf Graphic file (type pdf)
-<use Ergebnisse_files/figure-latex/infBPCR-2.pdf>
-File: Bilder/infB_probit.png Graphic file (type bmp)
-<Bilder/infB_probit.png>
-
-LaTeX Warning: Reference `RPAnormal' on page 6 undefined on input line 224.
-
-
-LaTeX Warning: Reference `8telRPA' on page 6 undefined on input line 224.
-
-
-LaTeX Warning: Reference `chipPCR' on page 6 undefined on input line 224.
-
-
-LaTeX Warning: Reference `tt-wert' on page 6 undefined on input line 224.
-
-
-LaTeX Warning: Reference `tab:tabeins' on page 6 undefined on input line 224.
+LaTeX Warning: Reference `tab:' on page 6 undefined on input line 271.
 
 [6]
-File: Bilder/infB_etab.png Graphic file (type bmp)
-<Bilder/infB_etab.png>
+File: Ergebnisse_files/figure-latex/infboptimisch-1.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `aksjdalf' on page 7 undefined on input line 240.
+<use Ergebnisse_files/figure-latex/infboptimisch-1.pdf>
+File: Ergebnisse_files/figure-latex/infboptimisch-2.pdf Graphic file (type pdf)
 
+<use Ergebnisse_files/figure-latex/infboptimisch-2.pdf>
+File: Ergebnisse_files/figure-latex/infboptimisch-3.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `tab:tabzwei' on page 7 undefined on input line 241.
+<use Ergebnisse_files/figure-latex/infboptimisch-3.pdf>
+File: Ergebnisse_files/figure-latex/infboptimisch-4.pdf Graphic file (type pdf)
 
-
-LaTeX Warning: Reference `8telRPA' on page 7 undefined on input line 242.
-
-
-LaTeX Warning: Reference `fig:infBobtiam' on page 7 undefined on input line 243
-.
-
-
-LaTeX Warning: Reference `tab:tabvier' on page 7 undefined on input line 243.
-
-
-LaTeX Warning: Reference `fig:infBobtiam' on page 7 undefined on input line 243
-.
-
-
-LaTeX Warning: Reference `chipPCR' on page 7 undefined on input line 243.
-
-
-LaTeX Warning: Reference `tab:tabdrei' on page 7 undefined on input line 244.
-
-
-LaTeX Warning: Reference `8telRPA' on page 7 undefined on input line 244.
-
-[7]
-File: Bilder/infB_opti_temp.png Graphic file (type bmp)
-<Bilder/infB_opti_temp.png>
-File: Bilder/infB_opti_konz.png Graphic file (type bmp)
-<Bilder/infB_opti_konz.png>
-
-LaTeX Warning: Reference `RPAnormal' on page 8 undefined on input line 262.
-
-
-LaTeX Warning: Reference `8telRPA' on page 8 undefined on input line 262.
-
-
-LaTeX Warning: Reference `chipPCR' on page 8 undefined on input line 262.
-
-
-LaTeX Warning: Reference `tt-wert' on page 8 undefined on input line 262.
-
-[8]
-
-LaTeX Warning: Reference `klinischeproben' on page 9 undefined on input line 26
-4.
-
-
-LaTeX Warning: Reference `fig:' on page 9 undefined on input line 264.
-
-File: Bilder/InfB_50_sensi.png Graphic file (type bmp)
-<Bilder/InfB_50_sensi.png>
-File: Bilder/InfB_8tel_sensi.png Graphic file (type bmp)
-<Bilder/InfB_8tel_sensi.png>
-File: Bilder/InfB_50_probit.png Graphic file (type bmp)
-<Bilder/InfB_50_probit.png>
-File: Bilder/infB_8tel_probit.png Graphic file (type bmp)
-<Bilder/infB_8tel_probit.png>
-[9] [10] [11] (Ergebnisse.aux)
+<use Ergebnisse_files/figure-latex/infboptimisch-4.pdf>
+[7] [8] [9] [10] [11] [12] (Ergebnisse.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22271 strings out of 410527
- 403391 string characters out of 2816817
- 962740 words of memory out of 3000000
- 43123 multiletter control sequences out of 15000+600000
- 472894 words of font info for 60 fonts, out of 8000000 for 9000
+ 22099 strings out of 410527
+ 399072 string characters out of 2816817
+ 963595 words of memory out of 3000000
+ 42962 multiletter control sequences out of 15000+600000
+ 472886 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,13n,121p,2153b,358s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,14n,121p,1876b,490s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Ergebnisse.pdf (11 pages).
+Output written on Ergebnisse.pdf (12 pages).

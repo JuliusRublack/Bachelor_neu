@@ -2687,6 +2687,138 @@
   publisher = {Elsevier {BV}},
 }
 
+@Article{Marshall2004,
+  author    = {Owen J. Marshall},
+  journal   = {Bioinformatics},
+  title     = {{PerlPrimer}: cross-platform, graphical primer design for standard, bisulphite and real-time {PCR}},
+  year      = {2004},
+  month     = {apr},
+  number    = {15},
+  pages     = {2471--2472},
+  volume    = {20},
+  doi       = {10.1093/bioinformatics/bth254},
+  groups    = {Diskussion},
+  publisher = {Oxford University Press ({OUP})},
+}
+
+@Article{Nelson2014,
+  author    = {Martha I. Nelson and David E. Wentworth and Marie R. Culhane and Amy L. Vincent and Cecile Viboud and Matthew P. LaPointe and Xudong Lin and Edward C. Holmes and Susan E. Detmer},
+  journal   = {Journal of Virology},
+  title     = {Introductions and Evolution of Human-Origin Seasonal Influenza A Viruses in Multinational Swine Populations},
+  year      = {2014},
+  month     = {sep},
+  number    = {17},
+  pages     = {10110--10119},
+  volume    = {88},
+  doi       = {10.1128/jvi.01080-14},
+  editor    = {A. Garc{\'{\i}}a-Sastre},
+  groups    = {Influenza A},
+  publisher = {American Society for Microbiology},
+}
+
+@Article{Lin2022,
+  author    = {Xuexiang Lin and Xiao-Yu Liu and Bo Zhang and Ai-Qing Qin and Kwok-Min Hui and Kevin Shi and Yang Liu and Don Gabriel and X. James Li},
+  journal   = {Scientific Reports},
+  title     = {A rapid influenza diagnostic test based on detection of viral neuraminidase activity},
+  year      = {2022},
+  month     = {jan},
+  number    = {1},
+  volume    = {12},
+  doi       = {10.1038/s41598-021-04538-4},
+  groups    = {Nachweismethoden für Inlfuenza},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
+@Article{Yi2013,
+  author    = {Hwajung Yi and Young-Hoon Kim and Jun-Sub Kim and Nam-Joo Lee and Kyeongcheol Shin and Jang-Hoon Choi and Donghyok Kwon and Joo-Yeon Lee and Chun Kang},
+  journal   = {Journal of Medical Virology},
+  title     = {Impact of influenza virus escape-mutations on influenza detection by the rapid influenza diagnostic test},
+  year      = {2013},
+  month     = {feb},
+  number    = {4},
+  pages     = {709--715},
+  volume    = {85},
+  doi       = {10.1002/jmv.23484},
+  groups    = {Nachweismethoden für Inlfuenza},
+  publisher = {Wiley},
+}
+
+@Article{WozniakKosek2014a,
+  author  = {Agnieszka Woźniak-Kosek and Bogumiła Kempińska-Mirosławska and Grażyna Hoser},
+  journal = {Acta Biochimica Polonica},
+  title   = {Detection of the influenza virus yesterday and now},
+  year    = {2014},
+  month   = nov,
+  groups  = {NAAT},
+}
+
+@Book{Clark2009,
+  author    = {David P. Clark and Nanette J. Pazdernik},
+  publisher = {Spektrum Akademischer Verlag},
+  title     = {Molekulare Biotechnologie},
+  year      = {2009},
+  doi       = {10.1007/978-3-8274-2189-0},
+  groups    = {PCR},
+}
+
+@Article{Powell2018,
+  author    = {Michael L. Powell and Frank R. Bowler and Aurore J. Martinez and Catherine J. Greenwood and Niall Armes and Olaf Piepenburg},
+  journal   = {Analytical Biochemistry},
+  title     = {New Fpg probe chemistry for direct detection of recombinase polymerase amplification on lateral flow strips},
+  year      = {2018},
+  month     = {feb},
+  pages     = {108--115},
+  volume    = {543},
+  doi       = {10.1016/j.ab.2017.12.003},
+  groups    = {RPA},
+  publisher = {Elsevier {BV}},
+}
+
+@Article{Boonbanjong2022,
+  author    = {Poramin Boonbanjong and Kiatnida Treerattrakoon and Wassa Waiwinya and Piyawat Pitikultham and Deanpen Japrung},
+  journal   = {Biosensors},
+  title     = {Isothermal Amplification Technology for Disease Diagnosis},
+  year      = {2022},
+  month     = {aug},
+  number    = {9},
+  pages     = {677},
+  volume    = {12},
+  doi       = {10.3390/bios12090677},
+  groups    = {isotherme Amplifikation},
+  publisher = {{MDPI} {AG}},
+}
+
+@Article{PREMIER2023,
+  author  = {Biosoft PREMIER},
+  journal = {online Verfügbar unter: http://www.premierbiosoft.com/tech_notes/NASBA.html},
+  title   = {NASBA technology},
+  year    = {2023},
+  groups  = {NASBA},
+}
+
+@Book{Ali2012,
+  author    = {Ali, Syed Shahid},
+  publisher = {Lambert Academic publishers},
+  title     = {Bacterial strain improvement by mutagenesis},
+  year      = {2012},
+  doi       = {10.13140/2.1.1194.6240},
+  groups    = {Methoden},
+}
+
+@Article{Saah1997,
+  author    = {Alfred J. Saah},
+  journal   = {Annals of Internal Medicine},
+  title     = {{\textquotedblleft}Sensitivity{\textquotedblright} and {\textquotedblleft}Specificity{\textquotedblright} Reconsidered: The Meaning of These Terms in Analytical and Diagnostic Settings},
+  year      = {1997},
+  month     = {jan},
+  number    = {1},
+  pages     = {91},
+  volume    = {126},
+  doi       = {10.7326/0003-4819-126-1-199701010-00026},
+  groups    = {Methoden},
+  publisher = {American College of Physicians},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
