@@ -18,10 +18,18 @@
 * Ergebnisse
   + Spezifität in Tabelle darstellen (infA und InfB einzeln ohne die eigenen Viren)
   + Referenzproben statt kontrollproben
+  + InfA Sensitivitäten kapitel
+  + Farben überall checken
+  + 
 
 * Diskussion
   + InfA sterische hinderung Sonde und f primer
   + Referenzproben statt kontrollproben
+  + Quellen: infB hohe homologie
+  + Basenfehlpaarung Ehnts, Primer 1 3'Ende
+  + low-volume Kapitel assymetrie nicht unterschalgen (checken)
+  + low-volume Kapitel ende mit iris besprechen
+  + Sensitivitäten Kapitel
 
 * Methoden
   + ~Agar hersteller~
@@ -32,5 +40,6 @@
   + Enzymkonzentrationen klären als endkonzentration
   + ~Adaption des Reaktionsvolumens~
   + Temperatur (1,5X Primer rausgelassen)
+  + Volumen optimierung komischer text drinnen
   + Assymetrie neue taktik mit Iris besprechen: Zuerst beweisen, dass die assymetrie funktioniert dann die Optimierung? (funktioniert leider nicht da ich nicht 2x forward getestet habe) 
   + Primer/Sonden Tabellen in MM
