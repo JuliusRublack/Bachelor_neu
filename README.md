@@ -2,7 +2,7 @@
 
 * Ribogreen Kapitel in Methoden: Unterschiede zwischen Ribogreen und NanoDrop
 * Literaturverzeichnis auf komische Sachen überprüfen
-* Abkürzungsverzeichnis aktualisieren
+* Abkürzungsverzeichnis aktualisieren (29 pro seite)
 * low volume überall ersetzten
 * Abstract überarbeiten
 
