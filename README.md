@@ -47,3 +47,11 @@
   + Volumen optimierung komischer text drinnen
   + Assymetrie neue taktik mit Iris besprechen: Zuerst beweisen, dass die assymetrie funktioniert dann die Optimierung? (funktioniert leider nicht da ich nicht 2x forward getestet habe) 
   + Primer/Sonden Tabellen in MM
+
+
+Influenza Virus Replication
+
+Quelle 2 Anfang
+
+Der Replikationsmechanismus des Influenza A Virus beginnt mit der Bindung des HA an die Salizilsäure auf der Oberfläch von Lungenepithel-Zellen. Durch die bindung wird dan Virus über die Bildung eines Endosomes in die Zelle aufgenommen. Durch den geringen pH-Wert 
+
