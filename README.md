@@ -5,6 +5,7 @@
 * Abkürzungsverzeichnis aktualisieren (37 pro seite)
 * low volume überall ersetzten
 * Abstract überarbeiten
+* simulation einer Patietenprobe!! im M&M bzw. Ergebnissteil
 
 * Einleitung
   + Influenza A Infektionsmechanismus
@@ -30,6 +31,9 @@
   + low-volume Kapitel assymetrie nicht unterschalgen (checken)
   + low-volume Kapitel ende mit iris besprechen
   + Sensitivitäten Kapitel
+  + Quelle für unspezifische Primerbindung
+  + Quelle für Kinder unter zwei Jahren InfA+
+  + Nomenklatur anpassen und µl Tansportmedium (ob das mit VTM abgekürzt werden kann)
 
 * Methoden
   + ~Agar hersteller~
