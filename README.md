@@ -21,7 +21,7 @@
   + Referenzproben statt kontrollproben
   + InfA Sensitivitäten kapitel
   + Farben überall checken
-  + 
+  + Entwicklung der asymmetrischen RT-RPA (statistische Tabelle)
 
 * Diskussion
   + InfA sterische hinderung Sonde und f primer
@@ -45,7 +45,7 @@
   + ~Adaption des Reaktionsvolumens~
   + Temperatur (1,5X Primer rausgelassen)
   + Volumen optimierung komischer text drinnen
-  + Assymetrie neue taktik mit Iris besprechen: Zuerst beweisen, dass die assymetrie funktioniert dann die Optimierung? (funktioniert leider nicht da ich nicht 2x forward getestet habe) 
+  + ~Assymetrie neue taktik mit Iris besprechen: Zuerst beweisen, dass die assymetrie funktioniert dann die Optimierung? (funktioniert leider nicht da ich nicht 2x forward getestet habe)~
   + Primer/Sonden Tabellen in MM
 
 
