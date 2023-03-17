@@ -34,6 +34,7 @@
   + Quelle für unspezifische Primerbindung
   + Quelle für Kinder unter zwei Jahren InfA+
   + Nomenklatur anpassen und µl Tansportmedium (ob das mit VTM abgekürzt werden kann)
+  + Quelle für DNA hybridisation mit Temperatur (Suchstring: (DNA hybridisation) AND (temperature))
 
 * Methoden
   + ~Agar hersteller~
