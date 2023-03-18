@@ -2819,6 +2819,20 @@
   publisher = {American College of Physicians},
 }
 
+@Article{Kersting2014,
+  author    = {Sebastian Kersting and Valentina Rausch and Frank F. Bier and Markus von Nickisch-Rosenegk},
+  journal   = {Microchimica Acta},
+  title     = {Multiplex isothermal solid-phase recombinase polymerase amplification for the specific and fast {DNA}-based detection of three bacterial pathogens},
+  year      = {2014},
+  month     = {feb},
+  number    = {13-14},
+  pages     = {1715--1723},
+  volume    = {181},
+  doi       = {10.1007/s00604-014-1198-5},
+  groups    = {Methoden},
+  publisher = {Springer Science and Business Media {LLC}},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
 
 @Comment{jabref-meta: grouping:
