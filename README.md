@@ -1,11 +1,11 @@
 # Bachelor_neu
 
-* Ribogreen Kapitel in Methoden: Unterschiede zwischen Ribogreen und NanoDrop
+* ~Ribogreen Kapitel in Methoden: Unterschiede zwischen Ribogreen und NanoDrop~
 * Literaturverzeichnis auf komische Sachen überprüfen
 * Abkürzungsverzeichnis aktualisieren (37 pro seite)
 * low volume überall ersetzten
-* Abstract überarbeiten
-* simulation einer Patietenprobe!! im M&M bzw. Ergebnissteil
+* ~Abstract überarbeiten~
+* ~simulation einer Patietenprobe!! im M&M bzw. Ergebnissteil~
 
 * Einleitung
   + ~Influenza A Infektionsmechanismus~
