@@ -8,7 +8,7 @@
 * simulation einer Patietenprobe!! im M&M bzw. Ergebnissteil
 
 * Einleitung
-  + Influenza A Infektionsmechanismus
+  + ~Influenza A Infektionsmechanismus~
   + Zielstellung mit Diskussion anpassen (noch nicht überarbeitet)
   + ~isotherme Amplifikation von Iris überprüfen lassen ob das so ok ist~
   + Bilder auf deutsch machen
@@ -17,20 +17,20 @@
   + ~InfA Abbildung strukur bildunterschrift kürzen (evtl.)~
 
 * Ergebnisse
-  + Spezifität in Tabelle darstellen (infA und InfB einzeln ohne die eigenen Viren)
-  + Referenzproben statt kontrollproben
-  + InfA Sensitivitäten kapitel
+  + ~Spezifität in Tabelle darstellen (infA und InfB einzeln ohne die eigenen Viren)~
+  + ~Referenzproben statt kontrollproben~
+  + ~InfA Sensitivitäten kapitel~
   + Farben überall checken
   + Entwicklung der asymmetrischen RT-RPA (statistische Tabelle)
 
 * Diskussion
   + InfA sterische hinderung Sonde und f primer
-  + Referenzproben statt kontrollproben
+  + ~Referenzproben statt kontrollproben~
   + Quellen: infB hohe homologie
-  + Basenfehlpaarung Ehnts, Primer 1 3'Ende
+  + ~Basenfehlpaarung Ehnts, Primer 1 3'Ende~
   + low-volume Kapitel assymetrie nicht unterschalgen (checken)
   + low-volume Kapitel ende mit iris besprechen
-  + Sensitivitäten Kapitel
+  + ~Sensitivitäten Kapitel~
   + Quelle für unspezifische Primerbindung
   + Quelle für Kinder unter zwei Jahren InfA+
   + Nomenklatur anpassen und µl Tansportmedium (ob das mit VTM abgekürzt werden kann)
@@ -47,7 +47,7 @@
   + Temperatur (1,5X Primer rausgelassen)
   + Volumen optimierung komischer text drinnen
   + ~Assymetrie neue taktik mit Iris besprechen: Zuerst beweisen, dass die assymetrie funktioniert dann die Optimierung? (funktioniert leider nicht da ich nicht 2x forward getestet habe)~
-  + Primer/Sonden Tabellen in MM
+  + ~Primer/Sonden Tabellen in MM~
 
 
 Influenza Virus Replication
