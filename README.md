@@ -15,6 +15,7 @@
   + ~Sondenbild RPA~
   + ~Quencher Fluorophor!!!~
   + ~InfA Abbildung strukur bildunterschrift kürzen (evtl.)~
+  + nfo oder lf sonde?
 
 * Ergebnisse
   + ~Spezifität in Tabelle darstellen (infA und InfB einzeln ohne die eigenen Viren)~
