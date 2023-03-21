@@ -43,7 +43,7 @@
   + ~orange loading dye (kursiv)~
   + ~swabs nachschauen~
   + ~Referenzproben: RNA oder Nukleinsäure? umschreiben so dass gesamzhumane nukleinsäre in der probe inkludiert sind~
-  + ~Enzymkonzentrationen klären als endkonzentration~
+  + Enzymkonzentrationen klären als endkonzentration
   + ~Adaption des Reaktionsvolumens~
   + Temperatur (1,5X Primer rausgelassen)
   + ~Volumen optimierung komischer text drinnen~
