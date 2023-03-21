@@ -1,5 +1,12 @@
 # Bachelor_neu
 
+*hehe Tabellenverzeichnis und Abbildungsverzeichnis in Inhaltsverzeichnis einfügen <3
+  \listoffigures 
+  \addcontentsline{toc}{section}{Abbildungsverzeichnis}
+  \listoftables
+  \addcontentsline{toc}{section}{Tabellenverzeichnis}
+  
+  
 * ~Ribogreen Kapitel in Methoden: Unterschiede zwischen Ribogreen und NanoDrop~
 * Literaturverzeichnis auf komische Sachen überprüfen
 * Abkürzungsverzeichnis aktualisieren (37 pro seite)
