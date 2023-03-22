@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  16 MAR 2023 08:08
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  20 MAR 2023 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -881,210 +881,183 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [1
 
 ]
-
-LaTeX Warning: Reference `desing' on page 2 undefined on input line 125.
-
 File: Bilder/Alingment infA.png Graphic file (type bmp)
 <Bilder/Alingment infA.png>
-[2] [3]
 
-LaTeX Warning: Reference `fig:infAsadsensi' on page 4 undefined on input line 1
-43.
-
-
-LaTeX Warning: Reference `fig:infbscreening' on page 4 undefined on input line 
-143.
+LaTeX Warning: Reference `fig:infAsadsensi' on page 2 undefined on input line 1
+39.
 
 
-LaTeX Warning: Reference `fig:infbscreening' on page 4 undefined on input line 
-146.
+LaTeX Warning: Reference `fig:infbscreening' on page 2 undefined on input line 
+139.
 
 
-LaTeX Warning: Reference `InfAeinleitung' on page 4 undefined on input line 148
+LaTeX Warning: Reference `tab:infaoligo' on page 2 undefined on input line 139.
+
+
+
+LaTeX Warning: Reference `fig:infAsadsensi' on page 2 undefined on input line 1
+39.
+
+
+LaTeX Warning: Reference `fig:infbscreening' on page 2 undefined on input line 
+140.
+
+
+LaTeX Warning: Reference `InfAeinleitung' on page 2 undefined on input line 142
 .
 
+[2] [3]
 
-Overfull \hbox (18.49498pt too wide) in paragraph at lines 156--156
-[]    \TU/lmtt/m/n/10 -> missmatches durch H1N1 und H3N2 (evtl. anderes Target 
-diskutieren, polymerase oder so)[] 
- []
+LaTeX Warning: Reference `bvolu' on page 4 undefined on input line 147.
+
+
+LaTeX Warning: Reference `fig:infboptimisch' on page 4 undefined on input line 
+147.
 
 [4]
-Overfull \hbox (34.24498pt too wide) in paragraph at lines 156--156
-[]    \TU/lmtt/m/n/10 -> alternativen diskutieren (gleiche sonde aber 2 Primer 
-paare, wie die PCR das gemacht hat)[] 
- []
 
-
-LaTeX Warning: Reference `infboptimisch' on page 5 undefined on input line 161.
-
+LaTeX Warning: Reference `tab:infbsensver' on page 5 undefined on input line 15
+9.
 
 
 LaTeX Warning: Reference `fig:infboptimisch' on page 5 undefined on input line 
-161.
-
-[5]
-
-LaTeX Warning: Reference `infbsense' on page 6 undefined on input line 176.
+159.
 
 
-LaTeX Warning: Reference `fig:infboptimisch' on page 6 undefined on input line 
-176.
-
-
-LaTeX Warning: Reference `tab:infasensver' on page 6 undefined on input line 17
-7.
-
-
-LaTeX Warning: Reference `tab:infbsensver' on page 6 undefined on input line 17
-8.
-
-
-LaTeX Warning: Reference `tab:infasensver' on page 6 undefined on input line 17
-8.
-
-
-LaTeX Warning: Reference `klinischeproben' on page 6 undefined on input line 17
-8.
-
-
-LaTeX Warning: Reference `infbsense' on page 6 undefined on input line 178.
-
-
-LaTeX Warning: Reference `tab:infasensver' on page 6 undefined on input line 18
+LaTeX Warning: Reference `tab:infasensver' on page 5 undefined on input line 16
 0.
 
 
-LaTeX Warning: Reference `tab:infbsensver' on page 6 undefined on input line 18
-0.
+LaTeX Warning: Reference `sensitivitat' on page 5 undefined on input line 161.
 
 
-LaTeX Warning: Reference `tab:infbsensver' on page 6 undefined on input line 18
-0.
-
-[6] [7]
-
-LaTeX Warning: Reference `assymetrie' on page 8 undefined on input line 185.
+LaTeX Warning: Reference `tab:infbsensver' on page 5 undefined on input line 16
+2.
 
 
-LaTeX Warning: Reference `infbassymet' on page 8 undefined on input line 186.
+LaTeX Warning: Reference `tab:infasensver' on page 5 undefined on input line 16
+2.
 
 
-LaTeX Warning: Reference `fig:assymetriy' on page 8 undefined on input line 186
+LaTeX Warning: Reference `infbsense' on page 5 undefined on input line 162.
+
+
+LaTeX Warning: Reference `tab:infasensver' on page 5 undefined on input line 16
+4.
+
+
+LaTeX Warning: Reference `tab:infbsensver' on page 5 undefined on input line 16
+5.
+
+
+LaTeX Warning: Reference `tab:infbsensver' on page 5 undefined on input line 16
+5.
+
+[5] [6]
+
+LaTeX Warning: Reference `assymetrie' on page 7 undefined on input line 171.
+
+
+LaTeX Warning: Reference `assymetrie' on page 7 undefined on input line 172.
+
+
+LaTeX Warning: Reference `fig:assymetriy' on page 7 undefined on input line 172
 .
 
 
-LaTeX Warning: Reference `fig:assymetriy' on page 8 undefined on input line 186
+LaTeX Warning: Reference `fig:assymetriy' on page 7 undefined on input line 172
 .
 
-[8]
 
-LaTeX Warning: Reference `infbassymet' on page 9 undefined on input line 195.
-
-
-LaTeX Warning: Reference `fig:assymetriy' on page 9 undefined on input line 195
-.
-
-[9]
-
-LaTeX Warning: Reference `infboptimierung' on page 10 undefined on input line 2
-01.
+LaTeX Warning: Reference `tab:infboligo' on page 7 undefined on input line 172.
 
 
-LaTeX Warning: Reference `infbassymet' on page 10 undefined on input line 201.
+[7]
+
+LaTeX Warning: Reference `fig:probe' on page 8 undefined on input line 178.
 
 
-LaTeX Warning: Reference `assymetrie' on page 10 undefined on input line 201.
+LaTeX Warning: Reference `einflprobe' on page 8 undefined on input line 179.
 
 
-LaTeX Warning: Reference `infbassymet' on page 10 undefined on input line 201.
+LaTeX Warning: Reference `tab:infaoligo' on page 8 undefined on input line 181.
 
-
-LaTeX Warning: Reference `fig:assymetriy' on page 10 undefined on input line 20
-1.
-
-
-LaTeX Warning: Reference `fig:assymetriy' on page 10 undefined on input line 20
-1.
-
-
-LaTeX Warning: Reference `modifikation' on page 10 undefined on input line 206.
-
-
-
-LaTeX Warning: Reference `fig:infasondenopti' on page 10 undefined on input lin
-e 206.
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 206.
+(Font)              scaled to size 8.0pt on input line 181.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 206.
+(Font)              scaled to size 6.0pt on input line 181.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 206.
+(Font)              scaled to size 8.00073pt on input line 181.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 206.
+(Font)              scaled to size 6.00055pt on input line 181.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 206.
+(Font)              scaled to size 7.99915pt on input line 181.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 206.
+(Font)              scaled to size 5.99936pt on input line 181.
 
-LaTeX Warning: Reference `fig:infasondenopti' on page 10 undefined on input lin
-e 206.
+LaTeX Warning: Reference `fig:infasondenopti' on page 8 undefined on input line
+ 182.
 
-[10]
+[8] [9]
 
-LaTeX Warning: Reference `fig:infbopti' on page 11 undefined on input line 216.
-
-
-
-LaTeX Warning: Reference `fig:infboptimisch' on page 11 undefined on input line
- 216.
-
-
-LaTeX Warning: Reference `fig:assymetriy' on page 11 undefined on input line 21
-6.
-
-
-LaTeX Warning: Reference `fig:infbsensi' on page 11 undefined on input line 216
+LaTeX Warning: Reference `fig:infboptit' on page 10 undefined on input line 192
 .
 
 
-LaTeX Warning: Reference `fig:infaopti' on page 11 undefined on input line 216.
+LaTeX Warning: Reference `fig:infboptimisch' on page 10 undefined on input line
+ 192.
 
 
-[11]
+LaTeX Warning: Reference `fig:assymetriy' on page 10 undefined on input line 19
+2.
+
+
+LaTeX Warning: Reference `fig:infbsensi' on page 10 undefined on input line 192
+.
+
+
+LaTeX Warning: Reference `fig:infaopti' on page 10 undefined on input line 192.
+
+
+
+LaTeX Warning: Reference `boptit' on page 10 undefined on input line 195.
+
+
+LaTeX Warning: Reference `boptip' on page 10 undefined on input line 195.
+
+
+LaTeX Warning: Reference `boptim' on page 10 undefined on input line 195.
+
 File: Bilder/Ditching_Probe.png Graphic file (type bmp)
 <Bilder/Ditching_Probe.png>
 
-LaTeX Warning: Reference `infboptimierung' on page 12 undefined on input line 2
-29.
+LaTeX Warning: Reference `fig:infAsadsensi' on page 10 undefined on input line 
+211.
 
 
-LaTeX Warning: Reference `fig:infAsadsensi' on page 12 undefined on input line 
-234.
+LaTeX Warning: Reference `fig:infboptimisch' on page 10 undefined on input line
+ 211.
 
-
-LaTeX Warning: Reference `fig:infboptimisch' on page 12 undefined on input line
- 234.
-
-[12] [13] [14] [15] [16]
-Overfull \hbox (28.84181pt too wide) in paragraph at lines 387--389
+[10] [11] [12] [13] [14] [15] [16]
+Overfull \hbox (28.84181pt too wide) in paragraph at lines 368--370
 []\TU/lmr/m/n/10 TwistDx 2018. TwistAmp assay desing manual. \TU/lmr/m/it/10 on
 line Verfügbar unter: https://www.twistdx.co.uk/support/manuals-
  []
 
-[17] [18] (Diskussion.aux)
+[17] (Diskussion.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 20627 strings out of 410527
- 373477 string characters out of 2816817
- 961079 words of memory out of 3000000
- 41524 multiletter control sequences out of 15000+600000
- 474733 words of font info for 73 fonts, out of 8000000 for 9000
+ 20620 strings out of 410527
+ 373348 string characters out of 2816817
+ 961046 words of memory out of 3000000
+ 41520 multiletter control sequences out of 15000+600000
+ 474725 words of font info for 72 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,8n,121p,5567b,513s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,8n,121p,3701b,513s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Diskussion.pdf (18 pages).
+Output written on Diskussion.pdf (17 pages).

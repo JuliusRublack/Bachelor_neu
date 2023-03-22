@@ -54,6 +54,7 @@ transformed1 <- data %>%
 ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
   geom_line(aes(color = Proben)) +
   theme_minimal()+
+  theme(axis.text = element_text(size=12), axis.title = element_text(size=12))+
    ylab("Fluoreszenz in mV")+
    xlab("Zeit in Minuten") +
    scale_color_manual(values = c("#000000", "#000000", "#000000", "#cccccc", "#cccccc", "#cccccc", "#000000", "#cccccc",
@@ -71,10 +72,10 @@ ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
 tab1 <- read.csv2("daten/tab6.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, caption = "(ref:tab1)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
-  footnote(general="ns = nicht Signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
+  footnote(general="ns = nicht signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 
@@ -84,21 +85,21 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab1.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, caption = "(ref:tab2)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
-  footnote(general="ns = nicht Signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
+  footnote(general="ns = nicht signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 
-(ref:tab3) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infbopti)A
-(ref:tabbesch) ns = nicht Signifikant; s= signifikant; untr.Konfid. = unteres Konfidenzintervall; obrs.Konfid. = oberes Konfidenzintervall
+(ref:tab3) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infboptit)
+(ref:tabbesch) ns = nicht signifikant; s= signifikant; untr.Konfid. = unteres Konfidenzintervall; obrs.Konfid. = oberes Konfidenzintervall
 ```{r tabdrei}
 
 tab1 <- read.csv2("daten/tab2.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, align = "c", caption = "(ref:tab3)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
   pack_rows("Vergleich der Gruppen", 4, 7) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
@@ -107,16 +108,16 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 ```
 
 
-(ref:tab4) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infbopti)B
+(ref:tab4) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infboptip)
 ```{r tabvier}
 
 tab1 <- read.csv2("daten/tab3.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, align = "c", caption = "(ref:tab4)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
-   footnote(general="ns = nicht Signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
+   footnote(general="ns = nicht signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 (ref:tab5) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infboptimisch)A
@@ -125,7 +126,7 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab4.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, align = "c", caption = "(ref:tab5)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
   pack_rows("Vergleich der Gruppen", 4, 7) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
@@ -139,10 +140,10 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab9.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, caption = "(ref:tab6)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
-  footnote(general="ns = nicht Signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
+  footnote(general="ns = nicht signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 (ref:tab7) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infAsadsensi)
@@ -151,10 +152,10 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab10.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, align = "c", caption = "(ref:tab7)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
-   footnote(general="ns = nicht Signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
+   footnote(general="ns = nicht signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 (ref:tab8) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infAvolumen)
@@ -163,10 +164,10 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab12.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, caption = "(ref:tab8)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
-  footnote(general="ns = nicht Signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
+  footnote(general="ns = nicht signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 (ref:tab9) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infaopti)A
@@ -175,7 +176,7 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab11.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, align = "c", caption = "(ref:tab9)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
   pack_rows("Vergleich der Gruppen", 4, 7) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
@@ -189,7 +190,7 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab13.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, align = "c", caption = "(ref:tab10)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
   pack_rows("Vergleich der Gruppen", 6, 16) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
@@ -203,10 +204,10 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab14.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, caption = "(ref:tab11)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
-  footnote(general="ns = nicht Signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
+  footnote(general="ns = nicht signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 (ref:tab12) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:assymetriy)A
@@ -215,10 +216,10 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab7.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, caption = "(ref:tab12)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
-  footnote(general="ns = nicht Signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
+  footnote(general="ns = nicht signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 (ref:tab13) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:assymetriy)B
@@ -227,12 +228,24 @@ kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE,
 tab1 <- read.csv2("daten/tab8.csv", fileEncoding="latin1", header = FALSE)
 
 kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, align = "c", caption = "(ref:tab13)") %>%
-  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapio-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "Anova-Test"=1), line_sep=0) %>%
   pack_rows("Vergleich der Gruppen", 4, 7) %>%
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down") %>%
   footnote(general="(ref:tabbesch)", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE, threeparttable = TRUE) %>%
   row_spec(4,hline_after=TRUE)
+```
+
+(ref:tab15) Mathematische Daten des TT-Wert Vergleichs für Abbildung \@ref(fig:infBmischi50)
+```{r tabfunfzehn}
+
+tab1 <- read.csv2("daten/tab15.csv", fileEncoding="latin1", header = FALSE)
+
+kable(tab1, booktabs = TRUE, col.names = NULL, format = "latex", escape = FALSE, caption = "(ref:tab15)") %>%
+  add_header_above(c("Gruppe "= 1, "Werte"= 1, "Mittelwert"=1, "Shapiro-Wilk-Test" =1, "Levene-Test"=1, "T-Test"=1, "Aussage"=1), line_sep=0) %>%
+  kable_styling(latex_options = "hold_position") %>%
+  kable_styling(latex_options = "scale_down") %>%
+  footnote(general="ns = nicht signifikant; s = signifikant", symbol = c("p = <0.05","p = <0.01", "p = <0.001"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 \pagebreak

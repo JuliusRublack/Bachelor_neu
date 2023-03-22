@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  17 MAR 2023 20:13
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  21 MAR 2023 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -971,23 +971,23 @@ File: Bilder/infA_Virus.png Graphic file (type bmp)
 [4] [5]
 File: Bilder/InfA_infektionsmechanismus.png Graphic file (type bmp)
 <Bilder/InfA_infektionsmechanismus.png>
-[6] [7] [8]
+[6] [7]
 File: Bilder/PCR.png Graphic file (type bmp)
 <Bilder/PCR.png>
-[9]
+[8] [9]
 File: Bilder/LAMP_struktur.png Graphic file (type bmp)
 <Bilder/LAMP_struktur.png>
 [10] [11]
 File: Bilder/Nasba_probe.png Graphic file (type bmp)
 <Bilder/Nasba_probe.png>
-[12] [13]
+[12]
 File: Bilder/RPA-Reaktion.png Graphic file (type bmp)
 <Bilder/RPA-Reaktion.png>
-[14]
+[13]
 File: Bilder/RPA_Sonden_übersicht.jpg Graphic file (type bmp)
 <Bilder/RPA_Sonden_übersicht.jpg>
-[15] [16] [17] [18] [19] [20] [21]
-Overfull \hbox (58.54962pt too wide) in paragraph at lines 560--562
+[14] [15] [16] [17] [18] [19] [20] [21]
+Overfull \hbox (58.54962pt too wide) in paragraph at lines 563--565
 []\TU/lmr/m/n/10 PREMIER B. 2023. NASBA technology. \TU/lmr/m/it/10 online Verf
 ügbar unter: http://www.premierbiosoft.com/tech_notes/NASBA.html\TU/lmr/m/n/10 
 . 
@@ -997,10 +997,10 @@ Overfull \hbox (58.54962pt too wide) in paragraph at lines 560--562
 Here is how much of TeX's memory you used:
  22095 strings out of 410527
  397615 string characters out of 2816817
- 969186 words of memory out of 3000000
+ 968185 words of memory out of 3000000
  42961 multiletter control sequences out of 15000+600000
  472878 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,6n,121p,2836b,436s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,6n,121p,3408b,436s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on Einleitung.pdf (25 pages).

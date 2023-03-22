@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  15 MAR 2023 14:38
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  22 MAR 2023 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,76 +975,44 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 7.99915pt on input line 162.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 162.
-
-LaTeX Warning: Reference `RTPCR' on page 2 undefined on input line 167.
-
 [2]
+
+LaTeX Warning: Reference `RTPCR' on page 3 undefined on input line 169.
+
 File: Bilder/probes.png Graphic file (type bmp)
 <Bilder/probes.png>
 [3] [4] [5]
 
-LaTeX Warning: Reference `fig:plasmidB' on page 6 undefined on input line 272.
+LaTeX Warning: Reference `fig:plasmidB' on page 6 undefined on input line 276.
 
 
 LaTeX Warning: Reference `fig:plasmidA214' on page 6 undefined on input line 27
-2.
+6.
 
 [6] [7]
 
-LaTeX Warning: Reference `fig:plasmidB' on page 8 undefined on input line 312.
+LaTeX Warning: Reference `fig:plasmidB' on page 8 undefined on input line 316.
 
 
 LaTeX Warning: Reference `fig:plasmidA937' on page 8 undefined on input line 31
-3.
+7.
 
 
 LaTeX Warning: Reference `fig:plasmidA214' on page 8 undefined on input line 31
-3.
+7.
 
 [8]
 
-LaTeX Warning: Reference `fig:plasmidB' on page 9 undefined on input line 323.
+LaTeX Warning: Reference `fig:plasmidB' on page 9 undefined on input line 328.
 
 
 LaTeX Warning: Reference `fig:plasmidA214' on page 9 undefined on input line 32
-3.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 333--333
-[]\TU/lmr/bx/n/12 Erstellung von RNA-Kontrollproben mit humanem Nukleinsäure-
- []
+8.
 
 [9]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10]
-
-LaTeX Warning: Reference `tab:infboligo' on page 11 undefined on input line 440
-.
-
-
-LaTeX Warning: Reference `tab:infaoligo' on page 11 undefined on input line 440
-.
-
-
-LaTeX Warning: Reference `asasd' on page 11 undefined on input line 440.
-
-
-LaTeX Warning: Reference `asdasdaa' on page 11 undefined on input line 440.
-
-[11]
-
-LaTeX Warning: Reference `asasd' on page 12 undefined on input line 473.
-
-
-LaTeX Warning: Reference `asdasdaa' on page 12 undefined on input line 473.
+Underfull \hbox (badness 8113) in paragraph at lines 338--338
+[]\TU/lmr/bx/n/12 Erstellung von RNA-Referenzproben mit humanem Nukleinsäure-
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1052,44 +1020,50 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12]
 
-LaTeX Warning: Reference `infbprimer' on page 13 undefined on input line 517.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14]
+[10] [11]
 
-LaTeX Warning: Reference `rpa' on page 15 undefined on input line 545.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15] [16] [17] [18]
-Underfull \hbox (badness 2205) in paragraph at lines 669--671
+[12] [13] [14]
+File: Bilder/asymetrie_sondenbild.png Graphic file (type bmp)
+<Bilder/asymetrie_sondenbild.png>
+[15]
+
+LaTeX Warning: Reference `rpa' on page 16 undefined on input line 630.
+
+[16] [17] [18] [19]
+Underfull \hbox (badness 2205) in paragraph at lines 760--762
 []\TU/lmr/m/n/10 QIAGEN. 2021. “QIAGEN® PlasmidPurification Handbook.” \TU/lmr/
 m/it/10 QIAGEN Plasmid Mini, Midi, Ma-
  []
 
 
-Overfull \hbox (57.70845pt too wide) in paragraph at lines 706--708
+Overfull \hbox (57.70845pt too wide) in paragraph at lines 797--799
 []\TU/lmr/m/n/10 TwistDx. 2018. “TwistAmp Assay Desing Manual.” \TU/lmr/m/it/10
  Online Verfügbar Unter: Https://Www.twistdx.co.uk/Support/Manuals-
  []
 
-
-Underfull \hbox (badness 2326) in paragraph at lines 709--711
+[20]
+Underfull \hbox (badness 2326) in paragraph at lines 800--802
 \TU/lmr/m/n/10 Proliferatum$[]$/i$[]$ Based on Asymmetric Recombinase Polymeras
 e Amplification and Hemin/g-
  []
 
-[19] [20] (Methoden.aux)
+[21] (Methoden.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22069 strings out of 410527
- 395635 string characters out of 2816817
- 977260 words of memory out of 3000000
- 42926 multiletter control sequences out of 15000+600000
+ 22085 strings out of 410527
+ 396203 string characters out of 2816817
+ 978515 words of memory out of 3000000
+ 42941 multiletter control sequences out of 15000+600000
  474847 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,15n,121p,2467b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,15n,121p,2608b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Methoden.pdf (20 pages).
+Output written on Methoden.pdf (21 pages).

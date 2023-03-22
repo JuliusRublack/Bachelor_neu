@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  6 MAR 2023 15:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  22 MAR 2023 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,80 +975,93 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: Bilder/Virus Beispielbild.png Graphic file (type bmp)
 <Bilder/Virus Beispielbild.png>
 [1] [2]
-File: Bilder/infA_Virus.png Graphic file (type bmp)
-<Bilder/infA_Virus.png>
-[3]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4] [5] [6]
-File: Bilder/PCR.png Graphic file (type bmp)
-<Bilder/PCR.png>
-Missing character: There is no ≈ in font [lmroman10-regular]:mapping=tex-text;!
-Missing character: There is no ≈ in font [lmroman10-regular]:mapping=tex-text;!
-[7] [8]
+File: Bilder/infA_Virus1.png Graphic file (type bmp)
+<Bilder/infA_Virus1.png>
+[3] [4]
+File: Bilder/InfA_infektionsmechanismus1.png Graphic file (type bmp)
+<Bilder/InfA_infektionsmechanismus1.png>
+[5] [6]
+File: Bilder/PCR1.png Graphic file (type bmp)
+<Bilder/PCR1.png>
+[7] [8] [9]
 File: Bilder/LAMP_struktur.png Graphic file (type bmp)
 <Bilder/LAMP_struktur.png>
-[9]
-File: Bilder/N.png Graphic file (type bmp)
-<Bilder/N.png>
 [10]
+File: Bilder/Nasba_probe.png Graphic file (type bmp)
+<Bilder/Nasba_probe.png>
+[11]
 File: Bilder/RPA-Reaktion.png Graphic file (type bmp)
 <Bilder/RPA-Reaktion.png>
-[11] [12] [13]
+[12]
+File: Bilder/RPA_Sonden_übersicht1.png Graphic file (type bmp)
+<Bilder/RPA_Sonden_übersicht1.png>
+[13] [14] [15]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 552.
+(Font)              scaled to size 8.0pt on input line 536.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 552.
+(Font)              scaled to size 6.0pt on input line 536.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00073pt on input line 552.
+(Font)              scaled to size 8.00073pt on input line 536.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00055pt on input line 552.
+(Font)              scaled to size 6.00055pt on input line 536.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 552.
+(Font)              scaled to size 7.99915pt on input line 536.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 552.
-[14]
+(Font)              scaled to size 5.99936pt on input line 536.
+[16]
 File: Bilder/probes.png Graphic file (type bmp)
 <Bilder/probes.png>
-[15] [16] [17] [18] [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 716--716
-[]\TU/lmr/bx/n/12 Erstellung von RNA-Kontrollproben mit humanem Nukleinsäure-
+[17] [18] [19] [20] [21] [22]
+Underfull \hbox (badness 8113) in paragraph at lines 712--712
+[]\TU/lmr/bx/n/12 Erstellung von RNA-Referenzproben mit humanem Nukleinsäure-
  []
 
-[21]
+[23]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22] [23] [24] [25] [26]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24] [25]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26] [27] [28]
+File: Bilder/asymetrie_sondenbild.png Graphic file (type bmp)
+<Bilder/asymetrie_sondenbild.png>
+[29] [30] [31]
 File: Bilder/infB_verdau_t_t.png Graphic file (type bmp)
 <Bilder/infB_verdau_t_t.png>
 File: Gesamt_files/figure-latex/infBverdau-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infBverdau-2.pdf>
-[27]
+[32]
 File: Gesamt_files/figure-latex/infbscreening-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbscreening-1.pdf>
 
-Underfull \hbox (badness 3579) in paragraph at lines 994--994
-[]\TU/lmr/m/n/10 Abbildung 9: []\TU/lmr/bx/n/10 Primerscreening der entwickelte
-n Influenza B RT-RPA Primer-Sonden-
+Underfull \hbox (badness 2591) in paragraph at lines 1082--1082
+[]\TU/lmr/m/n/10 Abbildung 12: []\TU/lmr/bx/n/10 Primerscreening der entwickelt
+en Influenza B RT-RPA Primer-Sonden-
  []
 
-[28]
+[33]
 File: Gesamt_files/figure-latex/infBetabl-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infBetabl-1.pdf>
-[29] [30]
-File: Gesamt_files/figure-latex/infbopti-1.pdf Graphic file (type pdf)
-<use Gesamt_files/figure-latex/infbopti-1.pdf>
-File: Gesamt_files/figure-latex/infbopti-2.pdf Graphic file (type pdf)
-<use Gesamt_files/figure-latex/infbopti-2.pdf>
-
-LaTeX Warning: Reference `tab:' on page 31 undefined on input line 1043.
-
-[31]
+[34]
+File: Gesamt_files/figure-latex/infboptit-1.pdf Graphic file (type pdf)
+<use Gesamt_files/figure-latex/infboptit-1.pdf>
+[35] [36]
+File: Gesamt_files/figure-latex/assymetriy-1.pdf Graphic file (type pdf)
+<use Gesamt_files/figure-latex/assymetriy-1.pdf>
+File: Gesamt_files/figure-latex/assymetriy-2.pdf Graphic file (type pdf)
+<use Gesamt_files/figure-latex/assymetriy-2.pdf>
+[37]
+File: Gesamt_files/figure-latex/infboptip-1.pdf Graphic file (type pdf)
+<use Gesamt_files/figure-latex/infboptip-1.pdf>
+[38]
 File: Gesamt_files/figure-latex/infboptimisch-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infboptimisch-1.pdf>
 File: Gesamt_files/figure-latex/infboptimisch-2.pdf Graphic file (type pdf)
@@ -1057,12 +1070,7 @@ File: Gesamt_files/figure-latex/infboptimisch-3.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infboptimisch-3.pdf>
 File: Gesamt_files/figure-latex/infboptimisch-4.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infboptimisch-4.pdf>
-[32] [33]
-File: Gesamt_files/figure-latex/assymetriy-1.pdf Graphic file (type pdf)
-<use Gesamt_files/figure-latex/assymetriy-1.pdf>
-File: Gesamt_files/figure-latex/assymetriy-2.pdf Graphic file (type pdf)
-<use Gesamt_files/figure-latex/assymetriy-2.pdf>
-[34]
+[39] [40]
 File: Gesamt_files/figure-latex/infbsensi-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbsensi-1.pdf>
 File: Gesamt_files/figure-latex/infbsensi-2.pdf Graphic file (type pdf)
@@ -1075,34 +1083,37 @@ File: Gesamt_files/figure-latex/infbsensi-5.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbsensi-5.pdf>
 File: Gesamt_files/figure-latex/infbsensi-6.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infbsensi-6.pdf>
-[35] [36]
+
+LaTeX Warning: Float too large for page by 9.70018pt on input line 1240.
+
+[41] [42] [43]
 File: Bilder/infA_verdau.png Graphic file (type bmp)
 <Bilder/infA_verdau.png>
 File: Gesamt_files/figure-latex/infAverdau-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infAverdau-2.pdf>
-[37] [38]
+[44]
 File: Gesamt_files/figure-latex/infAsadsensi-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infAsadsensi-1.pdf>
 
-Underfull \hbox (badness 2503) in paragraph at lines 1198--1198
-[]\TU/lmr/m/n/10 Abbildung 16: []\TU/lmr/bx/n/10 Primerscreening der entwickelt
+Underfull \hbox (badness 2503) in paragraph at lines 1318--1318
+[]\TU/lmr/m/n/10 Abbildung 20: []\TU/lmr/bx/n/10 Primerscreening der entwickelt
 en Influenza A RT-RPA Primer-Sonden-
  []
 
-[39]
+[45]
 File: Gesamt_files/figure-latex/infAvolumen-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infAvolumen-1.pdf>
-[40]
+[46]
 File: Gesamt_files/figure-latex/infaopti-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infaopti-1.pdf>
 File: Gesamt_files/figure-latex/infaopti-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infaopti-2.pdf>
-[41]
+[47] [48]
 File: Gesamt_files/figure-latex/infaoptimisch-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infaoptimisch-1.pdf>
 File: Gesamt_files/figure-latex/infaoptimisch-2.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infaoptimisch-2.pdf>
-[42]
+[49]
 File: Gesamt_files/figure-latex/infasensi-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infasensi-1.pdf>
 File: Gesamt_files/figure-latex/infasensi-2.pdf Graphic file (type pdf)
@@ -1113,30 +1124,25 @@ File: Gesamt_files/figure-latex/infasensi-4.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infasensi-4.pdf>
 File: Gesamt_files/figure-latex/infasensi-5.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infasensi-5.pdf>
-[43] [44]
+[50] [51]
 File: Gesamt_files/figure-latex/infasondenopti-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infasondenopti-1.pdf>
-[45]
-Overfull \hbox (12.66498pt too wide) in paragraph at lines 1300--1310
- [][] 
- []
-
-[46]
+[52] [53]
 File: Bilder/Alingment infA.png Graphic file (type bmp)
 <Bilder/Alingment infA.png>
-[47] [48] [49] [50] [51] [52] [53]
+[54] [55] [56] [57] [58] [59] [60] [61]
 File: Bilder/Ditching_Probe.png Graphic file (type bmp)
 <Bilder/Ditching_Probe.png>
-[54] [55] [56]
+[62] [63] [64] [65]
 File: Gesamt_files/figure-latex/infBmischi50-1.pdf Graphic file (type pdf)
 <use Gesamt_files/figure-latex/infBmischi50-1.pdf>
-[57]
+[66]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 1503.
+(Font)              scaled to size 9.0pt on input line 1692.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.00082pt on input line 1503.
+(Font)              scaled to size 9.00082pt on input line 1692.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 1503.
+(Font)              scaled to size 8.99904pt on input line 1692.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1164,49 +1170,56 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[58]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[67]
 File: Bilder/InfB Plasmidkarte.png Graphic file (type bmp)
 <Bilder/InfB Plasmidkarte.png>
 File: Bilder/InfA Plasmidkarte 937.png Graphic file (type bmp)
 <Bilder/InfA Plasmidkarte 937.png>
 File: Bilder/InfA Plasmidkarte 214.png Graphic file (type bmp)
 <Bilder/InfA Plasmidkarte 214.png>
-[59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71] [72]
-Underfull \hbox (badness 4779) in paragraph at lines 2204--2206
+[68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83]
+
+Overfull \hbox (58.54962pt too wide) in paragraph at lines 2451--2453
+[]\TU/lmr/m/n/10 PREMIER B. 2023. NASBA technology. \TU/lmr/m/it/10 online Verf
+ügbar unter: http://www.premierbiosoft.com/tech_notes/NASBA.html\TU/lmr/m/n/10 
+. 
+ []
+
+
+Underfull \hbox (badness 4779) in paragraph at lines 2460--2462
 []\TU/lmr/m/n/10 QIAGEN 2021. QIAGEN® PlasmidPurification handbook. \TU/lmr/m/i
 t/10 QIAGEN Plasmid Mini, Midi, Ma-
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 2204--2206
+Underfull \hbox (badness 1173) in paragraph at lines 2460--2462
 \TU/lmr/m/it/10 xi, Mega, andGiga Kits. For purification of ultrapure, transfec
 tion-grade plasmid DNA Online
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2204--2206
+Underfull \hbox (badness 10000) in paragraph at lines 2460--2462
 \TU/lmr/m/it/10 verfügbar unter: https://www.qiagen.com/us/resources/download.a
 spx?id=0bd0c5fb-c271-43e7-af43-
  []
 
-[73] [74] [75]
-Overfull \hbox (28.84181pt too wide) in paragraph at lines 2318--2320
+[84] [85] [86]
+Overfull \hbox (28.84181pt too wide) in paragraph at lines 2574--2576
 []\TU/lmr/m/n/10 TwistDx 2018. TwistAmp assay desing manual. \TU/lmr/m/it/10 on
 line Verfügbar unter: https://www.twistdx.co.uk/support/manuals-
  []
 
-[76] [77] [78] (Gesamt.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[87] [88] (Gesamt.aux) ) 
 Here is how much of TeX's memory you used:
- 22796 strings out of 410527
- 419406 string characters out of 2816817
- 1019008 words of memory out of 3000000
- 43588 multiletter control sequences out of 15000+600000
- 475864 words of font info for 88 fonts, out of 8000000 for 9000
+ 22874 strings out of 410527
+ 422246 string characters out of 2816817
+ 1023535 words of memory out of 3000000
+ 43664 multiletter control sequences out of 15000+600000
+ 475856 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,16n,121p,5520b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,16n,121p,3721b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on Gesamt.pdf (87 pages).
+Output written on Gesamt.pdf (97 pages).

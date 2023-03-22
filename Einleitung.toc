@@ -3,11 +3,11 @@
 \contentsline {subsection}{\numberline {1.1}Viren - Die Gefahr aus dem nichts}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Die Influenza Viren - Pandemieverursacher Nr. 1}{3}{subsection.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1}Influenza A}{4}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Influenza B}{7}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2}Influenza B}{6}{subsubsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.3}Proteinbasierte Nachweismethoden von Influenza}{7}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Nukleinsäure amplifizierende Methoden zur Influenza Detektion}{8}{subsection.1.4}%
 \contentsline {subsubsection}{\numberline {1.4.1}Die Polymerase Kettenreaktion}{8}{subsubsection.1.4.1}%
-\contentsline {subsubsection}{\numberline {1.4.2}Isotherme Amplifikationstechniken}{10}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.2}Isotherme Amplifikationstechniken}{9}{subsubsection.1.4.2}%
 \contentsline {subsubsection}{\numberline {1.4.3}Schleifenvermittelte isotherme Amplifikation - LAMP}{10}{subsubsection.1.4.3}%
 \contentsline {subsubsection}{\numberline {1.4.4}Nukleinsäure sequenz-basierte Amplifikation - NASBA}{11}{subsubsection.1.4.4}%
 \contentsline {subsubsection}{\numberline {1.4.5}Rekombinase Polymerase Amplifikation - RPA}{13}{subsubsection.1.4.5}%
