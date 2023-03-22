@@ -8,6 +8,7 @@
   
   
 * ~Ribogreen Kapitel in Methoden: Unterschiede zwischen Ribogreen und NanoDrop~
+* evtl neue CSL
 * Literaturverzeichnis auf komische Sachen überprüfen
 * Abkürzungsverzeichnis aktualisieren (37 pro seite)
 * low volume überall ersetzten
