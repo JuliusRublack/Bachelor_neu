@@ -11,7 +11,7 @@
 * Literaturverzeichnis auf komische Sachen überprüfen
 * Abkürzungsverzeichnis aktualisieren (37 pro seite)
 * low volume überall ersetzten
-* ~Abstract überarbeiten~
+* Abstract überarbeiten
 * ~simulation einer Patietenprobe!! im M&M bzw. Ergebnissteil~
 
 * Einleitung
@@ -22,7 +22,7 @@
   + ~Sondenbild RPA~
   + ~Quencher Fluorophor!!!~
   + ~InfA Abbildung strukur bildunterschrift kürzen (evtl.)~
-  + nfo oder lf sonde?
+  + ~nfo oder lf sonde?~
 
 * Ergebnisse
   + ~Spezifität in Tabelle darstellen (infA und InfB einzeln ohne die eigenen Viren)~
@@ -50,7 +50,7 @@
   + ~orange loading dye (kursiv)~
   + ~swabs nachschauen~
   + ~Referenzproben: RNA oder Nukleinsäure? umschreiben so dass gesamzhumane nukleinsäre in der probe inkludiert sind~
-  + Enzymkonzentrationen klären als endkonzentration
+  + ~Enzymkonzentrationen klären als endkonzentration~
   + ~Adaption des Reaktionsvolumens~
   + Temperatur (1,5X Primer rausgelassen)
   + ~Volumen optimierung komischer text drinnen~
