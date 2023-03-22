@@ -34,7 +34,7 @@
 * Diskussion
   + InfA sterische hinderung Sonde und f primer
   + ~Referenzproben statt kontrollproben~
-  + Quellen: infB hohe homologie
+  + ~Quellen: infB hohe homologie~
   + ~Basenfehlpaarung Ehnts, Primer 1 3'Ende~
   + low-volume Kapitel assymetrie nicht unterschalgen (checken)
   + low-volume Kapitel ende mit iris besprechen
