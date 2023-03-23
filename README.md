@@ -37,7 +37,7 @@
   + ~Referenzproben statt kontrollproben~
   + ~Quellen: infB hohe homologie~
   + ~Basenfehlpaarung Ehnts, Primer 1 3'Ende~
-  + low-volume Kapitel assymetrie nicht unterschalgen (checken)
+  + ~low-volume Kapitel assymetrie nicht unterschalgen (checken)~
   + low-volume Kapitel ende mit iris besprechen
   + ~Sensitivitäten Kapitel~
   + ~Quelle für unspezifische Primerbindung~
