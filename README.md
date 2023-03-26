@@ -13,6 +13,7 @@
 * Abkürzungsverzeichnis aktualisieren (37 pro seite)
 * low volume überall ersetzten
 * Abstract überarbeiten
+* 95%iges Detektionslimit
 * ~simulation einer Patietenprobe!! im M&M bzw. Ergebnissteil~
 
 * Einleitung
