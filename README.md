@@ -18,7 +18,7 @@
 * ~Salicylsäure rezeptor?~
 * Oligotabellen richig machen
 * ~Plasmidkarten~
-* Sondenabbildung exo sonde
+* ~Sondenabbildung exo sonde~
 
 * Einleitung
   + ~Influenza A Infektionsmechanismus~
