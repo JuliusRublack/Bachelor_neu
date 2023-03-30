@@ -1,37 +1,41 @@
 °C;grad Celsius
 µg;microgramm
-µg;microgramm
 µl;microliter
 µM;micromolar
 A;Adenin
 ATP;Adenosintriphosphat
 bp;Basenpaar
+bzw.;beziehungsweise
 C;Cytosin
 c\textsubscript{q}-Wert;\textit{cycle quantification}-Wert
+ca.;circa
 cDNA;\textit{complementary} Desoxyribonukleinsäure
+cRNP;\textit{complementary ribonucleoprotein}
 Cy5;Cyanine 5
 d.h.;das heißt
-DdRp;DNA abhängigen RNA-Polymerase
+DdRp;DNA-abhängige RNA-Polymerase
 DEAE;Diethylaminoethyl
+DEPC;Diethylpyrocarbonat
 DFA;direktes Fluoreszenz Antikörper Assay
 DNA;Desoxyribonukleinsäure
 EDTA;Ethylendiamintetraessigsäure
-et al.;
+et al.;und andere (lat. \textit{et alia})
+etc.;und so weiter (lat. \textit{et cetera})
 Exo;Exonuklease III
 FAM;Carboxyfluorescein
-fpg;Formamidopyrimidin DNA glykosylase
+fpg;Formamidopyrimidin DNA Glykosylase
 FRET;Förster-Resonanzenergietransfer
 G;Guanin
 h;Stunde
 H\textsubscript{2}O\textsubscript{DEPC};PCR reines Wasser, Nuklease- und Nukleinsäure-frei, DEPC behandelt
 HA;Hämagglutinin
 HEX;Hexachlorofluorescein
-HPV;humanes Metapneumovirus
+hMPV;humanes Metapneumovirus
 hRSV;humanes Respiratorisches Synzytial-Virus
 IA;isotherme Amplifikationstechniken
 iQ;\textit{internally Quenched}
 IRES;\textit{internal ribosomal entry site}
-kb;kilobasen
+kb;kilobase
 LAMP;Schleifenvermittelte isotherme Amplifikation
 LB;\textit{lysogenic broth}
 M1;Matrixprotein
@@ -40,17 +44,16 @@ MAD;absolute Standardabweichung
 min;Minute
 ml;milliliter
 mM;Millimolar
-mRNA;\textit{messenger] Ribonukleinsäure
+mRNA;\textit{messenger} Ribonukleinsäure
 NA;Neuraminidase
 NAAT;Nukleinsäure amplifizierende Methoden
 NASBA;Nukleinsäure sequenz-basierte Amplifikation
-NCIRD;Nationales Center für Immunisierung und Respiratorische Krankheiten
+NCIRD;Nationales Center für Immunisierung und respiratorische Krankheiten
 NEB;"New England
 BioLabs"
 NEP;\textit{nuclear export protein}
 nfo;Endonuklease IV
 ng;nanogramm
-nm;nanometer
 nm;nanometer
 NS1;Nichtstrukturprotein 1
 ORF;offener Leserahmen
@@ -65,6 +68,7 @@ RPM;\textit{round per minute}
 RT;reverse  Transkription
 RT-PCR;reverse -Transkriptase-Polymerase-Kettenreaktion
 RT-qPCR;reverse-Transkriptase-quantitative-Polymerase-Kettenreaktion
+RT-RPA;reverse Transkriptase Rekombinase Polymerase Amplifikation
 s;sekunde
 SARS-CoV-2;\textit{severe acute respiratory syndrome coronavirus type 2}
 SD;Standardabweichung
@@ -72,14 +76,10 @@ SNR;Signal-Rausch-Verhältnis
 SSB;\textit{single-stranded binding} protein
 T;Thymin
 TE-Puffer;TRIS-EDTA-Puffer
+THF;a-basische Seite
 TRIS;Tris(hydroxymethyl)aminomethan
 TT-Wert;\textit{threshold time} Wert
 U;unit
 vRPN;\textit{viral ribonucleoprotein}
 VTM;Virus Transport Medium
 z.B.;zum Beispiel
-ca.;
-cRNP;\textit{complementary ribonucleoprotein}
-THF;a-basische Seite
-RT-RPA;reverse Transkriptase Rekombinase Polymerase Amplifikation
-bzw.;beziehungsweise

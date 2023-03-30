@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  22 MAR 2023 15:17
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.18)  29 MAR 2023 14:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,11 +1009,12 @@ LaTeX Warning: Reference `fig:plasmidB' on page 9 undefined on input line 328.
 LaTeX Warning: Reference `fig:plasmidA214' on page 9 undefined on input line 32
 8.
 
-[9]
+
 Underfull \hbox (badness 8113) in paragraph at lines 338--338
 []\TU/lmr/bx/n/12 Erstellung von RNA-Referenzproben mit humanem Nukleinsäure-
  []
 
+[9]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1032,27 +1033,45 @@ File: Bilder/asymetrie_sondenbild.png Graphic file (type bmp)
 <Bilder/asymetrie_sondenbild.png>
 [15]
 
-LaTeX Warning: Reference `rpa' on page 16 undefined on input line 630.
+LaTeX Warning: Reference `rpa' on page 16 undefined on input line 632.
 
-[16] [17] [18] [19]
-Underfull \hbox (badness 2205) in paragraph at lines 760--762
-[]\TU/lmr/m/n/10 QIAGEN. 2021. “QIAGEN® PlasmidPurification Handbook.” \TU/lmr/
-m/it/10 QIAGEN Plasmid Mini, Midi, Ma-
+[16] [17]
+Underfull \hbox (badness 2512) in paragraph at lines 673--675
+[]\TU/lmr/m/n/10 BioEcho 2022. EchoCLEAN DNA & RNA cleanup kits produkt brochür
+e online verfügbar un-
  []
 
 
-Overfull \hbox (57.70845pt too wide) in paragraph at lines 797--799
-[]\TU/lmr/m/n/10 TwistDx. 2018. “TwistAmp Assay Desing Manual.” \TU/lmr/m/it/10
- Online Verfügbar Unter: Https://Www.twistdx.co.uk/Support/Manuals-
+Underfull \hbox (badness 10000) in paragraph at lines 673--675
+\TU/lmr/m/n/10 ter: Https://bioecho-prod-media-hp.s3.sbg.perf.cloud.ovh.net/med
+ia/d0/9e/c1/1655465490/cleanup-
  []
 
-[20]
-Underfull \hbox (badness 2326) in paragraph at lines 800--802
-\TU/lmr/m/n/10 Proliferatum$[]$/i$[]$ Based on Asymmetric Recombinase Polymeras
-e Amplification and Hemin/g-
+
+Overfull \hbox (0.21275pt too wide) in paragraph at lines 676--678
+[]\TU/lmr/m/n/10 Biomers 2023a. REAL-TIME PCR PROBES, online verfügbar unter: H
+ttps://www.biomers.net/de/produkte
  []
 
-[21] (Methoden.aux)
+[18] [19]
+Underfull \hbox (badness 4779) in paragraph at lines 763--765
+[]\TU/lmr/m/n/10 QIAGEN 2021. QIAGEN® PlasmidPurification handbook. \TU/lmr/m/i
+t/10 QIAGEN Plasmid Mini, Midi, Ma-
+ []
+
+
+Underfull \hbox (badness 1173) in paragraph at lines 763--765
+\TU/lmr/m/it/10 xi, Mega, andGiga Kits. For purification of ultrapure, transfec
+tion-grade plasmid DNA Online
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 763--765
+\TU/lmr/m/it/10 verfügbar unter: https://www.qiagen.com/us/resources/download.a
+spx?id=0bd0c5fb-c271-43e7-af43-
+ []
+
+[20] [21] (Methoden.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1060,10 +1079,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  22085 strings out of 410527
  396203 string characters out of 2816817
- 978515 words of memory out of 3000000
+ 967494 words of memory out of 3000000
  42941 multiletter control sequences out of 15000+600000
  474847 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,15n,121p,2608b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 86i,15n,121p,2617b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on Methoden.pdf (21 pages).

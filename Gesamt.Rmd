@@ -44,10 +44,12 @@ library(mdthemes)
 
 # Zusammenfassung {-}
 
-Die Grippe verursacht durch Influenza-Viren ist eine der bedeutendsten viralen Infektionserkrankungen mit mehr als 300.000 jährlichen Todesfällen. Dabei ist eine schnelle, robuste und kostengünstige Detektion entscheidend für Behandlungserfolg und Infektionsbekämpfung. Mithilfe eines mobilen Kofferlabors und der RPA als Nachweismethode sollen effizient virale Infektionserkrankungen dezentral detektiert werden.   
-Ziel der Arbeit ist es jeweils eine RT-RPA zum Nachweis der Pan-Influenza B Viren und der Influenza A Subtypen H1N1 und H3N2 zu Entwickeln und diese für den Einsatz im Kofferlabor zu Optimieren. Mithilfe artifizieller Virus-RNA wurden entwickelte Primer-Sonden-Kombinationen auf Eignung hinsichtlich der RT-RPA geprüft und jeweils eine geeignete Primer-Sonden-Kombination in den Reaktionsparametern Mischzeitpunkt, Reaktionstemperatur optimiert. Zusätzlich wurde eine Verringerung des Reaktionsvolumens getestet, um die RT-RPA für mikrofluidische Anwendungen innerhalb des Kofferlabors zu optimieren. Die optimierten RT-RPA's wurde auf Sensitivität und Spezifität getestet und mit goldstandard PCR-Systemen verglichen. Des Weiteren wurde eine Primerasymmetrie zur besseren Detektion auf die RT-RPA adaptiert, sowie der Einfluss verschiedener Sondenmodifikationen untersucht.
-Es konnte jeweils eine RT-RPA zur Detektion der Influenza B Viren und der Influenza A Viren entwickelt werden. Dabei weist die Influenza B RT-RPA ein analytisches 95 %-iges Detektionslimit von 14,6 RNA-Kopien auf und konnte für den niedrigvolumen Bereich (6,5 µl) als low-volume RPA optimiert werden. Die Influenza A RT-RPA besitzt für beide Subtypen ein analytisches Detektionslimit von 147,5 RNA-Kopien konnte aber nicht im Reaktionsvolumen verringert werden. Es konnte anhand der Influenza B RT-RPA gezeigt werden, dass die low-volume RPA die Notwendigkeit des Mischschrittes senkt, jedoch innerhalb eines humanen DNA- und RNA-Hintergrunds deutlich an Sensitivität verliert. Des Weiteren konnte gezeigt werden, dass eine asymmetrische Primer-Verteilung zu einem höheren Fluoreszenzsignal führt und dies mit der Hybridisierungsposition der Sonde in Verbindung steht. Ebenfalls konnte anhand der Influenza A RT-RPA ein Einfluss des Sondendesings hinsichtlich _dt-Quenched_ und _iQ_ festgestellt werden, wobei die _dt-Quenched_-Sonde zu einer erhöhten Sensitivität im Vergleich zu der _iQ_-Sonde führt.   
-Die Influenza A RT-RPA ist in der Lage simulierte Patientenprobenmit einer der Literatur entsprechenden Viruslast zu Detektieren, während die low-volume Influenza B RT-RPA durch den Sensitivitätsverlust nur höher konzentrierte simulierte Patientenproben detektieren kann. Daraus lässt sich schließen, dass low-volume RT-RPA trotz der Vorteile nur bedingt einsetzbar ist und diese Methode hinsichtlich Sensitivität weiter optimiert werden muss.
+Die humane Grippe, verursacht durch Influenza A und B Viren, ist eine der bedeutendsten viralen Infektionserkrankungen mit 290.000 - 650.000 Todesfällen pro Jahr weltweit. Zur Bekämpfung eines Infektionsausbruchs sowie einer erfolgreichen Behandlung der Erkrankungen sind schnelle, robuste und kostengünstige Detektionen entscheidend. Um dies zu realisieren, wurde ein Projekt initialisiert, dass mithilfe eines mobilen Kofferlabors und einer isothermen Amplifikationstechnik (RPA) als Nachweismethode die Diagnostik als sogenanntes point-of-care-testing (POCT) dezentral unterstützt. Ein Baustein ist hier die Detektion verschiedener Influenza-Viren.  
+Ziel dieser Arbeit ist die Entwicklung einer reversen Transkriptions-Rekombinase Polymerase Amplifikation (RT-RPA) zum Nachweis sämtlicher (Pan-) Influenza B RNA-Viren sowie den Influenza A Subtypen H1N1 und H3N2.  Diese sollten für den Einsatz im Kofferlabor optimiert werden. Mithilfe artifiziell synthetisierter Virus-RNA wurden ausgewählte Primer-Sonden-Kombinationen auf ihre jeweilige Eignung für die RT-RPA geprüft. Geeignete Primer-Sonden-Kombinationen wurden in den Reaktionsparametern Mischzeitpunkt sowie Reaktionstemperatur optimiert. Zusätzlich wurde eine Verringerung des Reaktionsvolumens getestet, um die RT-RPA für eine mikrofluidische Anwendungen innerhalb von lab-on-a-chip Systemen zu adaptieren. Neue Ansätze zur Verbesserung der Detektion wie der Einfluss einer Primerasymmetrie sowie verschiedener Sondenmodifikationen wurden untersucht. Die optimierten RT-RPA’s wurden mittels Sensitivität und Spezifität charakterisiert und mit dem Goldstandard PCR verglichen.   
+Die Influenza B RT-RPA weist ein analytisches Detektionslimit von 14,6 RNA-Kopien auf und liegt in einem ähnlichen Sensitivitätsbereich wie die RT-PCR mit 11,4 RNA-Kopien. Die RT-RPA konnte auf ein Reaktionsvolumen von 6,5 µl adaptiert werden. Der geringvolumige RPA-Ansatz senkt die Notwendigkeit des Mischschrittes deutlich, führte jedoch in einem Experiment mit simulierten Patientenproben und einem eingeführtem humanen Nukleinsäure-Hintergrund zu einem 100-fachen Sensitivitätsverlust.   
+Die Influenza A RT-RPA besitzt mit einem analytischen Detektionslimit von 147,5 RNA-Kopien für beide Subtypen eine geringere Sensitivität als die RT-RPA mit Sensitivitäten von 13,1 (H1N1) und 32,2 (H3N2) RNA-Kopien.  Eine Reduktion des Rektionsvolumens konnte nicht realisiert werden. Innerhalb der Influenza A RT-RPA wurden zwei unterschiedliche Sondenmodifikationen verglichen. Ein Einfluss des Sondendesigns konnte festgestellt werden, bei dem die _dT-Quenched_-Sonde zu einer um 46 % erhöhten Sensitivität im Vergleich zu der _internally Quenched_ (iQ) -Sonde führt.  
+Die eingeführte Primerasymmetrie führt in beiden RT-RPA-Systemen zu einem höheren Fluoreszenzsignal. Dabei scheint die Signalerhöhung mit der Hybridisierungsposition (sense oder antisense) der Sonde in Verbindung zu stehen. Die Adaption des geringvolumigen RPA-Ansatzes konnte nur für die Influenz B RT-RPA erreicht werden. Weitere Untersuchungen hinsichtlich der Volumenreduzierung müssten erfolgen um die Vor- und Nachteile sowie den Einsatz der geringvolumigen RT-RPA für die POCT zu prüfen.
+
 
 
 \pagebreak
@@ -55,10 +57,17 @@ Die Influenza A RT-RPA ist in der Lage simulierte Patientenprobenmit einer der L
 
 # Abstract {-}
 
-Influenza, caused by influenza viruses, is one of the most important viral diseases with more than 300,000 deaths annually. Rapid, robust and cost-effective detection is critical for successful treatment and infection control. Using a mobile case laboratory and RPA as a detection technique, the aim is to efficiently detect viral infections in a decentrialized manner.   
-The aim of the work is to develop an RT-RPA for the detection of the pan-influenza B viruses and the influenza A subtypes H1N1 and H3N2 and to optimise these for use in the mobile case laboratory.Artificial viral RNA was used to test the suitability of primer-probe combinations for RT-RPA. A suitable primer-probe combination was optimised for the reaction parameters mixing time and reaction temperature. In addition, a reduction of the reaction volume was tested in order to optimise the RT-RPA for microfluidic applications within the suitcase laboratory. The optimised RT-RPAs were tested for sensitivity and specificity and compared to gold standard PCR systems. Furthermore, the influence of different probe modifications on the RT-RPA was investigated and primer asymmetry was adapted to the RT-RPA for better detection.  
-RT-RPAs were developed to detect Influenza B and Influenza A viruses. The Influenza B RT-RPA has been optimised as a low volume RPA (6.5 µl) with a 95% detection limit of 14.6 RNA copies. The Influenza A RT-RPA shows a detection limit of 147.5 RNA copies for both subtypes. However, the reaction volume could not be reduced. Using influenza B RT-RPA, it was shown that low-volume RPA reduces the need for the mixing step, but loses sensitivity significantly within a human DNA and RNA background. Furthermore, a positive effect of primer asymmetry on RPA was found, which is related to the hybridisation position of the probe. The Influenza A RT-RPA also showed an influence of the probe design with respect to _dt-Quenched_ and _iQ_, with the _dt-Quenched_ probe leading to an increased sensitivity compared to the _iQ_ probe.   
-The influenza A RT-RPA is able to detect positive patient samples, while the low-volume influenza B RT-RPA can only detect higher concentrated simulated patient samples due to the loss of sensitivity. It can therefore be concluded that low-volume RT-RPA, despite its advantages, can only be used to a limited extent and that this method must be further optimised in terms of sensitivity.
+
+Human influenza, caused by influenza A and B viruses, is one of the most important viral infectious diseases with 290,000 - 650,000 deaths per year globally. To combat an outbreak of infection and successfully treat the diseases, rapid, robust and cost-effective detection is crucial. In order to realise this, a project was initiated that supports diagnostics as so-called point-of-care-testing (POCT) in a decentralised manner with the help of a mobile suitcase laboratory and an isothermal amplification technique (RPA) as a detection method. One component here is the detection of various influenza viruses.  
+The aim of this work is the development of a reverse transcription-recombinase polymerase amplification (RT-RPA) for the detection of all (pan-) influenza B RNA viruses as well as the influenza A subtypes H1N1 and H3N2. These were to be optimised for use in the suitcase laboratory. Using artificially synthesised viral RNA, selected primer-probe combinations were tested for their respective suitability for RT-RPA. Suitable primer-probe combinations were optimised in the reaction parameters mixing time and reaction temperature. In addition, a reduction of the reaction volume was tested in order to adapt RT-RPA for microfluidic applications within lab-on-a-chip systems. New approaches to improve detection such as the influence of primer asymmetry and different probe modifications were investigated. The optimised RT-RPAs were characterised by sensitivity and specificity and compared with the gold standard PCR.   
+The influenza B RT-RPA has an analytical detection limit of 14.6 RNA copies and is in a similar sensitivity range as the RT-PCR with 11.4 RNA copies. The RT-RPA could be adapted to a reaction volume of 6.5 µl. The low-volume RPA approach significantly reduces the need for the mixing step, but resulted in a 100-fold loss of sensitivity in an experiment with simulated patient samples and an introduced human nucleic acid background.   
+Influenza A RT-RPA with an analytical detection limit of 147.5 RNA copies for both subtypes has a lower sensitivity than RT-RPA with sensitivities of 13.1 (H1N1) and 32.2 (H3N2) RNA copies. A reduction in the rection volume could not be realised. Within the influenza A RT-RPA, two different probe modifications were compared. An influence of the probe design could be detected, where the dT-quenched probe leads to a 46 % increased sensitivity compared to the internally quencher (iQ-probe).  
+The introduced primer asymmetry leads to a higher fluorescence signal in both RT-RPA systems. Thereby, the signal increase seems to be related to the hybridisation position (sense or antisense) of the probe. The adaptation of the low-volume RPA approach could only be achieved for the Influence B RT-RPA. Further studies on volume reduction would be needed to assess the advantages and disadvantages and the use of low-volume RT-RPA for POCT.
+
+
+
+
+
 
 \pagebreak
 
@@ -69,36 +78,56 @@ The influenza A RT-RPA is able to detect positive patient samples, while the low
 \pagebreak
 
 \listoffigures
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
 
 \pagebreak
 
 \listoftables
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
 
 \pagebreak
 
 # Abkürzungsverzeichnis {-}
 
-```{r abkürzungsverzeichnis, message = FALSE, warning=FALSE}
-Abkz <- read.csv2("Abkürzungsverzeichnis.csv", header = FALSE, fileEncoding="latin1")
-kable(Abkz, booktabs = TRUE, col.names = NULL, longtable = T) %>%
+```{r abkv1, message = FALSE, warning=FALSE}
+Abkv <- read.csv2("Abkürzungsverzeichnis1.csv", header = FALSE, fileEncoding = "latin1")
+
+
+kable(Abkv, booktabs = TRUE, format = "latex", escape = FALSE, col.names = NULL) %>%
   column_spec(1, width = "2.2in") %>%
   column_spec(2, width = "3.5in") %>%
-  kable_styling(latex_options = c("repeat_header"), repeat_header_continued = "\\textit{(fortgesetzt auf der nächsten Seite...)}", repeat_header_text = "\\textit{(fortgesetzt)}")
-
-  
+  footnote(general_title = "(Fortsetzung auf der nächsten Seite...)", general = "", title_format = "italic")
 ```
 
+```{r abkv2, message = FALSE, warning=FALSE}
+Abkv2 <- read.csv2("Abkürzungsverzeichnis2.csv", header = FALSE, fileEncoding = "latin1")
+
+kable(Abkv2, booktabs = TRUE, format = "latex", escape = FALSE, col.names = NULL) %>%
+  column_spec(1, width = "2.2in") %>%
+  column_spec(2, width = "3.5in") %>%
+  footnote(general_title = "(Fortsetzung auf der nächsten Seite...)", general = "", title_format = "italic")
+```
+
+```{r abkv3, message = FALSE, warning=FALSE}
+Abkv3 <- read.csv2("Abkürzungsverzeichnis3.csv", header = FALSE, fileEncoding = "latin1")
+
+kable(Abkv3, booktabs = TRUE, format = "latex", escape = FALSE, col.names = NULL) %>%
+  column_spec(1, width = "2.2in") %>%
+  column_spec(2, width = "3.5in") 
+```
 
 \pagebreak
 
-\hypersetup{linkcolor=RoyalBlue}
+
+
+\hypersetup{linkcolor=black}
 
 \pagenumbering{arabic}
-
 
 ```{r, child=c('Einleitung.Rmd', 'Methoden.Rmd', "Ergebnisse.Rmd", "Diskussion.Rmd")}
 
 ```
+
 
 \pagebreak
 
@@ -111,22 +140,67 @@ kable(Abkz, booktabs = TRUE, col.names = NULL, longtable = T) %>%
 # Danksagung
 
 Die vorliegende Arbeit entstand als Ergebnis meiner Tätigkeit am Institut für Mikrobiologie und Virologie an der MHB Theodor Fontane.   
-An dieser Stelle möchte ich allen beteiligten Personen danken, welche mich während der Anfertigung dieser Arbeit unterstützt haben, sowie Prof. Dr. med Frank T. Hufert welcher mir die Möglichkeit gab unter seiner Leitung am Institut zu Arbeiten.
+An dieser Stelle möchte ich allen beteiligten Personen danken, welche mich während der Anfertigung dieser Arbeit unterstützt haben.
 
-Ein besonderer Dank geht dabei an meinen Zweitbetreuer Dr. Gregory Dame, welche mich nicht nur während
+Mein erster Dank gilt Prof. Dr. med Frank T. Hufert für die Korrektur und Untersützung im schriftlichen Teil der Arbeit, sowie für die Möglichkeit unter seiner Leitung am Institut zu Arbeiten. 
+
+Ein besonderer Dank geht dabei an meinen Zweitbetreuer Dr. Gregory Dame, welcher mich nicht nur während
 der Laborarbeit, sondern auch während des Schreibens unterstützt, ermutigt und angespornt hat. Unter seiner Betreuung
 konnte ich lehrreiche Einblicke in die Virologie und Molekularbiologie bekommen. Die wissenschaftlichen Diskussionen bereiteten mir Freude und halfen mir neue Ansätze und Ideen zu finden. Seine Erfahrung weiß ich sehr zu schätzen.
 
 Mein großer Dank gilt ebenfalls Iris Bachmann, welche mir immer beratend zur Seite stand. Als Kollegin und Mitarbeiterin unterstützte und ermutigte sie mich in der Erstellung der Arbeit. Ihre Erfahrung half mir mich stetig zu verbessern. 
 
-Ein weiterer Dank geht an Tim Brauckhoff, welcher mich als Freund und Kollege unterstütze, sowie Benedikt Beilstein, Chris Freydank, Tim Stübner und Christian Neubert. Ohne Euch wäre die Laborarbeit deutlich monotoner. Eure gute Laune und Witze munterten mich auf und halfen mir durch manche schwere Wochen.
+Ein weiterer Dank geht an Tim Brauckhoff, welcher mich als Freund und Kollege unterstütze, sowie Benedikt Beilstein, Chris Freydank, Tim Stübner und Christian Neubert. Ohne Euch wäre die Laborarbeit deutlich monotoner. Eure gute Laune und Witze munterten mich auf und halfen mir durch manche schweren Wochen. Besonders möchte ich auch Willi Thomas für die Untersützung und das Korrekturlesen meiner Arbeit danken.
 
-Ein besonderer Dank geht an Sophie Eisenächer, welche als mentale Stütze mich beruhigte und mich immer ermutigte. Ihre Geduld und Ruhe halfen mir durchzuhalten. 
+Ein besonderer Dank geht an Sophie Eisenächer, welche mich als mentale Stütze beruhigte und immer ermutigte. Ihre Geduld und Ruhe halfen mir durchzuhalten. 
 
 Mein Dank geht auch an alle weiteren Mitarbeiter aus dem Institut, welche mich freundlich aufgenommen haben und bei Fragen immer zu Seite standen.
-Ein besonderer Dank geht auch an meiner Familie und Freunde die mich in dieser Zeit geholfen und unterstützt haben.
+Ein besonderer Dank geht auch an meiner Familie und Freunde die mir in dieser Zeit geholfen und mich unterstützt haben.
 
 \pagebreak
 
-
 # Literaturverzeichniss
+
+<div id="refs"></div>
+
+\pagebreak
+
+\vspace*{1 cm}
+
+\begin{centering}
+
+\LARGE
+
+{\bf Eigenständigkeitserkärung}
+
+\end{centering}
+
+\vspace{2 cm}
+
+\normalsize
+
+Hiermit versichere ich, Julius Rublack, dass die vorliegende Arbeit mit dem Titel:
+
+\begin{centering}
+
+\vspace{0.7 cm}
+
+\textbf{Entwicklung und Optimierung eines isothermen Amplifikationssystems zur Detektion von Influenza A und B Viren-RNA für die Point-of-care Diagnostik}
+
+\vspace{0.7 cm}
+
+\end{centering}
+
+selbstständig verfasst und keine anderen als die angegebenen Hilfsmittel benutzt habe. Die aus fremden Quellen (einschließlich elektronischer Quellen) direkt oder indirekt übernommenen Gedanken sind ausnahmslos als solche kenntlich gemacht. Wörtlich und inhaltlich verwendete Quellen wurden entsprechend den anerkannten Regeln wissenschaftlichen Arbeitens zitiert. Die Arbeit ist nicht in gleicher oder vergleichbarer Form, auch nicht auszugsweise im Rahmen einer anderen Prüfung bei einer anderen Hochschule vorgelegt worden. Sie wurde bisher auch nicht veröffentlicht.
+
+Ich erkläre mich damit einverstanden, dass die Arbeit mit Hilfe eines Plagiatserkennungsdienstes auf enthaltene Plagiate überprüft wird.
+
+\begin{flushleft}
+Senftenberg, den 30.03.2023
+\end{flushleft}
+\hphantom{...
+  ...
+  ...
+  ...}
+Julius Rublack
+

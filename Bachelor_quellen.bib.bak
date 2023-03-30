@@ -123,6 +123,7 @@
   booktitle = {Transgenesis Techniques},
   publisher = {Humana Press},
   title     = {Restriction Endonuclease Digestion of {DNA}},
+  year      = {1993},
   pages     = {427--432},
   doi       = {10.1385/0-89603-245-0:427},
   groups    = {Methoden},
@@ -247,10 +248,10 @@
   groups = {Methoden},
 }
 
-@Article{Behrmann2020,
-  author    = {Ole Behrmann and Iris Bachmann and Martin Spiegel and Marina Schramm and Ahmed Abd El Wahed and Gerhard Dobler and Gregory Dame and Frank T Hufert},
+@Article{Behrmann2020adasd,
+  author    = {Ole Behrmann and Iris Bachmann and Martin Spiegel and Marina Schramm and Ahmed Abd El Wahed and Gerhard Dobler and Gregory Dame and Frank Hufert},
   journal   = {Clinical Chemistry},
-  title     = {Rapid Detection of {SARS}-{CoV}-2 by Low Volume Real-Time Single Tube Reverse Transcription Recombinase Polymerase Amplification Using an Exo Probe with an Internally Linked Quencher (Exo-{IQ})},
+  title     = {isfgfghf},
   year      = {2020},
   month     = {may},
   number    = {8},
@@ -335,11 +336,9 @@
 }
 
 @Article{BioEcho2022,
-  author  = {BioEcho},
-  journal = {Online Verfügbar unter},
-  title   = {EchoCLEAN DNA & RNA Cleanup Kits Produkt Brochüre},
-  year    = {2022},
-  doi     = {https://bioecho-prod-media-hp.s3.sbg.perf.cloud.ovh.net/media/d0/9e/c1/1655465490/Cleanup-Brochure_ENG.pd},
+  author = {BioEcho},
+  title  = {EchoCLEAN DNA & RNA Cleanup Kits Produkt Brochüre Online Verfügbar unter: https://bioecho-prod-media-hp.s3.sbg.perf.cloud.ovh.net/media/d0/9e/c1/1655465490/Cleanup-Brochure_ENG.pdf},
+  year   = {2022},
 }
 
 @Article{Bustin2000,
@@ -368,7 +367,7 @@
 }
 
 @Article{SHAPIRO1965,
-  author    = {S. S. SHAPIRO and M. B. WILK},
+  author    = {S. S. Shapiro and M. B. Wilk},
   journal   = {Biometrika},
   title     = {An analysis of variance test for normality (complete samples)},
   year      = {1965},
@@ -393,7 +392,7 @@
 }
 
 @Article{WELCH1947,
-  author    = {B. L. WELCH},
+  author    = {B. L. Welch},
   journal   = {Biometrika},
   title     = {{THE} {GENERALIZATION} {OF} `{STUDENT}{\textquotesingle}S' {PROBLEM} {WHEN} {SEVERAL} {DIFFERENT} {POPULATION} {VARLANCES} {ARE} {INVOLVED}},
   year      = {1947},
@@ -861,7 +860,7 @@
 @Article{Iwamoto2003,
   author    = {Tomotada Iwamoto and Toshiaki Sonobe and Kozaburo Hayashi},
   journal   = {Journal of Clinical Microbiology},
-  title     = {Loop-Mediated Isothermal Amplification for Direct Detection of $\less$i$\greater$Mycobacterium tuberculosis$\less$/i$\greater$ Complex, $\less$i$\greater$M. avium$\less$/i$\greater$ , and $\less$i$\greater$M. intracellulare$\less$/i$\greater$ in Sputum Samples},
+  title     = {Loop-Mediated Isothermal Amplification for Direct Detection of \textit{Mycobacterium tuberculosis} Complex, \textit{M. avium} , and \textit{M. intracellulare} in Sputum Samples},
   year      = {2003},
   month     = {jun},
   number    = {6},
@@ -1276,19 +1275,17 @@
 @Article{Biomers2023,
   author  = {Biomers},
   journal = {Biomers.net the biopolymer factory},
-  title   = {REAL-TIME PCR PROBES},
+  title   = {REAL-TIME PCR PROBES, Online verfügbar unter: https://www.biomers.net/de/Produkte /Real_Time_PCR_Probes.html},
   year    = {2023},
   groups  = {Methoden},
-  url     = {https://www.biomers.net/de/Produkte/Real_Time_PCR_Probes.html},
 }
 
 @Article{Biomers1,
   author  = {Biomers},
   journal = {biomers.net the biopolymer factory},
-  title   = {PCR-Blocker},
+  title   = {PCR-Blocker, Online verfügbar unter: https://www.biomers.net/de/Produkte/DNA/Real-time_PCR/PCR_Blocker.html},
   year    = {2023},
   groups  = {Methoden},
-  url     = {https://www.biomers.net/de/Produkte/DNA/Real-time_PCR/PCR_Blocker.html},
 }
 
 @Book{Fahrmeir2016,
@@ -2594,7 +2591,7 @@
 @Article{Guo_2022,
   author    = {Mingjing Guo and Pan Feng and Liqun Zhang and Chunfeng Feng and Jie Fu and Xiaoyun Pu and Fei Liu},
   journal   = {Journal of Microbiology and Biotechnology},
-  title     = {Rapid Detection of $\less$i$\greater$Clostridium tetani$\less$/i$\greater$ by Recombinase Polymerase Amplification Using an Exo Probe},
+  title     = {Rapid Detection of \textit{Clostridium tetani} by Recombinase Polymerase Amplification Using an Exo Probe},
   year      = {2022},
   month     = {jan},
   number    = {1},
@@ -2642,7 +2639,7 @@
 }
 
 @Book{Jaeger2018,
-  editor    = {Karl-Erich Jaeger and Andreas Liese and Christoph Syldatk},
+  author    = {Karl-Erich Jaeger and Andreas Liese and Christoph Syldatk},
   publisher = {Springer Berlin Heidelberg},
   title     = {Einführung in die Enzymtechnologie},
   year      = {2018},
@@ -2790,7 +2787,7 @@
 
 @Article{PREMIER2023,
   author  = {Biosoft PREMIER},
-  journal = {online Verfügbar unter: http://www.premierbiosoft.com/tech_notes/NASBA.html},
+  journal = {online Verfügbar unter: http://www.premierbiosoft.com/tech_notes /NASBA.html},
   title   = {NASBA technology},
   year    = {2023},
   groups  = {NASBA},
@@ -2893,6 +2890,44 @@
   doi       = {10.1016/j.bdq.2017.10.001},
   groups    = {Sensitivitäten},
   publisher = {Elsevier {BV}},
+}
+
+@Book{Alberts2017,
+  author    = {Alberts, Bruce and Johnson, Alexander D. and Lewis, Julian and Morgan, David and Raff, Martin},
+  publisher = {Wiley-VCH GmbH},
+  title     = {Molekularbiologie der Zelle},
+  year      = {2017},
+  isbn      = {3527340726},
+  month     = apr,
+  ean       = {9783527340729},
+  groups    = {Einleitung},
+  pagetotal = {1676},
+  url       = {https://www.ebook.de/de/product/28134679/bruce_alberts_alexander_d_johnson_julian_lewis_david_morgan_martin_raff_molekularbiologie_der_zelle.html},
+}
+
+@Article{Han2020,
+  author    = {Meng-Yi Han and Tian-Ao Xie and Jia-Xin Li and Hui-Jin Chen and Xiao-Hui Yang and Xu-Guang Guo},
+  journal   = {{BioMed} Research International},
+  title     = {Evaluation of Lateral-Flow Assay for Rapid Detection of Influenza Virus},
+  year      = {2020},
+  month     = {sep},
+  pages     = {1--16},
+  volume    = {2020},
+  doi       = {10.1155/2020/3969868},
+  groups    = {Nachweismethoden für Inlfuenza},
+  publisher = {Hindawi Limited},
+}
+
+@Article{behrmann2020c,
+  author  = {Ole Behrmann and Iris Bachmann and Martin Spiegel and Marina Schramm and Ahmed Abd El Wahed and Gerhard Dobler and Gregory Dame and Frank T. Hufert},
+  journal = {Clin. Chem.},
+  title   = {Rapid Detection of SARS-CoV-2 by Low Volume Real-Time single Tube Reverse Transcription Recombinase Polymerase Amplification Using an Exo Probe with an Internally Linked Quencher (Exo-IQ)},
+  year    = {2020},
+  month   = may,
+  number  = {8},
+  pages   = {1047--1054},
+  volume  = {66},
+  doi     = {10.1093/clinchem/hvaa116},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
