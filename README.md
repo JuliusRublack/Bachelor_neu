@@ -1,5 +1,7 @@
 # Bachelor_neu
 
+Darüber hinaus engagiert sich Julius Rublack als Mitglied im Biotech e.V., in welchem er sich für die Stärkung der Biotechnologie im außeruniversitären Umfeld und bei Schülern einsetzt. Dies zeigt sein enjgagement für das für die Förderung der Wissenschaft und den Aufbau einer starken akademischen Gemeinschaft.
+
 * hehe Tabellenverzeichnis und Abbildungsverzeichnis in Inhaltsverzeichnis einfügen <3
   + \listoffigures 
   + \addcontentsline{toc}{section}{Abbildungsverzeichnis}
