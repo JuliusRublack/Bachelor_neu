@@ -120,7 +120,7 @@ kable(Abkv3, booktabs = TRUE, format = "latex", escape = FALSE, col.names = NULL
 
 
 
-\hypersetup{linkcolor=black}
+\hypersetup{linkcolor=RoyalBlue}
 
 \pagenumbering{arabic}
 

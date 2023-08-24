@@ -251,7 +251,7 @@ kable(infbPSM, booktabs = TRUE, col.names = NULL, caption = "Zusammensetzung des
   kable_styling(latex_options = "hold_position") %>%
   kable_styling(latex_options = "scale_down")%>%
   column_spec(4, width = "1.5in")%>%
-   footnote( symbol = c("Y=C oder T; V=A, C oder T", "(ref:design)"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
+   footnote(symbol = c("Y=C oder T; V=A, C oder T", "(ref:design)"), symbol_manual = c('*', '**', '***'), fixed_small_size = TRUE, general_title = "Notiz:", escape= FALSE, footnote_as_chunk =TRUE)
 ```
 
 ```{r, infbTEMP}
