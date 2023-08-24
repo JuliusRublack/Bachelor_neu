@@ -1,0 +1,919 @@
+---
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    toc: TRUE
+    toc_depth: 3
+    fontsize: 12pt
+    latex_engine: xelatex
+bibliography: "vortag_quellen.bib"
+biblio-style: apalike
+citation_package: biblatex
+link-citations: yes
+urlcolor: RoyalBlue
+linkcolor: RoyalBlue
+header-includes:
+  \usepackage{float}
+  \usepackage[ngerman]{babel}
+  \usepackage[onehalfspacing]{setspace}
+  \usepackage[utf8]{inputenc}
+  
+---
+
+```{r setup3, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(kableExtra)
+library(ggplot2)
+library(ggpubr)
+library(tidyverse)
+library(scales)
+library(latex2exp)
+
+
+```
+
+blablasdasflasd @CastilloLeon2015
+
+
+```{r infBverdau, fig.align='center',message = FALSE, fig.cap= "(ref:infbstandard)", fig.show='hold', fig.pos="H", fig.scap="Kontrollgel und Ribogreen Kalibrationsgerade des Influenza B Standards"}
+
+
+
+data <- read.csv2("vortrag1.csv")
+
+ggplot(data, aes(fluo, konz)) +
+  geom_point() +
+  geom_smooth(method = "loess", n=250, span = 0.53, se= FALSE) +
+  theme_minimal()+
+  theme(axis.text = element_text(size=12), axis.title = element_text(size=12))+
+   ylab("Fluoreszenz")+
+   xlab("Konzentration") 
+
+```
+
+```{r infBetabl, fig.show='hold', message = FALSE, fig.cap="(ref:infBebasl)", fig.align='center', fig.scap="Optimierung des Reaktionsvolumens der Influenza B RT-RPA"}
+
+data <- read.csv2("vortrag.csv")
+
+
+transformed <- data %>% 
+  select(Zeit,ProbeA, ProbeB) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data %>% 
+  select(Zeit,ProbeC) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#000000", "#000000", "#000000"))+
+  geom_hline(yintercept=40, linetype='dotdash', col = 'red')+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")
+  
+```
+
+```{r infbscreening, fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:etablB)", out.width= "70%", fig.align='center', fig.scap="Primerscreening der entwickelten Influenza B RT-RPA Primer-Sonden-Kombinationen"}
+data <- read.csv2("infb_primer_screening.csv")
+
+zehn7 <- data %>% 
+  select(Zeit, X1071,	X1072,	X1073,	X1074,	X1075,	X1076,	X1077) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn6 <- data %>% 
+  select(Zeit, X1061,	X1062,	X1063,	X1064,	X1065,	X1066,	X1067) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn5 <- data %>% 
+  select(Zeit,  X1051,	X1052,	X1053,	X1054,	X1055,	X1056,	X1057) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn4 <- data %>% 
+  select(Zeit, X1041,	X1042,	X1043,	X1044,	X1045,	X1046,	X1047) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn3 <- data %>% 
+  select(Zeit, X1031,	X1032,	X1033,	X1034,	X1035,	X1036,	X1037) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn2 <- data %>% 
+  select(Zeit, X1021,	X1022,	X1023,	X1024,	X1025,	X1026,	X1027) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn1 <- data %>% 
+  select(Zeit,	X1011,	X1012,	X1013,	X1014,	X1015,	X1016,	X1017) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn0 <- data %>% 
+  select(Zeit, X1001,	X1002,	X1003,	X1004,	X1005,	X1006,	X1007) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehnnk <- data %>%
+  select(Zeit, nk1,	nk2,	nk3,	nk4,	nk5,	nk6,	nk7,	nk8, nk9) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+  
+transformed <- rbind(zehn5, zehn4, zehn3, zehn2, zehn1, zehn0)
+
+transformed1 <- rbind(zehn7)
+
+transformed2 <- rbind(zehn6)
+
+transformed3 <- rbind(zehnnk)
+
+
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben), linewidth = 0.3) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten")+
+  scale_color_manual(values = c("#000000", "#000000", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", 
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000",
+                                 "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed1,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformed2,aes(color = Proben), linetype="dashed")+
+  geom_line(data=transformed3,aes(color = Proben), linetype="dotdash")+
+  ylim(NA, 1200)
+  
+```
+
+```{r infAsadsensi,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:etablA)", fig.pos="H", out.width= "70%", fig.align='center', fig.scap="Primerscreening der entwickelten Influenza A RT-RPA Primer-Sonden-Kombinationen."}
+
+data <- read.csv2("infa_primer_screening.csv")
+
+zehn7 <- data %>% 
+  select(Zeit, X1071,	X1072,	X1073,	X1074,	X1075,	X1076,	X1077) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn6 <- data %>% 
+  select(Zeit, X1061,	X1062,	X1063,	X1064,	X1065,	X1066,	X1067) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn5 <- data %>% 
+  select(Zeit,  X1051,	X1052,	X1053,	X1054,	X1055,	X1056,	X1057) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn4 <- data %>% 
+  select(Zeit, X1041,	X1042,	X1043,	X1044,	X1045,	X1046,	X1047) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn3 <- data %>% 
+  select(Zeit, X1031,	X1032,	X1033,	X1034,	X1035,	X1036,	X1037) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn2 <- data %>% 
+  select(Zeit, X1021,	X1022,	X1023,	X1024,	X1025,	X1026,	X1027) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn1 <- data %>% 
+  select(Zeit,	X1011,	X1012,	X1013,	X1014,	X1015,	X1016,	X1017) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn0 <- data %>% 
+  select(Zeit, X1001,	X1002,	X1003,	X1004,	X1005,	X1006,	X1007) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehnnk <- data %>%
+  select(Zeit, nk1,	nk2,	nk3,	nk4,	nk5,	nk6,	nk7,	nk8, nk9) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+  
+transformed <- rbind(zehn7, zehn6, zehn5, zehn4, zehn3)
+
+transformed5 <- rbind(zehnnk)
+
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben), size = 0.3) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in min")+
+  scale_color_manual(values = c("#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc","#cccccc", "#cccccc", "#cccccc", "#cccccc", 
+                                "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", 
+                                "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",
+                                 "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed5,aes(color = Proben), linetype="dashed")+
+  ylim(NA, 1200)
+
+
+
+
+```
+
+```{r,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:etablA)", fig.pos="H", out.width= "70%", fig.align='center', fig.scap="Primerscreening der entwickelten Influenza A RT-RPA Primer-Sonden-Kombinationen."}
+
+data <- read.csv2("infa_primer_screening.csv")
+
+zehn7 <- data %>% 
+  select(Zeit, X1071,	X1072,	X1073,	X1074,	X1075,	X1076,	X1077) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn6 <- data %>% 
+  select(Zeit, X1061,	X1062,	X1063,	X1064,	X1065,	X1066,	X1067) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn5 <- data %>% 
+  select(Zeit,  X1051,	X1052,	X1053,	X1054,	X1055,	X1056,	X1057) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn4 <- data %>% 
+  select(Zeit, X1041,	X1042,	X1043,	X1044,	X1045,	X1046,	X1047) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn3 <- data %>% 
+  select(Zeit, X1031,	X1032,	X1033,	X1034,	X1035,	X1036,	X1037) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn2 <- data %>% 
+  select(Zeit, X1021,	X1022,	X1023,	X1024,	X1025,	X1026,	X1027) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn1 <- data %>% 
+  select(Zeit,	X1011,	X1012,	X1013,	X1014,	X1015,	X1016,	X1017) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn0 <- data %>% 
+  select(Zeit, X1001,	X1002,	X1003,	X1004,	X1005,	X1006,	X1007) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehnnk <- data %>%
+  select(Zeit, nk1,	nk2,	nk3,	nk4,	nk5,	nk6,	nk7,	nk8, nk9) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+  
+transformed <- rbind(zehn7, zehn6, zehn5, zehn4, zehn3)
+
+transformed1 <- rbind(zehn2)
+
+transformed5 <- rbind(zehnnk)
+
+transformed2 <- rbind(zehn1)
+
+transformed3 <- rbind(zehn0)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben), size = 0.3) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in min")+
+  scale_color_manual(values = c("#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc","#cccccc", "#fee090", "#f46d43", "#abd9e9", 
+                                "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", 
+                                "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43",  
+                                "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090",  
+                                "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", 
+                                "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",  
+                                "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",
+                                 "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed1,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformed2,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformed3,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformed5,aes(color = Proben), linetype="dashed")+
+  ylim(NA, 1200)
+
+
+
+
+```
+
+```{r i, fig.show='hold',  out.width= "70%", message = FALSE, fig.cap="(ref:infBebasl)", fig.align='center', fig.scap="Optimierung des Reaktionsvolumens der Influenza B RT-RPA"}
+
+data <- read.csv2("V_0041.csv")
+
+
+transformed <- data %>% 
+  select(Zeit, ProbeA, ProbeB, ProbeC, ProbeD, ProbeE, ProbeF, ProbeJ, ProbeK,	ProbeL) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data %>% 
+  select(Zeit, ProbeH, ProbeI, ProbeG) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000",
+                                 "#cccccc", "#cccccc", "#cccccc", "#cccccc"))+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")+
+  ylim(NA, 1000)
+  
+```
+
+```{r infAvolumen,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infAvolumen)", out.width= "70%", fig.align='center', fig.scap="Optimierung des Reaktionsvolumens der Influenza A RT-RPA"}
+data1 <- read.csv2("infA_8tel.csv")
+
+
+transformed <- data1 %>% 
+  select(Zeit , ProbeB, ProbeC, ProbeD, ProbeF, ProbeG, ProbeH, ProbeJ, ProbeK,	ProbeI) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+
+transformed2 <- data1 %>%
+  select(Zeit,ProbeA, ProbeE,	ProbeL) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#000000", "#000000", "#000000", "#000000", 
+                                 "#000000", "#000000", "#000000", "#000000", 
+                                 "#cccccc", "#cccccc", "#cccccc", "#cccccc"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed2,aes(color = Proben), linetype="dashed")+
+  ylim(NA, 1000)
+
+
+
+
+
+
+
+```
+
+```{r infaopti,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infaoptimierung)", fig.align='center', fig.scap="Optimierung der Reaktionstemperatur und der Primerassymetrie der Influenza A RT-RPA"}
+data1 <- read.csv2("infA_temp.csv")
+
+
+transformed <- data1 %>% 
+  select(Zeit, ProbeA, ProbeB, ProbeC, ProbeF, ProbeG, ProbeH,	ProbeJ, ProbeK,	ProbeL) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data1 %>%
+  select(Zeit,ProbeD, ProbeE,	ProbeI) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#f46d43", "#f46d43", "#f46d43", "#f46d43", 
+                                 "#fee090", "#fee090", "#fee090", "#fee090", 
+                                 "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")
+
+
+
+
+
+
+
+
+```
+
+```{r infboptit,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infboptimierungt)", fig.align='center', fig.scap="Optimierung der Reaktionstemperatur für die Influenza B RT-RPA"}
+data1 <- read.csv2("V_0045_ges.csv")
+
+
+transformed <- data1 %>% 
+  select(Zeit, ProbeA, ProbeB, ProbeC, ProbeD, ProbeE, ProbeF, ProbeH, ProbeI,	ProbeJ, ProbeK,	ProbeL,	ProbeM,	ProbeO,	ProbeP,	ProbeR,	ProbeS,	ProbeT) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data1 %>%
+  select(Zeit,ProbeG, ProbeN,	ProbeQ, ProbeU) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090",
+                                 "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43",
+                                 "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")
+ 
+
+
+```
+
+```{r infboptimisch, message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infbmischenas)", fig.align='center', fig.scap="Optimierung der Mischzeit für die Influenza B RT-RPA"}
+  
+
+
+data <- read.csv2("infB_mischung.csv")
+
+
+transformed <- data %>% 
+  select(Zeit, ProbeA, ProbeB, ProbeC, ProbeD, ProbeE, ProbeF, ProbeG, ProbeH) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+
+transformed3 <- data %>% 
+  select(Zeit, Probe17,	Probe18,	Probe19,	Probe20,	Probe21,	Probe22,	Probe23,	Probe24) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed2 <- data %>% 
+  select(Zeit, nk1, nk2, nk3, nk4) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000",
+                                 "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc"))+
+  geom_line(data=transformed3,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformed2,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")+
+  ggtitle(bquote('Konzentration: 10'^3 ))
+
+
+
+data1 <- read.csv2("V_0063.csv")
+
+
+transformed <- data1 %>% 
+  select(Zeit, ProbeB, ProbeC, ProbeD, ProbeE, ProbeF, ProbeG, ProbeH, ProbeI, ProbeJ, ProbeK,	ProbeL,	ProbeM, ProbeN, ProbeO) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data1 %>%
+  select(Zeit, ProbeP,	ProbeA) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",
+                                 "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000"))+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")+
+   ggtitle(bquote('Konzentration: 10'^2 ))
+
+
+
+data2 <- read.csv2("V_0064.csv")
+
+
+transformed <- data2 %>% 
+  select(Zeit, ProbeB, ProbeC, ProbeD, ProbeE, ProbeF, ProbeG, ProbeH, ProbeI, ProbeJ, ProbeK,	ProbeL,	ProbeM, ProbeN, ProbeO) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data1 %>%
+  select(Zeit, ProbeP,	ProbeA) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc", "#cccccc",
+                                 "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000"))+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")+
+   ggtitle(bquote('Konzentration: 10'^1 ))
+
+
+
+
+  
+```
+
+```{r, fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infbmischenas)", fig.align='center', fig.scap="Optimierung der Mischzeit für die Influenza B RT-RPA"}
+
+data <- read.csv2("infB_mischung.csv")
+
+
+transformed <- data %>% 
+  select(Zeit, ProbeA, ProbeB, ProbeC, ProbeD, ProbeE, ProbeF, ProbeG, ProbeH, ProbeQ,	ProbeR, ProbeS,	ProbeT,	ProbeU, ProbeV,	ProbeW,	ProbeX) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data %>% 
+  select(Zeit, ProbeI,	ProbeJ, ProbeK,	ProbeL,	ProbeM, ProbeN,	ProbeO,	ProbeP) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed3 <- data %>% 
+  select(Zeit, Probe17,	Probe18,	Probe19,	Probe20,	Probe21,	Probe22,	Probe23,	Probe24) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed2 <- data %>% 
+  select(Zeit, nk1, nk2, nk3, nk4, nk5, nk6, nk7, nk8) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#a50026", "#a50026", "#fee090", "#fee090", "#f46d43", "#f46d43", "#abd9e9", "#abd9e9",
+                                 "#a50026", "#a50026", "#a50026", "#a50026", "#a50026", "#a50026", "#a50026", "#a50026",
+                                 "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090",
+                                 "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43",
+                                 "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9"))+
+  geom_line(data=transformed1,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformed3,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformed2,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")
+
+
+  
+```
+
+```{r, message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infbmischenas)", fig.align='center', fig.scap="Optimierung der Mischzeit für die Influenza B RT-RPA"}
+  
+
+
+
+data1 <- read.csv2("V_0154.1.csv")
+
+
+transformed <- data1 %>% 
+  select(Zeit, Probe2, Probe3, Probe4, Probe6, Probe7, Probe8) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data1 %>%
+  select(Zeit, Probe1,	Probe5) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#cccccc", "#cccccc", "#cccccc", "#cccccc",
+                                 "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000"))+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")+
+   ggtitle(bquote('Konzentration: 10'^1 ))
+
+
+
+data2 <- read.csv2("V_0154.2.csv")
+
+
+transformed <- data2 %>% 
+  select(Zeit, Probe2, Probe3, Probe4, Probe6, Probe7, Probe8) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data1 %>%
+  select(Zeit, Probe1,	Probe5) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#cccccc", "#cccccc", "#cccccc", "#cccccc",
+                                 "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000"))+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")+
+   ggtitle(bquote('Konzentration: 10'^2 ))
+
+
+data2 <- read.csv2("V_0154.3.csv")
+
+
+transformed <- data2 %>% 
+  select(Zeit, Probe2, Probe3, Probe4, Probe6, Probe7, Probe8) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data1 %>%
+  select(Zeit, Probe1,	Probe5) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#cccccc", "#cccccc", "#cccccc", "#cccccc",
+                                 "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000", "#000000"))+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")+
+   ggtitle(bquote('Konzentration: 10'^3 ))
+  
+```
+
+```{r infaoptimisch, message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infamischenas)", fig.align='center', fig.scap="Optimierung der Mischzeit für die Influenza A RT-RPA"}
+
+data <- read.csv2("infA_mischung.csv")
+
+
+transformed <- data %>% 
+  select(Zeit, ProbeL,	ProbeM, ProbeN, ProbeG, ProbeH, ProbeI) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data %>% 
+  select(Zeit, ProbeQ,	ProbeR,	ProbeS) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed2 <- data %>% 
+  select(Zeit, ProbeB, ProbeC, ProbeD) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformednk <- data %>% 
+  select(Zeit, ProbeA, ProbeF,	ProbeK,	ProbeP) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#fee090", "#fee090", "#fee090", "#fee090", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9",
+                                 "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#a50026", "#a50026", "#a50026", "#a50026"))+
+  geom_line(data=transformed1,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformed2,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformednk,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")+
+  annotate("text", x=2, y=330, label= "A",col="black", size=12)
+
+
+
+transformed3 <- data %>% 
+  select(Zeit,	ProbeV,	ProbeW,	ProbeX,	Probe19,	Probe20,	Probe21) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformednk2 <- data %>% 
+  select(Zeit, ProbeA,	ProbeU,	Probe18) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+
+ggplot(transformed3, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c( "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#fee090", "#fee090", "#fee090", "#fee090",
+                                  "#f46d43", "#f46d43", "#f46d43", "#f46d43"))+
+  geom_line(data=transformed2,aes(color = Proben), linetype="solid")+
+  geom_line(data=transformednk2,aes(color = Proben), linetype="dashed")+
+  theme(legend.position="none")+
+  annotate("text", x=2, y=330, label= "B",col="black", size=12)
+
+  
+```
+
+```{r ,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:assymetry)", fig.align='center', fig.scap="Einfluss der Primerassymetrie auf der RT-RPA"}
+data1 <- read.csv2("V_0065.vergleich.csv")
+
+
+transformed <- data1 %>% 
+  select(Zeit, ProbeA, ProbeB, ProbeC, ProbeD, ProbeE, ProbeF, ProbeG, ProbeI,	ProbeJ, ProbeK,	ProbeL,	ProbeM, ProbeN, ProbeQ, ProbeR, ProbeS, ProbeT, ProbeU, ProbeV) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed1 <- data1 %>%
+  select(Zeit,ProbeH,	ProbeO, ProbeP, ProbeW) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43",
+                                 "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9",
+                                 "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed1,aes(color = Proben), linetype="dashed")
+
+
+
+```
+
+```{r ,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:assymetry)", fig.align='center', fig.scap="Einfluss der Primerassymetrie auf der RT-RPA"}
+
+
+
+data2 <- read.csv2("V_0068.csv")
+
+
+transformed <- data2 %>% 
+  select(Zeit, ProbeA, ProbeB, ProbeC, ProbeD, ProbeE, ProbeF,ProbeG, ProbeI,	ProbeJ, ProbeK,	ProbeL,	ProbeM, ProbeN, ProbeO,	ProbeQ,	ProbeR,	ProbeS,	ProbeT,	ProbeU, ProbeV, ProbeW) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed2 <- data2 %>%
+  select(Zeit, ProbeH, 	ProbeP, ProbeX) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9",
+                                 "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43",
+                                 "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed2,aes(color = Proben), linetype="dashed")
+  
+
+
+
+```
+
+```{r infboptip,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.pos= "H", fig.cap="(ref:infboptimierung)", fig.align='center', fig.scap="Optimierung der Reaktionstemperatur und der Primerassymetrie"}
+data2 <- read.csv2("V_0056.csv")
+
+
+transformed <- data2 %>% 
+  select(Zeit, ProbeA, ProbeB, ProbeC, ProbeD, ProbeE, ProbeF, ProbeI,	ProbeJ, ProbeK,	ProbeL,	ProbeM, ProbeN,	ProbeQ,	ProbeR,	ProbeS,	ProbeT,	ProbeU, ProbeV) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+transformed2 <- data2 %>%
+  select(Zeit,ProbeG, ProbeH, ProbeO,	ProbeP, ProbeW, ProbeX) %>%
+   gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090",
+                                 "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9",
+                                 "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43"))+
+  theme(legend.position="none")+
+  geom_line(data=transformed2,aes(color = Proben), linetype="dashed")
+
+
+
+
+
+```
+
+```{r ,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infaoptimierung)",  fig.align='center', fig.scap="Optimierung der Reaktionstemperatur und der Primerassymetrie der Influenza A RT-RPA"}
+
+data2 <- read.csv2("V_0088.csv")
+
+
+transformed <- data2 %>% 
+  select(Zeit, Probe1, Probe2, Probe3, Probe4, Probe5, Probe6) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben)) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in Minuten") +
+   scale_color_manual(values = c("#fee090", "#fee090", 
+                                 "#abd9e9", "#abd9e9", 
+                                 "#f46d43", "#f46d43"))+
+  theme(legend.position="none")
+
+
+
+
+```
+
+
+```{r infbsensi,  fig.show='hold', message = FALSE, warning=FALSE, results=FALSE, fig.cap="(ref:infosensi)", fig.align='center', fig.scap="Etablierung der Influenza B RPA im Original- und geringvolumigen -Ansatz"}
+
+
+data <- read.csv2("V_0080.probit1.csv")
+
+zehn7 <- data %>% 
+  select(Zeit, X1071,	X1072,	X1073,	X1074,	X1075,	X1076,	X1077) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn6 <- data %>% 
+  select(Zeit, X1061,	X1062,	X1063,	X1064,	X1065,	X1066,	X1067) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn5 <- data %>% 
+  select(Zeit,  X1051,	X1052,	X1053,	X1054,	X1055,	X1056,	X1057) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn4 <- data %>% 
+  select(Zeit, X1041,	X1042,	X1043,	X1044,	X1045,	X1046,	X1047) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn3 <- data %>% 
+  select(Zeit, X1031,	X1032,	X1033,	X1034,	X1035,	X1036,	X1037) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn2 <- data %>% 
+  select(Zeit, X1021,	X1022,	X1023,	X1024,	X1025,	X1026,	X1027) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn1 <- data %>% 
+  select(Zeit,	X1011,	X1012,	X1013,	X1014,	X1015,	X1016,	X1017) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn0 <- data %>% 
+  select(Zeit, X1001,	X1002,	X1003,	X1004,	X1005,	X1006,	X1007) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehnnk <- data %>%
+  select(Zeit, nk1,	nk2,	nk3,	nk4,	nk5,	nk6,	nk7,	nk8) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+  
+transformed <- rbind(zehn7, zehn6, zehn5, zehn4, zehn3, zehn2, zehn1, zehn0, zehnnk)
+
+
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben), size = 0.3) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in min")+
+  scale_color_manual(values = c("#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", 
+                                "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43",  
+                                "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61",  
+                                "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090",
+                                "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9",  
+                                "#74add1", "#74add1", "#74add1", "#74add1", "#74add1", "#74add1", "#74add1",  
+                                "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4",
+                                "#333388", "#333388", "#333388", "#333388", "#333388", "#333388", "#333388",
+                                "#313695", "#313695", "#313695", "#313695", "#313695", "#313695", "#313695"))+
+  theme(legend.position="none")
+
+
+
+
+
+
+
+data <- read.csv2("V_0062.probit2.csv")
+
+zehn7 <- data %>% 
+  select(Zeit, X1071,	X1072,	X1073,	X1074,	X1075,	X1076,	X1077) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn6 <- data %>% 
+  select(Zeit, X1061,	X1062,	X1063,	X1064,	X1065,	X1066,	X1067) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn5 <- data %>% 
+  select(Zeit,  X1051,	X1052,	X1053,	X1054,	X1055,	X1056,	X1057) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn4 <- data %>% 
+  select(Zeit, X1041,	X1042,	X1043,	X1044,	X1045,	X1046,	X1047) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn3 <- data %>% 
+  select(Zeit, X1031,	X1032,	X1033,	X1034,	X1035,	X1036,	X1037) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn2 <- data %>% 
+  select(Zeit, X1021,	X1022,	X1023,	X1024,	X1025,	X1026,	X1027) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn1 <- data %>% 
+  select(Zeit,	X1011,	X1012,	X1013,	X1014,	X1015,	X1016,	X1017) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehn0 <- data %>% 
+  select(Zeit, X1001,	X1002,	X1003,	X1004,	X1005,	X1006,	X1007) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+
+zehnnk <- data %>%
+  select(Zeit, nk1,	nk2,	nk3,	nk4,	nk5,	nk6,	nk7,	nk8) %>%
+  gather(key = "Proben", value = "Fluoreszenz", -Zeit)
+  
+transformed <- rbind(zehn7, zehn6, zehn5, zehn4, zehn3, zehn2, zehn1, zehn0, zehnnk)
+
+
+
+ggplot(transformed, aes(x=Zeit, y = Fluoreszenz)) +
+  geom_line(aes(color = Proben), size = 0.3) +
+  theme_minimal()+
+   ylab("Fluoreszenz in mV")+
+   xlab("Zeit in min")+
+  scale_color_manual(values = c("#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", "#d73027", 
+                                "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43", "#f46d43",  
+                                "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61", "#fdae61",  
+                                "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090", "#fee090",
+                                "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9", "#abd9e9",  
+                                "#74add1", "#74add1", "#74add1", "#74add1", "#74add1", "#74add1", "#74add1",  
+                                "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4", "#4575b4",
+                                "#333388", "#333388", "#333388", "#333388", "#333388", "#333388", "#333388",
+                                "#313695", "#313695", "#313695", "#313695", "#313695", "#313695", "#313695"))+
+  theme(legend.position="none")
+
+
+```
+
+[@Behrmann2020a; @behrmann2020c; @Bustin2009; @Kim2013; @Lillis2016; @Lobato2018; @Paget_2019; @WHO2023; @WozniakKosek2014; @Yi2013]
